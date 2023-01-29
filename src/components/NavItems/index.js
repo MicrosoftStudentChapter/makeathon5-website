@@ -1,37 +1,44 @@
 import React from 'react';
 import{
   List, ListItem, 
-  ListItemButton, ListItemText
-} from '@mui/material'
+  ListItemButton, ListItemText, Typography
+} from '@mui/material';
 
 export const NavItems = () => {
   const items = {
-    "Home": "#home",
-    "About Us" : "#about",
-    "Timeline" : "#timeline",
-    "Tracks" : "#tracks",
-    "Speakers": "#speakers",
-    "Prizes" : "#prizes",
-    "Sponsors": "#sponsors",
+    "HOME": "#home",
+    "ABOUT US" : "#about",
+    "TIMELINE" : "#timeline",
+    "TRACKS" : "#tracks",
+    "SPEAKERS": "#speakers",
+    "PRIZES" : "#prizes",
+    "SPONSORS": "#sponsors",
     "FAQs" : "#faqs"
   }
+  const fontq = "'Lexend Exa', sans-serif";
   return (
-    <List
-      sx={{
-      }}
-    >
+    <List>
       {
         Object.keys(items).map((text, index) => (
           <ListItem
             key={text}
+            sx={{
+              borderLeft: "3px solid #ffffffaa",
+              margin: "1rem",
+              "&:hover":{
+                borderLeft: "3px solid #ffffff"
+              }
+            }}
             disablePadding
           >
             <ListItemButton>
               <ListItemText
                 primary={text}
-                sx={{
-                  color: "white"
-                }}
+                primaryTypographyProps={{
+                  fontSize: '20px',
+                  color: "#ffffff",
+                  fontWeight: "bold",
+                }} 
               />
             </ListItemButton>
           </ListItem>

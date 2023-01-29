@@ -15,7 +15,12 @@ export const Navbar = () => {
   })
   const [isOpen, setIsOpen] = useState(false);
   return(
-    <>
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "row"
+      }}
+    >
       <IconButton
         edge="start"
         color="white"
@@ -125,6 +130,6 @@ export const Navbar = () => {
           </Box>
         </Box>
       </Drawer>
-    </>
+    </Box>
   )
 }
