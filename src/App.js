@@ -1,5 +1,6 @@
 import Landing from './pages/Landing';
 import './index.css';
+import './App.css';
 import {Navbar} from './components/Navbar'
 import {LocomotiveScrollProvider} from 'react-locomotive-scroll';
 import { useRef } from 'react';
@@ -23,13 +24,6 @@ function App() {
         <section 
           id="landing" 
           data-scroll
-          data-scroll-speed="4"
-          data-scroll-section
-        >
-          <Landing />
-        </section>
-        <section 
-          id="landing2" 
           data-scroll-section
         >
           <Landing />
