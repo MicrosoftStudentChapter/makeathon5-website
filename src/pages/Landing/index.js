@@ -80,7 +80,6 @@ const Landing = () => {
           display: "flex"
         }}
       >
-
       </Box>
     </Box>
   )
