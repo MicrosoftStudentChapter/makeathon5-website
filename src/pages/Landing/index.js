@@ -15,7 +15,7 @@ const Landing = () => {
     <Box
       sx={{
         width: "100vw",
-        height: "100vh"
+        height: "200vh"
       }}
     >
       <Box
