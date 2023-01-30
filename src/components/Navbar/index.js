@@ -10,7 +10,6 @@ export const Navbar = () => {
   const styles = makeStyles({
     backdrop: {
       background: "black",
-      backdropFilter: "blur(3px)",
     }
   })
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +17,8 @@ export const Navbar = () => {
     <Box
       sx={{
         display: "flex",
+        position: "absolute",
+        zIndex: "2",
         flexDirection: "row"
       }}
     >
@@ -43,7 +44,7 @@ export const Navbar = () => {
         onClose = {() => setIsOpen(false)}
         className={styles.backdrop}
         transitionDuration={{
-          enter: 1000,
+          enter: 500,
           exit: 500
         }}
       >
