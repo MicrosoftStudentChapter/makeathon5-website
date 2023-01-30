@@ -17,6 +17,8 @@ const Landing = () => {
         width: "100vw",
         height: "200vh"
       }}
+      data-scroll
+      data-scroll-speed = "4"
     >
       <Box
         sx={{
@@ -31,16 +33,6 @@ const Landing = () => {
           }
         }}
       >
-        <Box
-          sx={{
-            display: "flex",
-            width: "100vw",
-            height: "4vh",
-            justifyContent: "flex-start"
-          }}
-        >
-          <Navbar />
-        </Box>
         <Grid
           container
           spacing={0}
@@ -80,7 +72,6 @@ const Landing = () => {
           display: "flex"
         }}
       >
-
       </Box>
     </Box>
   )
