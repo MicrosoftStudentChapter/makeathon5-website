@@ -1,24 +1,36 @@
-import React, {useState} from "react";
+import React, { useEffect, useRef } from "react";
 import background from './assets/wallpaper4.svg';
+import background2 from './assets/wallpaper2.png';
 // import logo from './assets/logo.svg';
 import styles from '../Landing/landing.module.scss';
-import {Navbar} from '../../components/Navbar';
 import { 
   Typography, 
   Box, Grid, 
 } from "@mui/material";
+// Components
+import {CountdownTimer} from './CountdownTimer'
+import {ButtonsBar} from './ButtonsBar'
 
 const Landing = () => {
   const title = "MAKE A THON";
   const font = "'Lexend Exa', sans-serif";
+  useEffect(()=>{
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  },[])
+  // const ref=useRef();
   return(
     <Box
       sx={{
-        width: "100vw",
+        width:"100vw",
         height: "200vh"
       }}
-      data-scroll
-      data-scroll-speed = "4"
     >
       <Box
         sx={{
@@ -28,6 +40,9 @@ const Landing = () => {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPositionY: "-10rem",
+          scrollSnapAlign: "start",
+          scrollBehavior: "smooth",
+          scrollSnapType: "y mandatory",
           "@media(max-width: 800px)" : {
             backgroundPosition: "center"
           }
@@ -69,9 +84,23 @@ const Landing = () => {
         sx={{
           width: "100vw",
           height: "100vh",
-          display: "flex"
+          display: "flex",
+          flexDirection: "column",
+          backgroundImage: `url(${background2})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "contain",
+          backgroundPositionY: "-2rem",
+          backgroundColor: "#72D7BE",
+          scrollSnapAlign: "start",
+          scrollBehavior: "smooth",
+          scrollSnapType: "y mandatory",
+          "@media (max-width: 800px)":{
+            backgroundPositionY: "0"
+          }
         }}
       >
+        <CountdownTimer />
+        <ButtonsBar />
       </Box>
     </Box>
   )
