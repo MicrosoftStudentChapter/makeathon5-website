@@ -1,0 +1,33 @@
+.home{
+    height: 100vh;
+    width: 100vw;
+    background: #450834;
+    position: absolute;
+}
+
+.header{
+    font-family: 'Lexend Exa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+
+    color: #ffffff;
+
+    margin-top: 0;
+    margin-left: 5rem;
+    padding-top: 2rem;
+    /* line-height: 150px; */
+    /* position: relative; */
+
+}
+
+.text{
+
+    font-family: 'Lexend Exa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+
