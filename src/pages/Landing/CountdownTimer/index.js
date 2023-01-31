@@ -35,13 +35,19 @@ export const CountdownTimer = () => {
   return(
     <Box
       sx={{
-        width: "100vw",
+        width: "60vw",
         height: "50vh",
         marginTop: "15rem",
+        marginLeft: "20rem",
         display: "flex",
         flexDirection: "row",
+        justifyContent: "center",
+        alignContent: "center",
         "@media (max-width:800px)" : {
-          flexDirection: "column"
+          flexDirection: "column",
+          marginLeft: "0rem",
+          marginTop: "4rem",
+          width: "100vw"
         }
         // justifyContent: "space-around"
       }}
@@ -50,6 +56,8 @@ export const CountdownTimer = () => {
       <Box
         sx={{
           display: "flex",
+          justifyContent: "center",
+          alignContent: "center",
           "@media (max-width: 800px)" : {
             width : "100vw",
             display: "flex",
@@ -61,7 +69,7 @@ export const CountdownTimer = () => {
         <Box
           sx={{
             display: "flex",
-            width: "25vw",
+            width: "15vw",
             height: "inherit",
             flexDirection: "column",
             alignItems: "center",
@@ -76,14 +84,14 @@ export const CountdownTimer = () => {
             sx={{
               backgroundColor: "#ffffff21",
               backdropFilter: "blur(10px)",
-              width: "14vw",
-              height: "28vh",
+              width: "12vw",
+              height: "24vh",
               borderRadius: "10px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
               "@media (max-width: 800px)" : {
-                width: "45vw"
+                width: "35vw",
               }
             }}
           >
@@ -95,7 +103,10 @@ export const CountdownTimer = () => {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                fontSize: "7.2rem"
+                fontSize: "7.2rem",
+                "@media (max-width: 800px)" : {
+                  fontSize: "4.5rem"
+                }
               }}
             >
               {days}
@@ -105,7 +116,10 @@ export const CountdownTimer = () => {
             variant="h5"
             sx={{
               color: "white",
-              fontFamily: "'Lexend Exa', sans-serif"
+              fontFamily: "'Lexend Exa', sans-serif",
+              "@media (max-width: 800px)" : {
+                fontSize: "1.3rem"
+              }
             }}
           >
             days
@@ -114,7 +128,7 @@ export const CountdownTimer = () => {
         <Box
           sx={{
             display: "flex",
-            width: "25vw",
+            width: "15vw",
             height: "inherit",
             flexDirection: "column",
             alignItems: "center",
@@ -129,15 +143,15 @@ export const CountdownTimer = () => {
               backgroundColor: "#ffffff21",
               backdropFilter: "blur(10px)",
               // width: "15vw",
-              width: "14vw",
-              height: "28vh",
+              width: "12vw",
+              height: "24vh",
               // height: "30vh",
               borderRadius: "10px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
               "@media (max-width: 800px)" : {
-                width: "45vw"
+                width: "35vw"
               }
 
             }}
@@ -147,7 +161,10 @@ export const CountdownTimer = () => {
               sx={{
                 color:"white",
                 textAlignt: "center",
-                fontSize: "7.2rem"
+                fontSize: "7.2rem",
+                "@media (max-width: 800px)" : {
+                  fontSize: "4.5rem"
+                }
               }}
             >
               {hours}
@@ -157,7 +174,10 @@ export const CountdownTimer = () => {
             variant="h5"
             sx={{
                 color: "white",
-                fontFamily: "'Lexend Exa', sans-serif"
+                fontFamily: "'Lexend Exa', sans-serif",
+                "@media (max-width: 800px)" : {
+                  fontSize: "1.3rem"
+                }
               }}
             >
               hours
@@ -170,14 +190,14 @@ export const CountdownTimer = () => {
           "@media (max-width: 800px)" : {
             display: "flex",
             flexDirection: "row",
-            alignItems: "center"
+            alignItems: "center",
           }
         }}
       >
         <Box
           sx={{
             display: "flex",
-            width: "25vw",
+            width: "15vw",
             height: "inherit",
             flexDirection: "column",
             alignItems: "center",
@@ -192,15 +212,16 @@ export const CountdownTimer = () => {
               backgroundColor: "#ffffff21",
               backdropFilter: "blur(10px)",
               // width: "15vw",
-              width: "14vw",
-              height: "28vh",
+              width: "12vw",
+              height: "24vh",
               // height: "30vh",
               borderRadius: "10px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
               "@media (max-width: 800px)" : {
-                width: "45vw"
+                width: "35vw",
+                marginLeft: "3rem"
               }
 
             }}
@@ -210,7 +231,10 @@ export const CountdownTimer = () => {
               sx={{
                 color:"white",
                 textAlignt: "center",
-                fontSize: "7.2rem"
+                fontSize: "7.2rem",
+                "@media (max-width: 800px)" : {
+                  fontSize: "4.5rem"
+                }
               }}
             >
               {minutes}
@@ -220,7 +244,10 @@ export const CountdownTimer = () => {
             variant="h5"
             sx={{
               color: "white",
-              fontFamily: "'Lexend Exa', sans-serif"
+              fontFamily: "'Lexend Exa', sans-serif",
+              "@media (max-width: 800px)" : {
+                fontSize: "1.3rem"
+              }
             }}
           >
             minutes
@@ -229,13 +256,13 @@ export const CountdownTimer = () => {
         <Box
           sx={{
             display: "flex",
-            width: "25vw",
+            width: "15vw",
             height: "inherit",
             flexDirection: "column",
             alignItems: "center",
             textAlign: "center",
             "@media (max-width: 800px)":{
-              width: "50vw"
+              width: "50vw",
             }
           }}
         >
@@ -243,14 +270,14 @@ export const CountdownTimer = () => {
             sx={{
               backgroundColor: "#ffffff21",
               backdropFilter: "blur(10px)",
-              width: "14vw",
-              height: "28vh",
+              width: "12vw",
+              height: "24vh",
               borderRadius: "10px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
               "@media (max-width: 800px)" : {
-                width: "45vw"
+                width: "35vw"
               }
 
             }}
@@ -260,7 +287,10 @@ export const CountdownTimer = () => {
               sx={{
                 color:"white",
                 textAlignt: "center",
-                fontSize: "7.2rem"
+                fontSize: "7.2rem",
+                "@media (max-width: 800px)" : {
+                  fontSize: "4.5rem"
+                }
               }}
             >
               {seconds}
@@ -270,7 +300,10 @@ export const CountdownTimer = () => {
             variant="h5"
             sx={{
               color: "white",
-              fontFamily: "'Lexend Exa', sans-serif"
+              fontFamily: "'Lexend Exa', sans-serif",
+              "@media (max-width: 800px)" : {
+                fontSize: "1.3rem"
+              }
             }}
           >
             seconds

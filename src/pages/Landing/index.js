@@ -71,6 +71,7 @@ const Landing = () => {
           width: "100vw",
           height: "100vh",
           display: "flex",
+          flexDirection: "column",
           backgroundImage: `url(${background2})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "contain",

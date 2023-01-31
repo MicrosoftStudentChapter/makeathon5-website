@@ -5,15 +5,31 @@ export const ButtonsBar = () => {
   return(
     <Box
       sx={{
-        width: "50vw",
+        width: "100vw",
         height: "100vh",
         display: "flex",
+        flexDirection: "column",
         justifyContent: "center",
         alignItems: "center"
       }}
     >
-      <Button>
-        Hello
+      <Button
+        variant="contained"
+        sx={{
+          margin: "1rem",
+          width: "20rem",
+          height: "3rem"
+        }}
+      >
+        Register Now
+      </Button>
+      <Button
+        variant="outlined"
+        sx={{
+          margin: "2rem"
+        }}
+      >
+        Register Now
       </Button>
     </Box>
   )
