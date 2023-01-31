@@ -221,7 +221,6 @@ export const CountdownTimer = () => {
               alignItems: "center",
               "@media (max-width: 800px)" : {
                 width: "35vw",
-                marginLeft: "3rem"
               }
 
             }}

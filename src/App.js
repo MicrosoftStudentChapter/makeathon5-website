@@ -2,34 +2,21 @@ import Landing from './pages/Landing';
 import './index.css';
 import './App.css';
 import {Navbar} from './components/Navbar'
-import {LocomotiveScrollProvider} from 'react-locomotive-scroll';
 import { useRef } from 'react';
+
 // import {black} from '@mui/material/colors';
 
 function App() {
-  const ref = useRef(null)
-  let options = {
-    smooth : true
-  }
+  const ref = useRef()
   return (
-    <LocomotiveScrollProvider
-      option={options}
-      containerRef={ref}
-    >
+    <>
       <Navbar />
-      <main
-        data-scroll-conatiner
-        ref={ref}
+      <section
+        id="landing" 
       >
-        <section 
-          id="landing" 
-          data-scroll
-          data-scroll-section
-        >
-          <Landing />
-        </section>
-      </main>
-    </LocomotiveScrollProvider>  
+        <Landing />
+      </section>
+    </>
   );
 }
 

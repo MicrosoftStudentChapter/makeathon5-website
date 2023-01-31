@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import background from './assets/wallpaper4.svg';
 import background2 from './assets/wallpaper2.png';
 // import logo from './assets/logo.svg';
@@ -14,10 +14,21 @@ import {ButtonsBar} from './ButtonsBar'
 const Landing = () => {
   const title = "MAKE A THON";
   const font = "'Lexend Exa', sans-serif";
+  useEffect(()=>{
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  },[])
+  // const ref=useRef();
   return(
     <Box
       sx={{
-        width: "100vw",
+        width:"100vw",
         height: "200vh"
       }}
     >
@@ -29,6 +40,9 @@ const Landing = () => {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPositionY: "-10rem",
+          scrollSnapAlign: "start",
+          scrollBehavior: "smooth",
+          scrollSnapType: "y mandatory",
           "@media(max-width: 800px)" : {
             backgroundPosition: "center"
           }
@@ -76,7 +90,13 @@ const Landing = () => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "contain",
           backgroundPositionY: "-2rem",
-          backgroundColor: "#72D7BE"
+          backgroundColor: "#72D7BE",
+          scrollSnapAlign: "start",
+          scrollBehavior: "smooth",
+          scrollSnapType: "y mandatory",
+          "@media (max-width: 800px)":{
+            backgroundPositionY: "0"
+          }
         }}
       >
         <CountdownTimer />
