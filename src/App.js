@@ -4,32 +4,20 @@ import './App.css';
 import {Navbar} from './components/Navbar'
 import {Faq} from './pages/Faq'
 
-import {LocomotiveScrollProvider} from 'react-locomotive-scroll';
 import { useRef } from 'react';
+
 // import {black} from '@mui/material/colors';
 
 function App() {
-  const ref = useRef(null)
-  let options = {
-    smooth : true
-  }
+  const ref = useRef()
   return (
-    <LocomotiveScrollProvider
-      option={options}
-      containerRef={ref}
-    >
+    <>
       <Navbar />
-      <main
-        data-scroll-conatiner
-        ref={ref}
+      <section
+        id="landing" 
       >
-        <section 
-          id="landing" 
-          data-scroll
-          data-scroll-section
-        >
-          <Landing />
-        </section>
+        <Landing />
+      </section>
 
         <section 
           id="faq" 
@@ -38,8 +26,7 @@ function App() {
         >
           <Faq />
         </section>
-      </main>
-    </LocomotiveScrollProvider>  
+    </>
   );
 }
 
