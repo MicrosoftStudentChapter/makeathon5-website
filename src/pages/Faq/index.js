@@ -21,7 +21,7 @@ export const Faq = () => {
             )
             )}
           </div>
-          <div className={styles.box2}>
+          {/* <div className={styles.box2}>
             {Data["data"].map((item) => (
               <div>
                 <Question ques={item.question} ans={item.answer}/>
@@ -30,7 +30,7 @@ export const Faq = () => {
             )
             )}
 
-          </div>
+          </div> */}
         </div>
         
     </div>
