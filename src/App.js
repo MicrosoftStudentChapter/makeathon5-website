@@ -21,8 +21,6 @@ function App() {
 
         <section 
           id="faq" 
-          data-scroll
-          data-scroll-section
         >
           <Faq />
         </section>
