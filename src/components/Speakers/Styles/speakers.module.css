@@ -1,0 +1,42 @@
+.speakerspage{
+    background: linear-gradient(rgba(42,3,41,1),rgba(69,8,52,1));
+    height: 100vh;
+    width: 100vw;
+}
+.speakerspagewrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.speakersheader{
+    font-size: 3.5em;
+    color: white;
+}
+.speakercard{
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(0.25turn,rgb(0, 0, 0,0.2),rgba(99, 99, 99, 0.2));
+}
+.cardwrap{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+.carddiv{
+    height: 300px;
+}
+.speakerimg{
+    width: 200px;
+}
+.hov{
+    /* padding: 10% 0; */
+    /* height: 100%; */
+    transition: all 0.5s;
+    text-align: center;
+}
+/* .hov:hover{
+    transform: scale(1.0);
+} */
