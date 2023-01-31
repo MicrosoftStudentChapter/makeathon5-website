@@ -1,12 +1,15 @@
-import React, {useState} from "react";
+import React from "react";
 import background from './assets/wallpaper4.svg';
+import background2 from './assets/wallpaper2.png';
 // import logo from './assets/logo.svg';
 import styles from '../Landing/landing.module.scss';
-import {Navbar} from '../../components/Navbar';
 import { 
   Typography, 
   Box, Grid, 
 } from "@mui/material";
+// Components
+import {CountdownTimer} from './CountdownTimer'
+import {ButtonsBar} from './ButtonsBar'
 
 const Landing = () => {
   const title = "MAKE A THON";
@@ -17,8 +20,6 @@ const Landing = () => {
         width: "100vw",
         height: "200vh"
       }}
-      data-scroll
-      data-scroll-speed = "4"
     >
       <Box
         sx={{
@@ -69,9 +70,16 @@ const Landing = () => {
         sx={{
           width: "100vw",
           height: "100vh",
-          display: "flex"
+          display: "flex",
+          backgroundImage: `url(${background2})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "contain",
+          backgroundPositionY: "-2rem",
+          backgroundColor: "#72D7BE"
         }}
       >
+        <CountdownTimer />
+        <ButtonsBar />
       </Box>
     </Box>
   )
