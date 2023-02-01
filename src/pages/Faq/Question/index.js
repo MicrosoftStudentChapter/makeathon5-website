@@ -8,6 +8,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { StylesContext } from "@mui/styles";
 
 import styles from './question.module.css'
+import { Opacity } from "@mui/icons-material";
 
 export default function Question({ques, ans}) {
 
@@ -15,8 +16,9 @@ export default function Question({ques, ans}) {
 
   return (
     <div className={styles.wrapper}>
-      <Accordion sx={{backgroundColor:'#ffffff5A',color:'white', backdropFilter:'blur(10px)'}}>
+      <Accordion sx={{backgroundColor:'transparent',color:'white', backdropFilter:'blur(10px)'}}>
         <AccordionSummary
+        className={styles.summary}
         onClick={() => {setSign(!sign)}}
         
           expandIcon={<ExpandMoreIcon />}
@@ -24,12 +26,12 @@ export default function Question({ques, ans}) {
           id="panel1a-header"
           
         >
-          <Typography sx={{fontFamily:'Lexend Exa',fontStyle:'normal',fontWeight:'700',fontSize:'1rem'}}>{sign ? "+"  : "-"} {ques}</Typography>
+          <Typography sx={{fontFamily:'Lexend Exa',fontStyle:'normal',fontWeight:'700',fontSize:'0.9rem'}}>{sign ? "+"  : "-"} {ques}</Typography>
         </AccordionSummary>
         <AccordionDetails
-        onClose = {() => {setSign(true); console.log("ok")}}
+        
         >
-          <Typography sx={{fontFamily:'Lexend Exa',fontStyle:'normal',fontSize:'1rem'}}>
+          <Typography sx={{fontFamily:'Lexend Exa',fontStyle:'normal',fontSize:'0.8rem' ,Opacity:'0.5'}}>
             {ans}
           </Typography>
         </AccordionDetails>
