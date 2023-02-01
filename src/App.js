@@ -1,19 +1,29 @@
 import Landing from './pages/Landing';
 import './index.css';
-import { createTheme, ThemeProvider } from '@mui/system';
+import './App.css';
+import {Navbar} from './components/Navbar'
+import {Faq} from './pages/Faq'
+
+import { useRef } from 'react';
+
 // import {black} from '@mui/material/colors';
 
 function App() {
-  const theme = createTheme({
-    backgrounds: {
-      navbarBack: "#000"
-    }
-  })
+  const ref = useRef()
   return (
     <>
-      <section id="landing">
+      <Navbar />
+      <section
+        id="landing" 
+      >
         <Landing />
       </section>
+
+        <section 
+          id="faq" 
+        >
+          <Faq />
+        </section>
     </>
   );
 }
