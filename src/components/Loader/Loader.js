@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Loader.css";
+import { motion } from "framer-motion";
 
 export const Loader = () => {
   const [date, setDate] = useState(25);
@@ -8,7 +9,12 @@ export const Loader = () => {
   const nums = timeLeft.toString().split("");
 
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0.0 }}
+      animate={{ opacity: 1.0 }}
+      exit={{ opacity: 0.0 }}
+      transition={{ duration: 1 }}
+    >
       <div className="background">
         <div className="container">
           <div className="loader-box">
@@ -32,6 +38,6 @@ export const Loader = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };

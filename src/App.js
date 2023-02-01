@@ -11,11 +11,9 @@ import { useEffect, useState } from "react";
 function App() {
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    window.addEventListener("load", () => {
-      setLoading(false);
-    });
-  });
+  setTimeout(() => {
+    setLoading(false);
+  }, 5000);
 
   return (
     <>
