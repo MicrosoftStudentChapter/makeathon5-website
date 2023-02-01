@@ -5,32 +5,34 @@ import Question from './Question'
 import Data from './faqdata.json'
 
 export const Faq = () => {
+  // const [count,setCount] = useState(0)
+
   return (
     <div className={styles.main}>
     
-        <h1 className={styles.heading}>F.A.Q's</h1>
+        <h1 className={styles.heading}>Frequently asked questions</h1>
 
         <div className={styles.wrapper}>
-          <div className={styles.box1}>
+          <div  className={styles.box1}>
 
             {Data["data"].map((item) => (
-              <div>
-                <Question ques={item.question} ans={item.answer}/>
+              <div className={styles.card}>
+                <Question ques={item.question} ans={item.answer}  />
                 <br></br>
               </div>
             )
             )}
           </div>
-          {/* <div className={styles.box2}>
+          <div className={styles.box2}>
             {Data["data"].map((item) => (
               <div>
-                <Question ques={item.question} ans={item.answer}/>
+                <Question ques={item.question} ans={item.answer} />
                 <br></br>
               </div>
             )
             )}
 
-          </div> */}
+          </div>
         </div>
         
     </div>
