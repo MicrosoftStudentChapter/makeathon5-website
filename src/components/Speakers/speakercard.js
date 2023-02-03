@@ -22,7 +22,7 @@ export default function Speakercard(props) {
         width: 200,
         maxWidth: "100%",
         minHeight: "300px",
-        margin: "0 -5px",
+        margin: "0 0px",
         position: "relative",
         zIndex: `${props.zvalue}`,
         backgroundColor:
