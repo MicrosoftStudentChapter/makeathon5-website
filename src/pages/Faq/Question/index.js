@@ -16,7 +16,9 @@ export default function Question({ques, ans}) {
 
   return (
     <div className={styles.wrapper}>
-      <Accordion sx={{backgroundColor:'transparent',color:'white', backdropFilter:'blur(10px)'}}>
+      <Accordion elevation={0} sx={{backgroundColor:'transparent',color:'white', 
+      // backdropFilter:'blur(10px)'
+      }}>
         <AccordionSummary
         className={styles.summary}
         onClick={() => {setSign(!sign)}}
