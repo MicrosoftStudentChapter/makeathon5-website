@@ -1,0 +1,15 @@
+/* .text{
+    display: flex;
+} */
+
+.wrapper{
+    padding-top: 1rem;
+}
+
+.text{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    color: coral;
+}

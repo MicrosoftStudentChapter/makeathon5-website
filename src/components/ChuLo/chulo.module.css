@@ -1,13 +1,33 @@
 .wrapper{
-    height: 40vh;
+    height: 30vh;
     width: 100vw;
+
+    
 
     background: linear-gradient(180deg, #450834 12.5%, #290329 72.92%);
 }
 
 .slider{
-    padding-top: 5rem;
+    padding-top: 1rem;
     margin-left: 6rem;
     margin-right: 6rem;
+    
+    mask-image: linear-gradient(to right,
+    transparent,
+    black,
+    black,
+    black,
+    black,
+    transparent
+  );
     /* backdrop-filter: blur(10px); */
+}
+
+.opacity{
+    display: block;
+    position: relative;
+    height: 2rem;
+    width:3rem;
+
+    background-color: white;
 }
