@@ -22,7 +22,7 @@ export default function Speakercard(props) {
         width: 200,
         maxWidth: "100%",
         minHeight: "300px",
-        margin: "0 0px",
+        margin: "0 -5px",
         position: "relative",
         zIndex: `${props.zvalue}`,
         backgroundColor:
@@ -41,13 +41,14 @@ export default function Speakercard(props) {
           transform: `Translate(0,${props.value})`,
           borderRadius: 16,
           zIndex: `${props.zvalue}`,
-          transition: '0.5s all'
+          transition: '0.3s all'
         }}>
             
                 <Widget>
                     <img
                         className={styles.speakerimg}
-                        src="https://i.pcmag.com/imagery/articles/040JHoVNgc1gh2e7sunj82k-1..v1569492349.png"
+                        // src="https://i.pcmag.com/imagery/articles/040JHoVNgc1gh2e7sunj82k-1..v1569492349.png"
+                        src="https://d38b044pevnwc9.cloudfront.net/cutout-nuxt/batch/slices/1-1.jpg"
                     />
                     <h2>Linus Tech Tips</h2>
                 </Widget>

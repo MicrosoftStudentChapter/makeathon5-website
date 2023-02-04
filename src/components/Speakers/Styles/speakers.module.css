@@ -1,6 +1,6 @@
 .speakerspage{
     background: linear-gradient(rgba(42,3,41,1),rgba(69,8,52,1));
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
 }
 .speakerspagewrapper{
@@ -9,10 +9,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .speakersheader{
-    font-size: 3.5em;
+    font-size: 3.5rem;
     color: white;
     letter-spacing: 5px;
 }
@@ -25,7 +25,10 @@
     height: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     z-index: 1;
+    transform: scale(1);
 }
 .carddiv{
     height: 300px;
@@ -43,3 +46,13 @@
 /* .hov:hover{
     transform: scale(1.0);
 } */
+@media (max-width: 1125px) {
+    .cardwrap{
+        transform: scale(0.85);
+    }
+}
+@media (max-width: 950px) {
+    .cardwrap{
+        transform: scale(0.7);
+    }
+}

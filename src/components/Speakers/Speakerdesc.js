@@ -16,7 +16,7 @@ function Speakerdesc(props) {
                 height: "300px",
                 width: "400px",
                 transform: `Translate(${props.move}, 0)`,
-                transition: "opacity 0.2s",
+                transition: "opacity 0.3s",
             }} 
         >  
         <h1>hi kids</h1>

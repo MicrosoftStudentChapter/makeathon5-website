@@ -136,35 +136,35 @@ function Speakers() {
     }
     const cardivstyle1 = {
         transform: "Translate(0,0%)",
-        // zIndex:2,
+        zIndex:2,
         display: "flex",
         width: "100%",
         transition: "all 0.5s",
     };
     const cardivstyle2 = {
         transform: "Translate(0,25%)",
-        // zIndex:3,
+        zIndex:3,
         display: "flex",
         width: "100%",
         transition: "all 0.5s",
     };
     const cardivstyle3 = {
         transform: "Translate(0,50%)",
-        // zIndex:4,
+        zIndex:4,
         display: "flex",
         width: "100%",
         transition: "all 0.5s",
     };
     const cardivstyle4 = {
         transform: "Translate(0,25%)",
-        // zIndex:3,
+        zIndex:3,
         display: "flex",
         width: "100%",
         transition: "all 0.5s",
     };
     const cardivstyle5 = {
         transform: "Translate(0,0%)",
-        // zIndex:2,
+        zIndex:2,
         display: "flex",
         width: "100%",
         transition: "all 0.5s",
@@ -180,16 +180,16 @@ function Speakers() {
                 <div className={styles.cardwrap}>
                     <div style={cardivstyle1} className={styles.carddiv} onMouseOver={showone} onMouseLeave={shownone}>
                         <SpeakerCard value="0%" zvalue="2" opaque={index1} />
-                        <Speakerdesc see={card1} move="60%" present={disp1}/>
+                        <Speakerdesc see={card1} move="61%" present={disp1}/>
                     </div>
                     <div style={cardivstyle2} className={styles.carddiv} onMouseOver={showtwo} onMouseLeave={shownone}>
                         <SpeakerCard value="0%" zvalue="2" opaque={index2} />
-                        <Speakerdesc see={card2} move="60%" present={disp2}/>
+                        <Speakerdesc see={card2} move="61%" present={disp2}/>
                     </div>
 
                     <div style={cardivstyle3} className={styles.carddiv} onMouseOver={showthree} onMouseLeave={shownone}>
                         <SpeakerCard value="0%" zvalue="2" opaque={index3} />
-                        <Speakerdesc see={card3} move="60%" present={disp3}/>
+                        <Speakerdesc see={card3} move="61%" present={disp3}/>
                     </div>
                     <div style={cardivstyle4} className={styles.carddiv} onMouseOver={showfour} onMouseLeave={shownone}>
                         <SpeakerCard value="0%" zvalue="2" opaque={index4} />
