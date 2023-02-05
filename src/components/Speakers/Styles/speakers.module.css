@@ -1,0 +1,58 @@
+.speakerspage{
+    background: linear-gradient(rgba(42,3,41,1),rgba(69,8,52,1));
+    min-height: 100vh;
+    width: 100vw;
+}
+.speakerspagewrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.speakersheader{
+    font-size: 3.5rem;
+    color: white;
+    letter-spacing: 5px;
+}
+.speakercard{
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(0.25turn,rgb(0, 0, 0,0.2),rgba(99, 99, 99, 0.2));
+}
+.cardwrap{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transform: scale(1);
+}
+.carddiv{
+    height: 300px;
+    text-align: center;
+}
+.speakerimg{
+    width: 200px;
+}
+.hov{
+    /* padding: 10% 0; */
+    /* height: 100%; */
+    transition: all 0.5s;
+    text-align: center;
+}
+/* .hov:hover{
+    transform: scale(1.0);
+} */
+@media (max-width: 1125px) {
+    .cardwrap{
+        transform: scale(0.85);
+    }
+}
+@media (max-width: 950px) {
+    .cardwrap{
+        transform: scale(0.7);
+    }
+}
