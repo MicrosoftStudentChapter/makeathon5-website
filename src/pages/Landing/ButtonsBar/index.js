@@ -7,11 +7,11 @@ export const ButtonsBar = () => {
     <Box
       sx={{
         width: "100vw",
-        height: "100vh",
+        height: "20vh",
         display: "flex",
-        flexDirection: "column",
+        flexDirection: "row",
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "flex-start"
       }}
     >
       <div 
@@ -21,10 +21,13 @@ export const ButtonsBar = () => {
         style={{height: "44px",width: "312px"}} 
       ></div>
       <Button
-        variant="outlined"
+        variant="contained"
         sx={{
-          margin: "2rem"
+          marginLeft: "2rem",
+          width: "312px",
+          height: "44px",
         }}
+        color = "secondary"
       >
         Download The Checkin App
       </Button>
