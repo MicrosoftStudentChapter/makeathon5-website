@@ -27,9 +27,6 @@ function App() {
           <section id="landing">
             <Landing />
           </section>
-          <section id="speakers">
-            <Speakers />
-          </section>
           <section id="faq">
             <Faq />
           </section>
