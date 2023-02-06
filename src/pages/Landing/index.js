@@ -28,78 +28,60 @@ const Landing = () => {
   return(
     <Box
       sx={{
-        width:"100vw",
-        height: "200vh"
+        width: "100vw",
+        height: "100vh",
+        backgroundImage: `url(${background})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPositionY: "-10rem",
+        scrollSnapAlign: "start",
+        scrollBehavior: "smooth",
+        scrollSnapType: "y mandatory",
+        "@media(max-width: 800px)" : {
+          backgroundPosition: "center"
+        }
       }}
     >
-      <Box
+      <Grid
+        container
+        spacing={0}
+        direction="column"
+        alignItems="center"
+        justifyContent="center"
         sx={{
           width: "100vw",
-          height: "100vh",
-          backgroundImage: `url(${background})`,
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPositionY: "-10rem",
-          scrollSnapAlign: "start",
-          scrollBehavior: "smooth",
-          scrollSnapType: "y mandatory",
-          "@media(max-width: 800px)" : {
-            backgroundPosition: "center"
-          }
-        }}
-      >
-        <Grid
-          container
-          spacing={0}
-          direction="column"
-          alignItems="center"
-          justifyContent="center"
-          sx={{
-            width: "100vw",
-            height:"95vh"
-          }}
-        >
-          <Typography 
-            variant="h1"
-            align="center"
-            sx={{
-              color: "#fff",
-              fontFamily: font,
-              fontSize: "8rem",
-              marginRight: "1.5rem",
-              "@media(max-width: 800px)" : {
-                fontSize: "2.9rem",
-                marginTop: "-5rem",
-                marginRight: "0"
-              }
-            }}
-            className={styles.glitchyBabe}
-            data-text={title}
-          >
-            {title}
-          </Typography>
-        </Grid>
-      </Box>
-      <Box
-        sx={{
-          width: "100vw",
-          height: "100vh",
-          display: "flex",
-          flexDirection: "column",
-          backgroundImage: `url(${background2})`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "contain",
-          backgroundPositionY: "-2rem",
-          backgroundColor: "#72D7BE",
-          scrollSnapAlign: "start",
-          scrollBehavior: "smooth",
-          scrollSnapType: "y mandatory",
+          height:"80vh",
           "@media (max-width: 800px)":{
-            backgroundPositionY: "0"
+            height: "80vh"
           }
         }}
       >
-        <CountdownTimer />
+        <Typography 
+          variant="h1"
+          align="center"
+          sx={{
+            color: "#fff",
+            fontFamily: font,
+            fontSize: "8rem",
+            marginRight: "1.5rem",
+            "@media(max-width: 800px)" : {
+              fontSize: "2.9rem",
+              marginTop: "-5rem",
+              marginRight: "0"
+            }
+          }}
+          className={styles.glitchyBabe}
+          data-text={title}
+        >
+          {title}
+        </Typography>
+      </Grid>
+      <Box
+        sx={{
+          width: "100vw",
+          height: "20vh",
+        }}
+      >
         <ButtonsBar />
       </Box>
     </Box>
