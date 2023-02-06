@@ -40,7 +40,7 @@
         
     {
         "question": "What if I’ve never been to a hackathon before?",
-        "answer": "ack the North welcomes students of all skill levels. In previous years, 30% of students have attended Hack the North as their first hackathon. We’ll have talks, mentors, and workshops to help you with your project. Just be eager to learn and excited to meet lots of awesome people.",
+        "answer": "MAKEATHON welcomes students of all skill levels. We’ll have talks, mentors, and workshops to help you with your project. Just be eager to learn and excited to meet lots of awesome people.",
         "open": false
     },
     {
@@ -55,7 +55,7 @@
     },
     {
         "question": "What kind of workshops and activities will there be?",
-        "answer": "Previously, we’ve held workshops and talks for a range of skill levels from beginner to advanced like Intro to React and Exploring and Wrangling Data with Pandas. Other workshops also explore various programming tools such as APIs, databases, and platforms. Activities like VR demos, meetups, and even karaoke happen throughout the weekend. Whether it’s for relaxation or health, novelty or competition, our team has something exciting prepared for you to enjoy!",
+        "answer": "Previously, we’ve held workshops and talks for a range of skill levels from beginner to advanced like Intro to React. Other workshops also explore various programming tools such as APIs, databases, and platforms. Whether it’s for relaxation or health, novelty or competition, our team has something exciting prepared for you to enjoy!",
         "open": false
     },
     {
