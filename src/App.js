@@ -54,7 +54,7 @@ function App() {
             <Faq />
           </section>
 
-          <ChuLo/>
+          
         </>
       )}
     </>

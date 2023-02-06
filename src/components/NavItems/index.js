@@ -17,7 +17,10 @@ export const NavItems = () => {
   }
   const fontq = "'Lexend Exa', sans-serif";
   return (
-    <List>
+    <List sx={{
+      paddingTop:'0.5rem',
+      paddingBottom:'0.5rem'
+    }}>
       {
         Object.keys(items).map((text, index) => (
           <ListItem
@@ -26,18 +29,24 @@ export const NavItems = () => {
               borderLeft: "3px solid #ffffffaa",
               margin: "1rem",
               "&:hover":{
-                borderLeft: "3px solid #ffffff"
+                borderLeft: "3px solid #ffffff",
               }
             }}
             disablePadding
           >
-            <ListItemButton>
+            <ListItemButton
+            sx={{
+              "&:hover":{
+                color:'white'
+              }
+            }}>
               <ListItemText
                 primary={text}
                 primaryTypographyProps={{
-                  fontSize: '20px',
-                  color: "#ffffff",
-                  fontWeight: "bold",
+                  marginLeft:'1.5rem',
+                  fontSize: '1.7rem',
+                  color: "#ffffffaa",
+                  fontWeight: "900",
                 }} 
               />
             </ListItemButton>
