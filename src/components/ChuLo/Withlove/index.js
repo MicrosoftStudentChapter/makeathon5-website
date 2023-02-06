@@ -9,8 +9,7 @@ export const Withlove = () => {
   return (
     <div className={styles.wrapper}>
       <p className={styles.text} onhover={() => {setonhover(true)}} onAbort={() => {setonhover(false)}}>
-        {onhover ? "Ikshan Bhardwaj" :"Made With 💛 By MLSC"}
-        
+        {onhover ? "Ikshan Bhardwaj" :"Made With 💛 By MLSC"} 
       </p>
     </div>
   )
