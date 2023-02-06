@@ -3,7 +3,7 @@ import {Drawer, Typography, IconButton, Box, List, ListItem, ListItemButton, Lis
 import {makeStyles} from '@mui/styles';
 import MenuSharpIcon from '@mui/icons-material/MenuSharp';
 import CloseSharpIcon from '@mui/icons-material/CloseSharp';
-import Logo from './assets/logo.svg';
+// import Logo from './assets/logo.svg';
 import {NavItems} from '../../components/NavItems'
 
 export const Navbar = () => {
@@ -113,7 +113,7 @@ export const Navbar = () => {
               }}
             >
               <img
-                src={Logo}
+                src="https://res.cloudinary.com/damjdcgak/image/upload/v1675709886/Makeathon%205%20website/Chu%20Logo/makeathon5-Logo-white-noBG_kz20hk.png"
               />
             </Box>
           </Box>

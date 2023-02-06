@@ -1,7 +1,9 @@
 import React, { useEffect, useRef } from "react";
-import background from './assets/wallpaper4.svg';
-import background2 from './assets/wallpaper2.png';
+
+// import background from './assets/wallpaper4.svg';
+// import background2 from './assets/wallpaper2.png';
 // import logo from './assets/logo.svg';
+
 import styles from '../Landing/landing.module.scss';
 import { 
   Typography, 
@@ -30,7 +32,7 @@ const Landing = () => {
       sx={{
         width: "100vw",
         height: "100vh",
-        backgroundImage: `url(${background})`,
+        backgroundImage: 'url(https://res.cloudinary.com/damjdcgak/image/upload/v1675710822/Makeathon%205%20website/Chu%20Logo/landing_d15xvh.webp)',
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPositionY: "-10rem",
