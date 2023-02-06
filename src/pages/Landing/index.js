@@ -50,7 +50,10 @@ const Landing = () => {
         justifyContent="center"
         sx={{
           width: "100vw",
-          height:"80vh"
+          height:"80vh",
+          "@media (max-width: 800px)":{
+            height: "80vh"
+          }
         }}
       >
         <Typography 

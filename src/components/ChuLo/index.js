@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './chulo.module.css';
 
 import { Shakle } from './Shakle/index.js';
-import { Withlove } from './Withlove';
+// import { Withlove } from './Withlove';
 
 import Marquee from "react-fast-marquee";
 
@@ -13,7 +13,7 @@ import data from "./data.json"
 export const ChuLo = (image) => {
   return (
     <div className={styles.wrapper}>
-      <Withlove/>
+      {/* <Withlove/> */}
         <div className={styles.slider}>
          
         <Marquee  pauseOnHover = "true" gradientWidth={0} speed={45}>
