@@ -18,7 +18,13 @@ export const ChuLo = (image) => {
          
         <Marquee  pauseOnHover = "true" gradientWidth={0} speed={45}>
             <Stack direction="row" >
-                {data["core"].map((index) => (
+                {data["secretaries"].map((index) => (
+                    <Shakle image={index.img} />
+                ))}
+                {data["heads"].map((index) => (
+                    <Shakle image={index.img} />
+                ))}
+                {data["coordinators"].map((index) => (
                     <Shakle image={index.img} />
                 ))}
             </Stack>
