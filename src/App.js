@@ -18,7 +18,6 @@ function App() {
     setLoading(false);
   }, 5000);
 
-  const font = "'Lexend Exa', sans-serif";
 
   return (
     <>
@@ -31,19 +30,8 @@ function App() {
             <Landing />
           </section>
           <section id="timeline">
-            <div
-              style={{
-                fontSize: "5rem",
-                backgroundColor: "#450834 ",
-                fontFamily: font,
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                color:"white",
-                boxShadow: "2px 2px #000"
-              }}
-            >
-              TIMELINE
+            <div className="head">
+              Timeline
             </div>
             <Timeline />
           </section>

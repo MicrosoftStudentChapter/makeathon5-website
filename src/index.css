@@ -27,3 +27,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.head{
+  font-size: 5rem;
+  background-color: #450834;
+  /* font-family: 'Lexend Exa', sans-serif; */
+  display: flex;
+  font-weight: semi-bold;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+@media (min-width:800px){
+  .head{
+    font-size: "3rem";
+  }
+}

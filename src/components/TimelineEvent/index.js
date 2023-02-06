@@ -23,7 +23,7 @@ export const TimelineEvent = ({position, content}) => {
           alignItems: position == "down" ? "flex-start" : "flex-end",
           color: "black",
           wordWrap:"break-word",
-          backgroundColor: "white"
+          backgroundColor: "white",
         }}
       >
         <div
