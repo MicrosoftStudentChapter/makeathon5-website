@@ -30,13 +30,14 @@ code {
 
 .head{
   font-size: 5rem;
-  background-color: #450834;
+  background-color: #290834;
   /* font-family: 'Lexend Exa', sans-serif; */
   display: flex;
   font-weight: semi-bold;
   justify-content: center;
   align-items: center;
   color: white;
+  padding-top: 3rem;
 }
 
 @media (min-width:800px){

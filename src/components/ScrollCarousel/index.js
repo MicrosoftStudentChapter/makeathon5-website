@@ -53,7 +53,8 @@ export const ScrollCarousel = ({children}) => {
         style={{
           scaleX: scrollYProgress, backgroundColor: "#ffffff",
           height: "2px", position: "sticky", 
-          top: "50%", marginLeft: "-90%"
+          top: "50%", marginLeft: "-90%",
+          zIndex: "10"
         }} 
       />
       <div className="sticky-box">

@@ -9,7 +9,9 @@
 }
 
 .scroll-carousel {
-  background: linear-gradient(180deg, #450834 12.5%, #290329 72.92%);
+  background: linear-gradient(180deg, #290834 12.5%, #290329 72.92%);
+  background-repeat: no-repeat;
+  /* background-size: 300vw 100vh; */
   width: 100vw;
   height: 100vh;
 }

@@ -10,17 +10,21 @@ export const TimelineEvent = ({position, content, date}) => {
   return(
     <div
       className={style.primary}
+      style={{
+      }}
     >
       <Button
         variant="text"
         color="inherit"
         sx={{
           posiiton: "fixed",
-          top: "25%",
+          top: position == "up"  ? "17.75%" : "33.75%",
+          // top: "25.75%",
+          left: "42%",
           height: "5rem",
           width: "1rem",
           color: "white",
-          borderRadius: "100px"
+          borderRadius: "10px",
         }}
       >
         <Typography
@@ -42,12 +46,7 @@ export const TimelineEvent = ({position, content, date}) => {
       >
         
         <div
-          style={{
-            width: "inherit",
-            height: "fit-content",
-            wordWrap: "break-word",
-            color: "white",
-          }}
+          className={style.text}
         >
           {content}
         </div>

@@ -4,38 +4,39 @@ import style from  "./timeline.module.scss"
 import {ScrollCarousel} from '../../components/ScrollCarousel';
 import {TimelineEvent} from '../../components/TimelineEvent';
 import styles from './timeline.module.scss'
+import background from './assets/wall1.svg'
 
 const data = {
   "content" : [
     {
       date: "19 Feb",
       position: "up",
-      content: "qwqwgquwguqwguqgwuqwguqgwuqgwuqgwuqgwuqgwugquwgqwguqwg"
+      content: "Speaker Session by Shridhar Mankar on XYZ"
     },
     {
       date: "20 Feb",
       position: "down",
-      content: "qwqwgquwguqwguqgwuqwguqgwuqgwuqgwuqgwuqgwugquwgqwguqwg"
+      content: "Workshop on XYZ XYZ ABC by Ajinkya Lohakre from WERR"
     },
     {
       date: "21 Feb",
       position: "up",
-      content: "qwqwgquwguqwguqgwuqwguqgwuqgwuqgwuqgwuqgwugquwgqwguqwg"
+      content: "Session on YTEWEWEWEWEEWEWEWe by wetwerwyeWEWEWEWEEWewe"
     },
     {
       date: "22 Feb",
       position: "down",
-      content: "qwqwgquwguqwguqgwuqwguqgwuqgwuqgwuqgwuqgwugquwgqwguqwg"
+      content: "Technical Session on YZERWWEWEWE by Pritish Sehzpaul from sdsdsdsd"
     },
     {
       date: "23 Feb",
       position: "up",
-      content: "qwqwgquwguqwguqgwuqwguqgwuqgwuqgwuqgwuqgwugquwgqwguqwg"
+      content: "Session on YTEWEWEWEWEEWEWEWe by wetwerwyeWEWEWEWEEWewe"
     },
     {
       date: "24 Feb",
       position: "down",
-      content: "qwqwgquwguqwguqgwuqwguqgwuqgwuqgwuqgwuqgwugquwgqwguqwg"
+      content: "Technical Talk by the Father of OpenSource RICHARD STALLMAN"
     },
     {
       date: "25 Feb",
@@ -55,7 +56,6 @@ export const Timeline = () => {
       <ScrollCarousel>
         <div
           className={styles.box}
-          style={{backgroundColor: "transparent"}}
         >
           {data["content"].map((item)=>{ 
             return(
