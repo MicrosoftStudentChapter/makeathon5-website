@@ -35,9 +35,9 @@ function App() {
             {/* </div> */}
             <Timeline />
           </section>
-          <section id="speakers">
-            <Speakers />
-          </section>
+          {/* <section id="speakers"> */}
+          {/*   <Speakers /> */}
+          {/* </section> */}
           <section id="faq">
             <Faq />
           </section>

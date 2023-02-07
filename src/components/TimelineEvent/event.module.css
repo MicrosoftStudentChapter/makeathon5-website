@@ -27,6 +27,13 @@
   text-shadow: 2px 2px #ffffff5a;
 }
 
+@media (max-width: 800px) {
+  .text{
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+  }
+}
+
 /* .box{ */
 /*   width: inherit; */
 /*   height: 50vh; */

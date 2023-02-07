@@ -2,7 +2,7 @@ import React from "react";
 // import {motion, useScroll} from "framer-motion"; 
 import style from './event.module.css';
 import {
-  Button, Typography
+  Button, Typography, Box
 } from "@mui/material";
 
 export const TimelineEvent = ({position, content, date}) => {
@@ -25,20 +25,25 @@ export const TimelineEvent = ({position, content, date}) => {
           width: "10rem",
           color: "white",
           borderRadius: "10px",
+          "@media (max-width: 800px)": {
+            left: "-21%",
+            top: position == "up" ? "22.75%" : "41.75%"
+          }
         }}
       >
         <Typography
           variant="h1"
           sx={{
             fontSize: "2rem",
-            fontWeight: "bold"
+            fontWeight: "bold",
+            zIndex: 2
           }}
         >
           {date}
         </Typography>
       </Button>
-      <div
-        style={{
+      <Box
+        sx={{
           width: "inherit",
           height: "50vh",
           display: "flex",
@@ -46,18 +51,18 @@ export const TimelineEvent = ({position, content, date}) => {
           alignItems: position == "down" ? "flex-start" : "flex-end",
           wordWrap:"break-word",
           backgroundColor: "transparent",
+          "@media (max-width: 800px)" : {
+            height: "60vh"
+          }
         }}
       >
         
         <div
           className={style.text}
-          style={{
-
-          }}
         >
           {content}
         </div>
-      </div>
+      </Box>
     </div>
   );
 }
