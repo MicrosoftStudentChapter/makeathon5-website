@@ -18,7 +18,7 @@ export const Navbar = () => {
       sx={{
         display: "flex",
         position: "absolute",
-        zIndex: "2",
+        zIndex: "1000",
         flexDirection: "row"
       }}
     >

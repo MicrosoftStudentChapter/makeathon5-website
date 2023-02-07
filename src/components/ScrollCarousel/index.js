@@ -9,11 +9,11 @@ export const ScrollCarousel = ({children}) => {
   const refHeight = useRef(null)
   const refTransform = useRef(null)
   const {scrollWidth} = useScrollWidth(refTransform)
-  const scy = useScroll();
+  const {scrollYProgress} = useScroll();
   
   const scrollY = useWindowScroll(1000)
   const [{ st, xy }, set] = useSpring(() => ({ st: 0, xy: [0, 0] }))
-  
+
   useEffect(() => {
     set({ st: scrollY })
   }, [scrollY, set])
@@ -45,13 +45,22 @@ export const ScrollCarousel = ({children}) => {
   })
 
   return (
-    <div onMouseMove={onMouseMove} className="scroll-carousel" ref={refHeight} style={{ height: elHeight }}>
-      <div style={{scaleX: scy, backgroundColor: "#fffffaf", height: "1px", position: "sticky", top: "50%", left:"25%", width: "50%"}} />
+    <motion.div onMouseMove={onMouseMove} className="scroll-carousel" ref={refHeight} style={{ height: elHeight }}>
+      <motion.div
+        initial={{
+          scaleX: 0
+        }}
+        style={{
+          scaleX: scrollYProgress, backgroundColor: "#ffffff",
+          height: "2px", position: "sticky", 
+          top: "50%", marginLeft: "-90%"
+        }} 
+      />
       <div className="sticky-box">
         <a.div style={{ transform: interpTransform }} className="transform-box" ref={refTransform}>
           {children}
         </a.div>
       </div>
-    </div>
+    </motion.div>
   )
 }

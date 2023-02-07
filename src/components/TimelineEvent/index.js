@@ -1,19 +1,34 @@
 import React from "react";
-import {motion, useScroll} from "framer-motion";
+// import {motion, useScroll} from "framer-motion"; 
+import style from './event.module.css';
+import {
+  Button, Typography
+} from "@mui/material";
 
-export const TimelineEvent = ({position, content}) => {
-  const { scrollYProgress } = useScroll();
+export const TimelineEvent = ({position, content, date}) => {
+  // const { scrollYProgress } = useScroll();
   return(
     <div
-      style={{
-        width: "20vw",
-        height: "100vh",
-        display: "flex",
-        flexDirection: "column", 
-        justifyContent: "center",
-        alignContent: "center"
-      }}
+      className={style.primary}
     >
+      <Button
+        variant="text"
+        color="inherit"
+        sx={{
+          posiiton: "fixed",
+          top: "25%",
+          height: "5rem",
+          width: "1rem",
+          color: "white",
+          borderRadius: "100px"
+        }}
+      >
+        <Typography
+          variant="h5"
+        >
+          {date}
+        </Typography>
+      </Button>
       <div
         style={{
           width: "inherit",
@@ -21,16 +36,17 @@ export const TimelineEvent = ({position, content}) => {
           display: "flex",
           flexDirection: "row",
           alignItems: position == "down" ? "flex-start" : "flex-end",
-          color: "black",
           wordWrap:"break-word",
-          backgroundColor: "white",
+          backgroundColor: "transparent",
         }}
       >
+        
         <div
           style={{
             width: "inherit",
             height: "fit-content",
             wordWrap: "break-word",
+            color: "white",
           }}
         >
           {content}
