@@ -32,7 +32,7 @@ const Landing = () => {
       sx={{
         width: "100vw",
         height: "100vh",
-        backgroundImage: 'url(https://res.cloudinary.com/damjdcgak/image/upload/v1675710822/Makeathon%205%20website/Chu%20Logo/landing_d15xvh.webp)',
+        backgroundImage: 'url(https://res.cloudinary.com/damjdcgak/image/upload/v1675771829/Makeathon%205%20website/Chu%20Logo/Group-117_ircdz4.webp)',
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPositionY: "-10rem",
