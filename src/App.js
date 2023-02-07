@@ -7,6 +7,7 @@ import { Faq } from "./pages/Faq";
 import { Loader } from "./components/Loader/Loader";
 import { useEffect, useState } from "react";
 import Speakers from "./components/Speakers/speakers.js";
+import Sponsors from "./pages/Sponsors";
 
 // import {black} from '@mui/material/colors';
 
@@ -31,6 +32,10 @@ function App() {
             <Faq />
           </section>
           <ChuLo />
+
+          <section id="sponsors">
+             <Sponsors />
+          </section>
         </>
       )}
     </>

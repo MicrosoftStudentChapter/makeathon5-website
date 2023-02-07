@@ -1,0 +1,52 @@
+.heading{
+    font-family: 'Lexend Exa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125px;
+    color: #FFFFFF;
+}
+
+.subheading{
+    font-family: 'Lexend Exa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 62.5px;
+    color: #FFFFFF;
+}
+
+.sponsors{
+    background: linear-gradient(180deg, #2A0329 39.58%, #450834 82.29%);
+
+
+    /* margin-top: 4%; */
+}
+
+.titleSponsors{
+        backdrop-filter: blur(80px);
+        box-shadow: 8px 12px 50px rgba(0,0,0,0.4);
+        border-radius: 16px;
+        padding: 2%;
+}
+
+
+
+
+.grid_justify {
+    justify-content: center;
+}
+
+
+
+.box{
+    justify-content: center;
+    font-family: 'Oxanium';
+    align-items: center;
+    width: 79%;
+    background: linear-gradient(283.8deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100.78%);
+    backdrop-filter: blur(6px);
+    box-shadow: 8px 12px 50px rgba(0,0,0,0.4);
+    border-radius: 16px;
+    margin-top: 4%;
+  }
