@@ -39,14 +39,29 @@ const data = {
       content: "Technical Talk by the Father of OpenSource RICHARD STALLMAN"
     },
     {
-      date: "25 Feb",
+      date: "25 Feb 10:30",
       position: "up",
-      content: "qwqwgquwguqwguqgwuqwguqgwuqgwuqgwuqgwuqgwugquwgqwguqwg"
+      content: "Opening Ceremony for Makeathon5"
     },
     {
-      date: "26 Feb",
+      date: "25 Feb 12:00",
       position: "down",
-      content: "qwqwgquwguqwguqgwuqwguqgwuqgwuqgwuqgwuqgwugquwgqwguqwg"
+      content: "Hacking Period Begins"
+    },
+    {
+      date: "25 Feb 15:30",
+      position: "up",
+      content: "Checkpoint 0 : Idea Submission on Devfolio"
+    },
+    {
+      date: "26 Feb 02:00",
+      position: "down",
+      content: "Checkpoint 2 : Mentoring Round 2"
+    },
+    {
+      date: "26 Feb 14:00",
+      position: "up",
+      content: "Pitching Round"
     }
   ]
 }

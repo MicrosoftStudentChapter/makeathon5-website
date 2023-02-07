@@ -30,9 +30,9 @@ function App() {
             <Landing />
           </section>
           <section id="timeline">
-            <div className="head">
-              Timeline
-            </div>
+            {/* <div className="head"> */}
+            {/*   Timeline */}
+            {/* </div> */}
             <Timeline />
           </section>
           <section id="speakers">

@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
 .primary{
   width: 30vw;
-  height:100vh;
+  height:95vh;
   display:flex;
   flex-direction:column; 
   justify-content:center;
@@ -12,15 +14,17 @@
   height: fit-content;
   word-wrap: break-word;
   font-size: 1.5rem;
+  font-weight: bold;
   text-align: center;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  color: #ffffffad;
+  letter-spacing: 7px;
+  font-family: 'IBM Plex Mono', monospace;
+  /* word-spacing: 2px; */
+  color: #ffffff;
 }
 
 .text:hover{
   color: #ffffff;
-  text-shadow: 2px 2px #ffffff2a;
+  text-shadow: 2px 2px #ffffff5a;
 }
 
 /* .box{ */

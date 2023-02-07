@@ -18,17 +18,21 @@ export const TimelineEvent = ({position, content, date}) => {
         color="inherit"
         sx={{
           posiiton: "fixed",
-          top: position == "up"  ? "17.75%" : "33.75%",
+          top: position == "up"  ? "22.75%" : "35.75%",
           // top: "25.75%",
-          left: "42%",
+          left: "32.3%",
           height: "5rem",
-          width: "1rem",
+          width: "10rem",
           color: "white",
           borderRadius: "10px",
         }}
       >
         <Typography
-          variant="h5"
+          variant="h1"
+          sx={{
+            fontSize: "2rem",
+            fontWeight: "bold"
+          }}
         >
           {date}
         </Typography>
@@ -47,6 +51,9 @@ export const TimelineEvent = ({position, content, date}) => {
         
         <div
           className={style.text}
+          style={{
+
+          }}
         >
           {content}
         </div>
