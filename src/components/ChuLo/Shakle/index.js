@@ -37,8 +37,8 @@ export function Shakle(prop) {
               bgcolor: `${prop.black ? "black" : ""}`,
             },
             opacity: 0.7,
-            Filter: `${prop.black ? "grayscale(0%)" : "grayscale(100%)"}`,
-            WebkitFilter: `${prop.black ? "grayscale(0%)" : "grayscale(100%)"}`,
+            Filter: "grayscale(100%)",
+            WebkitFilter: "grayscale(100%)",
           }}
           alt="Card Photo"
           src={prop.image}
