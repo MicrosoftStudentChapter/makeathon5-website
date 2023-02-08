@@ -33,7 +33,7 @@ export default function Sponsors() {
 
                     </div>
 
-                    <div className='associateSponsors'>
+                    <div className={styles.sponsors_section}>
                         <span className={styles.subheading}>Associate Sponsors</span>
 
                         <Grid container spacing={2} className={styles.grid_justify}>
@@ -49,7 +49,7 @@ export default function Sponsors() {
                         </Grid>
                     </div>
 
-                    <div className='powerSponsors'>
+                    <div className={styles.sponsors_section}>
                         <span className={styles.subheading}>Power Sponsors</span>
 
                         <Grid container spacing={2} className={styles.grid_justify}>
