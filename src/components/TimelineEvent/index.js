@@ -7,11 +7,10 @@ import {
 
 export const TimelineEvent = ({position, content, date}) => {
   // const { scrollYProgress } = useScroll();
+  const font = "'Overpass Mono', monospace"; 
   return(
     <div
       className={style.primary}
-      style={{
-      }}
     >
       <Button
         variant="text"
@@ -24,6 +23,7 @@ export const TimelineEvent = ({position, content, date}) => {
           height: "5rem",
           width: "10rem",
           color: "white",
+          fontFamily: font,
           borderRadius: "10px",
           "@media (max-width: 800px)": {
             left: "-21%",
