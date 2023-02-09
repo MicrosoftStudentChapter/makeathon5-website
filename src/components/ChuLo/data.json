@@ -1,16 +1,16 @@
 {
   "secretaries": [
     {
+      "name": "Anannya Singh",
+      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675713883/Makeathon%205%20website/MLSC%20Team%20pictures/IMG_5304_y2btmr.jpg"
+    },
+    {
       "name": "Adamay Mann",
       "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675712722/Makeathon%205%20website/MLSC%20Team%20pictures/IMG_5268_c6mza1.jpg"
     },
     {
       "name": "Shivansh Kapoor",
       "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675713410/Makeathon%205%20website/MLSC%20Team%20pictures/IMG_5313_oidukm.jpg"
-    },
-    {
-      "name": "Anannya Singh",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675713883/Makeathon%205%20website/MLSC%20Team%20pictures/IMG_5304_y2btmr.jpg"
     },
     {
       "name": "Meharamt Singh",
@@ -85,12 +85,17 @@
       "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675702588/Makeathon%205%20website/MLSC%20Team%20pictures/20220919_202223_-_PRAKRITI_GARG_isqjv0.jpg"
     },
     {
-      "name": "Aditi Sharma",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675710300/Makeathon%205%20website/MLSC%20Team%20pictures/Aditi_Sharma_jpeg_dqix0d.jpg"
-    },
-    {
       "name": "Vishist Bhagabati",
       "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675703178/Makeathon%205%20website/MLSC%20Team%20pictures/PXL_20230117_030611153_zuhanx.jpg"
+    },
+    {
+      "name": "Akshat Jaimini",
+      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675712248/Makeathon%205%20website/MLSC%20Team%20pictures/WhatsApp_Image_2023-01-06_at_23.28.47_xoxp6j.jpg"
+    },
+    {
+      "name": "Nimish Medatwal",
+      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675710497/Makeathon%205%20website/MLSC%20Team%20pictures/Screenshot_2022-09-14-00-50-50-57_965bbf4d18d205f782c6b8409c5773a4_-_Nimish_Medatwal_vb1kfa.jpg",
+      "black": true
     },
     {
       "name": "Utkarsh Tripathi",
@@ -113,15 +118,6 @@
       "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675702113/Makeathon%205%20website/MLSC%20Team%20pictures/Screenshot_20230205_012706_Gallery_-_Sukhmani_Arora_cqqjp8.jpg"
     },
     {
-      "name": "Akshat Jaimini",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675712248/Makeathon%205%20website/MLSC%20Team%20pictures/WhatsApp_Image_2023-01-06_at_23.28.47_xoxp6j.jpg"
-    },
-    {
-      "name": "Nimish Medatwal",
-      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675710497/Makeathon%205%20website/MLSC%20Team%20pictures/Screenshot_2022-09-14-00-50-50-57_965bbf4d18d205f782c6b8409c5773a4_-_Nimish_Medatwal_vb1kfa.jpg",
-      "black": true
-    },
-    {
       "name": "Yuvraj S. Chauhan",
       "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675693789/Makeathon%205%20website/MLSC%20Team%20pictures/PXL_20221004_083903886_2-01_-_Yuvraj_Singh_Chauhan_duliik.jpg"
     },
@@ -136,6 +132,10 @@
     {
       "name": "Aryaveer Gill",
       "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675710900/Makeathon%205%20website/MLSC%20Team%20pictures/IMG-20220415-WA0012_-_Aaryaveer_Gill_derjrd.jpg"
+    },
+    {
+      "name": "Aditi Sharma",
+      "img": "https://res.cloudinary.com/damjdcgak/image/upload/v1675710300/Makeathon%205%20website/MLSC%20Team%20pictures/Aditi_Sharma_jpeg_dqix0d.jpg"
     },
     {
       "name": "Samarth Paliwal",
