@@ -10,6 +10,7 @@ import background4 from "./assets/t4.png";
 import {
   Box,
   IconButton,
+  ListItem,
   Typography
 }
 from "@mui/material";
@@ -279,20 +280,31 @@ export const Tracks = () => {
         ) : (
           <FullBox>
             <Box>
-              <ul>
+              <Box
+                sx={{
+                  "@media (max-width: 800px)":{
+                    marginTop: "1.3rem"
+                  }
+                }}
+              >
                 {data[title].content.map((stuff)=>(
-                  <li
-                    style={{
-                      "margin": "3rem",
+                  <ListItem
+                    sx={{
+                      "margin": "2rem",
                       "color": "#fefefa",
                       fontFamily: headFont,
-                      fontSize: "1.2rem"
+                      fontSize: "1.2rem",
+                      "@media (max-width: 800px)":{
+                        fontSize: "0.7rem",
+                        margin: "0",
+                        marginBottom: "0.5rem"
+                      }
                     }}
                   >
                     {stuff}
-                  </li>
+                  </ListItem>
                 ))}
-              </ul>
+              </Box>
             </Box>
             <IconButton 
               aria-label="cross"
