@@ -1,64 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+*{
+    padding:0;
+    margin: 0;
+}
+
 .speakerspage{
-    background: linear-gradient(rgba(42,3,41,1),rgba(69,8,52,1));
+    /* background: url('https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'), linear-gradient(rgba(42,3,41,1),rgba(69,8,52,1)); */
+    background:linear-gradient(rgba(42,3,41,0.95),rgba(69,8,52,0.95)), url('https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
     min-height: 100vh;
     width: 100vw;
+    text-align: center;
+    margin: 0;
+    /* padding: 1px; */
+    animation: grad  4s infinite ;
 }
-.speakerspagewrapper{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+@keyframes grad{
+    0% {background:linear-gradient(rgba(42,3,41,0.95),rgba(69,8,52,0.95)), url('https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;}
+    100% {background:linear-gradient(rgba(42,3,41,1),rgba(69,8,52,1)), url('https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    }
 }
-.speakersheader{
-    font-size: 3.5rem;
+
+.pageheader{
     color: white;
+    font-size: 1.8rem;
+    font-family: 'Rubik', sans-serif;
+    padding: 15px 0;
     letter-spacing: 5px;
 }
-.speakercard{
-    height: 500px;
-    width: 400px;
-    background: linear-gradient(0.25turn,rgb(0, 0, 0,0.2),rgba(99, 99, 99, 0.2));
+.speakerswrapper{
+    height: 75vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.cardflex{
-    height: 100%;
-    /* display: flex; */
-    
-}
-.cardwrap{
-    height: 40%;
+.photoswrapper{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    z-index: 1;
-
-    /* transform: scale(1); */
-}
-.carddiv{
-    height: 300px;
-    text-align: center;
 }
 .speakerimg{
-    width: 200px;
+    width: 100%;
 }
-.hov{
-    /* padding: 10% 0; */
-    /* height: 100%; */
-    transition: all 0.5s;
-    text-align: center;
-}
-/* .hov:hover{
-    transform: scale(1.0);
-} */
-@media (max-width: 1125px) {
-    .cardwrap{
-        transform: scale(0.85);
-    }
-}
-@media (max-width: 950px) {
-    .cardwrap{
-        transform: scale(0.7);
-    }
+.spname{
+    color: white;
 }

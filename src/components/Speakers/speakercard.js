@@ -4,43 +4,24 @@ import Box from "@mui/material/Box";
 import styles from "./Styles/speakers.module.css";
 
 export default function Speakercard(props) {
-    const Widget = styled("div")(({ theme }) => ({
-        height: "100%",
-        width: "100%",
-        borderRadius: 16,
-        margin: "0 0",
-        zIndex: `${props.zvalue}`,
-        backgroundColor:
-            theme.palette.mode === "dark"
-                ? "rgba(255,207,156,1)"
-                : "rgba(255,207,156,1)",
-        backdropFilter: "blur(40px)",
-        color: "white",
-        
-    }));
     return (
         <Box sx={{
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          width: "225px", 
+          width: "275px", 
           height: "300px",
           opacity: `${props.opaque}`,
-          transform: `Translate(0,${props.value})`,
-          borderRadius: 16,
+          transform: `Translate(0,${props.displace})`,
+          borderRadius: 5,
           zIndex: `${props.zvalue}`,
-          transition: '0.2s all'
+          transition: '0.2s all',
+          margin:"0 5px",
+          background: "rgba(255,255,255,0)",
         }}>
-            
-                <Widget>
-                    <img
-                        className={styles.speakerimg}
-                        // src="https://i.pcmag.com/imagery/articles/040JHoVNgc1gh2e7sunj82k-1..v1569492349.png"
-                        src={props.source}
-                    />
-                    <h2>Linus Tech Tips</h2>
-                </Widget>
+            <img className={styles.speakerimg} src={props.pic}></img>
+            <h3 className={styles.spname}>{props.naam}</h3>
   
         </Box>
     );

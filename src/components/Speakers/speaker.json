@@ -1,0 +1,41 @@
+{
+    "speaker1" :
+    [
+        {
+            "name" : "speaker1",
+            "pic" : "https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png",
+            "displacement" : "-25%"
+        }
+    ],
+    "speaker2" :
+    [
+    {
+        "name" : "speaker2",
+        "pic" : "https://res.cloudinary.com/damjdcgak/image/upload/v1675797998/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.42.33_kb1xs7-removebg-preview_wtiskc.png",
+        "displacement" : "0"
+    }
+    ],
+    "speaker3" :[
+        {
+            "name" : "speaker3",
+            "pic" : "https://res.cloudinary.com/damjdcgak/image/upload/v1675794854/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.44.47_g9pcfz-removebg-preview_vpmhjn.png",
+            "displacement" : "50%"
+        }
+    ],
+    "speaker4" :[
+        {
+            "name" : "speaker4",
+            "pic" : "https://res.cloudinary.com/damjdcgak/image/upload/v1675797928/Makeathon%205%20website/Speakers/IMG_4351-removebg-preview_dhi8pg.png",
+            "displacement" : "0"
+        }
+    ],
+    "speaker5" :
+    [
+        {
+            "name" : "speaker5",
+            "pic" : "https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png",
+            "displacement" : "-25%"
+        }
+
+    ]
+}
