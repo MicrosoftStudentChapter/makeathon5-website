@@ -7,7 +7,10 @@ import { Faq } from "./pages/Faq";
 import { Loader } from "./components/Loader/Loader";
 import { useEffect, useState } from "react";
 import { Timeline } from "./pages/Timeline";
+import { Footer } from "./pages/Footer";
 import Speakers from "./components/Speakers/speakers.js";
+import { Tracks } from "./pages/Tracks";
+import Sponsors from "./pages/Sponsors";
 
 // import {black} from '@mui/material/colors';
 
@@ -29,6 +32,7 @@ function App() {
           <section id="landing">
             <Landing />
           </section>
+<<<<<<< HEAD
           <section id="timeline">
             {/* <div className="head"> */}
             {/*   Timeline */}
@@ -38,10 +42,23 @@ function App() {
           {/* <section id="speakers"> */}
           {/*   <Speakers /> */}
           {/* </section> */}
+=======
+          <section id="tracks">
+            <Tracks />
+          </section>
+>>>>>>> develop
           <section id="faq">
             <Faq />
           </section>
-          <ChuLo />
+          <section id="chulo">
+            <ChuLo />
+          </section>         
+          <section id="footer">
+            <Footer />
+          </section>
+          <section id="sponsors">
+             <Sponsors />
+          </section>
         </>
       )}
     </>

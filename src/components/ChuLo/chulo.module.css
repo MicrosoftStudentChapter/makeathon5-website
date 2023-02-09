@@ -3,6 +3,7 @@
   width: 100vw;
 
   background: linear-gradient(180deg, #450834 12.5%, #290329 72.92%);
+  padding-bottom: 2rem;
 }
 
 .withLove {
@@ -14,6 +15,7 @@
   line-height: 1rem;
   text-transform: uppercase;
   color: coral;
+  margin-bottom: 2rem;
 }
 
 .slider {
