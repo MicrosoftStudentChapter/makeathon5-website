@@ -217,7 +217,18 @@ export const Tracks = () => {
       }
     }
   })
-  const ProblemStatement = styled(Box)({
+  const ProblemStatement = styled(Typography)({
+    "margin": "2rem",
+    "color": "#fefefa",
+    fontFamily: headFont,
+    fontSize: "1.2rem",
+    wordWrap: "break-word",
+    marginRight:"2rem",
+    "@media (max-width: 800px)":{
+      fontSize: "0.7rem",
+      margin: "0",
+      marginBottom: "0.5rem"
+    }
   })
   const reset = () => {
     setTitle("TRACKS")
@@ -282,27 +293,23 @@ export const Tracks = () => {
             <Box>
               <Box
                 sx={{
+                  backgroundColor: "#ffffff22",
+                  backdropFilter: "blur(10px)",
+                  width: "90vw",
+                  marginTop: "3rem",
+                  borderRadius: "10px",
+                  padding: "2rem",
                   "@media (max-width: 800px)":{
+                    width: "80vw",
+                    height: "50vh",
                     marginTop: "1.3rem"
                   }
                 }}
               >
                 {data[title].content.map((stuff)=>(
-                  <ListItem
-                    sx={{
-                      "margin": "2rem",
-                      "color": "#fefefa",
-                      fontFamily: headFont,
-                      fontSize: "1.2rem",
-                      "@media (max-width: 800px)":{
-                        fontSize: "0.7rem",
-                        margin: "0",
-                        marginBottom: "0.5rem"
-                      }
-                    }}
-                  >
+                  <ProblemStatement>
                     {stuff}
-                  </ListItem>
+                  </ProblemStatement>
                 ))}
               </Box>
             </Box>
