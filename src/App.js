@@ -10,6 +10,7 @@ import { Footer } from "./pages/Footer";
 import Speakers from "./components/Speakers/speakers.js";
 import { Tracks } from "./pages/Tracks";
 import Sponsors from "./pages/Sponsors";
+import { Prizes } from "./pages/Prizes";
 
 // import {black} from '@mui/material/colors';
 
@@ -32,6 +33,9 @@ function App() {
           </section>
           <section id="tracks">
             <Tracks />
+          </section>
+          <section id="prizes">
+            <Prizes />
           </section>
           <section id="faq">
             <Faq />
