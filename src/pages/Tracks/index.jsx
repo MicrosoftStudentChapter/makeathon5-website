@@ -9,26 +9,48 @@ import background4 from "./assets/t4.png";
 // MUI components
 import {
   Box,
+  IconButton,
   Typography
 }
 from "@mui/material";
 import styled from "@emotion/styled";
+import CloseSharpIcon from '@mui/icons-material/CloseSharp';
 
 export const Tracks = () => {
   const font = "'Lexend Exa', sans-serif";
   const headFont = "'Titillium Web', sans-serif";
   const data = {
     "Health" : {
-      image: background1
+      image: background1,
+      content: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      ]
     },
     "Smart City" : {
-      image: background2
+      image: background2,
+      content: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      ]
     },
     "Open Innovation" : {
-      image: background3
+      image: background3,
+      content: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      ]
     },
     "Heritage" : {
-      image: background4
+      image: background4,
+      content: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      ]
     },
     "TRACKS" : {
       image : ""
@@ -63,7 +85,11 @@ export const Tracks = () => {
     },
     "&:hover":{
       width: "40vw",
-    }
+      "@media (max-width: 800px)":{
+        width: "100vw",
+        height: "40vh"
+      }
+    },
   });
   const Slide2 = styled(Box)({
     width: "25vw",
@@ -81,8 +107,12 @@ export const Tracks = () => {
       }
     },
     "&:hover":{
-      width: "40vw"
-    }
+      width: "40vw",
+      "@media (max-width: 800px)":{
+        width: "100vw",
+        height: "40vh"
+      }
+    },
   });
   const Slide3 = styled(Box)({
     width: "25vw",
@@ -94,14 +124,14 @@ export const Tracks = () => {
     "@media (max-width: 800px)" : {
       width: "100vw",
       height: "25vh",
-      "&:hover":{
+    },
+    "&:hover":{
+      width: "40vw",
+      "@media (max-width: 800px)":{
         width: "100vw",
         height: "40vh"
       }
     },
-    "&:hover":{
-      width: "40vw"
-    }
   });
   const Slide4 = styled(Box)({
     width: "25vw",
@@ -113,21 +143,21 @@ export const Tracks = () => {
     "@media (max-width: 800px)" : {
       width: "100vw",
       height: "25vh",
-      "&:hover":{
-        width: "100vw",
-        height: "25vh"
-      }
     },
     "&:hover":{
-      width: "40vw"
-    }
+      width: "40vw",
+      "@media (max-width: 800px)":{
+        width: "100vw",
+        height: "40vh"
+      }
+    },
   });
   const TitleBox = styled(Box)({
     position: "absolute",
     display: "flex",
     top: "2%",
     left: 44 - title.length + "%",
-    zIndex: 1,
+    zIndex: 2,
     "@media (max-width: 800px)":{
       left: title.length < 7 ? 25 - title.length + "%" : "7%",
       top: "0%"
@@ -150,7 +180,7 @@ export const Tracks = () => {
     },
     "@media (max-width: 800px)" : {
       fontSize: "3.5rem"
-    }
+    },
   });
   const TrackTitle = styled(Typography)({
     letterSpacing: "0.2",
@@ -172,6 +202,11 @@ export const Tracks = () => {
     height: "100vh",
     backgroundImage: `url(${data[title].image})`,
     animation: "fadeIn 0.5s ease-in 1",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    zIndex: "1",
+    alignItems: "center",
     "@keyframes fadeIn" : {
       "0%" : {
         opacity : "0.4"
@@ -183,11 +218,14 @@ export const Tracks = () => {
   })
   const ProblemStatement = styled(Box)({
   })
+  const reset = () => {
+    setTitle("TRACKS")
+    setShowSingleTrack(false)
+  }
   useEffect(()=>{
     document.querySelector("body").addEventListener("keydown", (e) =>{
       if(e.key == "Escape"){
-        setTitle("TRACKS")
-        setShowSingleTrack(false)
+        reset()
       }
     })
   },[])
@@ -240,6 +278,35 @@ export const Tracks = () => {
         </>
         ) : (
           <FullBox>
+            <Box>
+              <ul>
+                {data[title].content.map((stuff)=>(
+                  <li
+                    style={{
+                      "margin": "3rem",
+                      "color": "#fefefa",
+                      fontFamily: headFont,
+                      fontSize: "1.2rem"
+                    }}
+                  >
+                    {stuff}
+                  </li>
+                ))}
+              </ul>
+            </Box>
+            <IconButton 
+              aria-label="cross"
+              onClick = {reset}
+            >
+              <CloseSharpIcon
+                sx={{
+                  color: "#ffffee",
+                  width: "3rem",
+                  height: "3rem",
+                  marginTop: "2rem"
+                }}
+              />
+            </IconButton>
           </FullBox>
         )
       }
