@@ -7,7 +7,6 @@ import { Faq } from "./pages/Faq";
 import { Loader } from "./components/Loader/Loader";
 import { useEffect, useState } from "react";
 import { Footer } from "./pages/Footer";
-import { Timeline } from  "./pages/Timeline";
 import Speakers from "./components/Speakers/speakers.js";
 import Sponsors from "./pages/Sponsors";
 
@@ -29,9 +28,6 @@ function App() {
           <Navbar />
           <section id="landing">
             <Landing />
-          </section>
-          <section id="timeline">
-            <Timeline />
           </section>
           <section id="faq">
             <Faq />
