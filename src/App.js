@@ -32,7 +32,6 @@ function App() {
           <section id="landing">
             <Landing />
           </section>
-<<<<<<< HEAD
           <section id="timeline">
             {/* <div className="head"> */}
             {/*   Timeline */}
@@ -42,11 +41,9 @@ function App() {
           {/* <section id="speakers"> */}
           {/*   <Speakers /> */}
           {/* </section> */}
-=======
           <section id="tracks">
             <Tracks />
           </section>
->>>>>>> develop
           <section id="faq">
             <Faq />
           </section>
