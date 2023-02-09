@@ -7,6 +7,7 @@ import { Faq } from "./pages/Faq";
 import { Loader } from "./components/Loader/Loader";
 import { useEffect, useState } from "react";
 import { Footer } from "./pages/Footer";
+import { Timeline } from  "./pages/Timeline";
 import Speakers from "./components/Speakers/speakers.js";
 import Sponsors from "./pages/Sponsors";
 
@@ -29,27 +30,21 @@ function App() {
           <section id="landing">
             <Landing />
           </section>
-
+          <section id="timeline">
+            <Timeline />
+          </section>
           <section id="faq">
             <Faq />
           </section>
-<<<<<<< HEAD
-
           <section id="chulo">
             <ChuLo />
-          </section>
-         
+          </section>         
           <section id="footer">
             <Footer />
           </section>
-          
-=======
-          <ChuLo />
-
           <section id="sponsors">
              <Sponsors />
           </section>
->>>>>>> 1ad9f4a8d883cf1a4e2d9b420f99cb5187b1ddfe
         </>
       )}
     </>
