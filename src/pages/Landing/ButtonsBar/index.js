@@ -28,6 +28,7 @@ export const ButtonsBar = () => {
       ></div>
       <Button
         variant="contained"
+        disabled
         sx={{
           marginLeft: "2rem",
           width: "312px",
