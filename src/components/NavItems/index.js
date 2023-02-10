@@ -7,12 +7,12 @@ import{
 export const NavItems = () => {
   const items = {
     "HOME": "#home",
-    "ABOUT US" : "#about",
-    "TIMELINE" : "#timeline",
-    "TRACKS" : "#tracks",
-    "SPEAKERS": "#speakers",
-    "PRIZES" : "#prizes",
-    "SPONSORS": "#sponsors",
+    // "ABOUT US" : "#about",
+    // "TIMELINE" : "#timeline",
+    // "TRACKS" : "#tracks",
+    // "SPEAKERS": "#speakers",
+    // "PRIZES" : "#prizes",
+    // "SPONSORS": "#sponsors",
     "FAQs" : "#faqs"
   }
   const fontq = "'Lexend Exa', sans-serif";
