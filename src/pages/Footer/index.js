@@ -35,7 +35,7 @@ export const Footer = () => {
           </div>
 
           <div className={styles.bleh}>
-            <img className={styles.image} src={Phone}/> <text className={styles.side}>+91 8168565940</text>
+            <img className={styles.image} src={Phone}/> <text className={styles.side}>+91 8872331055</text>
           </div>
 
           <div className={styles.bleh}>
