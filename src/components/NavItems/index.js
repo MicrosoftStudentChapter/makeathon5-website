@@ -48,6 +48,7 @@ export const NavItems = () => {
                   color: "#ffffffaa",
                   fontWeight: "900",
                 }} 
+                
               />
             </ListItemButton>
           </ListItem>
