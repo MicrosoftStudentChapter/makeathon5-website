@@ -42,9 +42,9 @@ function App() {
           <section id="footer">
             <Footer />
           </section>
-          <section id="sponsors">
+          {/* <section id="sponsors">
              <Sponsors />
-          </section>
+          </section> */}
         </>
       )}
     </>

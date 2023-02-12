@@ -1,6 +1,6 @@
 .main{
     width: 100vw;
-    height: 120vh;
+    height: fit-content;
 
 
     background: linear-gradient(180deg, #450834 12.5%, #290329 72.92%);
