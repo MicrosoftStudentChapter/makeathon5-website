@@ -10,14 +10,13 @@ export default function Speakercard(props) {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          width: "275px", 
+          width: "300px", 
           height: "300px",
-          opacity: `${props.opaque}`,
+          opacity: `${props.see? 1 : 0}`,
           transform: `Translate(0,${props.displace})`,
           borderRadius: 5,
-          zIndex: `${props.zvalue}`,
           transition: '0.2s all',
-          margin:"0 5px",
+          margin:"0 0px",
           background: "rgba(255,255,255,0)",
         }}>
             <img className={styles.speakerimg} src={props.pic}></img>

@@ -1,37 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 *{
     padding:0;
     margin: 0;
 }
-
-.speakerspage{
-    /* background: url('https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'), linear-gradient(rgba(42,3,41,1),rgba(69,8,52,1)); */
-    background:linear-gradient(rgba(42,3,41,0.95),rgba(69,8,52,0.95)), url('https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    background-size: cover;
-    min-height: 100vh;
+body{
     width: 100vw;
+    min-height: 100vh;
+}
+.speakerspage{
+    display: flex;
+    flex-direction: column;
+    /* background: url('https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'), linear-gradient(rgba(42,3,41,1),rgba(69,8,52,1)); */
+    /* background:linear-gradient(rgba(42,3,41,0.8),rgba(69,8,52,0.8)), url('https://t4.ftcdn.net/jpg/05/62/27/55/360_F_562275522_7G0skWZnt115YRzIX2ZZF2WeppgbaBth.jpg'); */
+    background:linear-gradient(rgba(75, 2, 73, 0.4),rgba(75, 2, 73, 0.4)), url('https://res.cloudinary.com/damjdcgak/image/upload/v1676228463/Makeathon%205%20website/Backgrounds/Vishist_Bhagabati_dystopian_city_retrowave_a4a15f3e-739a-4815-b8a7-2347757ee295_rg3rfc.png');
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
     text-align: center;
     margin: 0;
     /* padding: 1px; */
     animation: grad  4s infinite ;
 }
-@keyframes grad{
+/* @keyframes grad{
     0% {background:linear-gradient(rgba(42,3,41,0.95),rgba(69,8,52,0.95)), url('https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;}
     100% {background:linear-gradient(rgba(42,3,41,1),rgba(69,8,52,1)), url('https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     }
+} */
+/* .bgoverlay{
+    display: flex;
+    width: 100%;
+    height: 100%;
+} */
+.bgoverlay{
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(255, 1, 247, 0.1);
+    backdrop-filter: blur(8px);
+    animation: 1s overlaymagic linear infinite alternate;
 }
-
+@keyframes overlaymagic{
+    0% {background: rgba(42,3,41,0.1);}
+    100% {background: rgba(42,3,41, 0.5);}
+}
 .pageheader{
     color: white;
     font-size: 1.8rem;
-    font-family: 'Rubik', sans-serif;
-    padding: 15px 0;
-    letter-spacing: 5px;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 40px 0 0 0;
+    letter-spacing: 10px;
 }
 .speakerswrapper{
-    height: 75vh ;
+    height: 100% ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,11 +62,22 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    height: 100%;
+    margin: 4% 0;
 }
 .speakerimg{
     width: 100%;
 }
 .spname{
     color: white;
+}
+.onepic{
+    width: 150%;
+    display: flex;
+}
+@media (max-width: 1200px) {
+    .speakerswrapper{
+        scale: 0.7;
+    }
 }
