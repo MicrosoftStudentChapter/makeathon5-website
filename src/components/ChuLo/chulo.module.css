@@ -1,18 +1,31 @@
-.wrapper{
-    height: 30vh;
-    width: 100vw;
+.wrapper {
+  height: 30vh;
+  width: 100vw;
 
-    
-
-    background: linear-gradient(180deg, #450834 12.5%, #290329 72.92%);
+  background: linear-gradient(720deg, #450834 12.5%, #290329 72.92%);
+  padding-bottom: 2rem;
 }
 
-.slider{
-    padding-top: 1rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    
-    mask-image: linear-gradient(to right,
+.withLove {
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 1.25rem;
+  font-family: "Lexend Exa", serif;
+  word-spacing: 0.5rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  color: coral;
+  margin-bottom: 2rem;
+}
+
+.slider {
+  padding-top: 1rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+
+  height: fit-content;
+  mask-image: linear-gradient(
+    to right,
     transparent,
     black,
     black,
@@ -20,14 +33,26 @@
     black,
     transparent
   );
-    /* backdrop-filter: blur(10px); */
+  /* backdrop-filter: blur(10px); */
 }
 
-.opacity{
-    display: block;
-    position: relative;
-    height: 2rem;
-    width:3rem;
+.opacity {
+  display: block;
+  position: relative;
+  height: 2rem;
+  width: 3rem;
 
-    background-color: white;
+  background-color: white;
+}
+
+@media screen and (max-width: 476px) {
+  .slider {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .withLove {
+    padding-bottom: 2.1rem;
+    font-size: 0.7rem;
+  }
 }
