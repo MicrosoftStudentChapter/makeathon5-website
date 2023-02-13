@@ -1,16 +1,15 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-
+import swipestyle from "./Styles/swipeelem.module.css"
 import "./Styles/swiper.css";
 
 // import required modules
-import { EffectCoverflow, Pagination } from "swiper";
+import { EffectCoverflow, Autoplay ,Pagination } from "swiper";
 
 function Swipeelement() {
     return (
@@ -27,36 +26,56 @@ function Swipeelement() {
           modifier: 1,
           slideShadows: true,
         }}
+        autoplay={true}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
+        navigation={true}
+        modules={[EffectCoverflow, Autoplay, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            <div className={swipestyle.slidediv}>
+
+            </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <div className={swipestyle.slidediv}>
+          
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <div className={swipestyle.slidediv}>
+          
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+        <div className={swipestyle.slidediv}>
+          
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+        <div className={swipestyle.slidediv}>
+          
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          <div className={swipestyle.slidediv}>
+          
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          <div className={swipestyle.slidediv}>
+          
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          <div className={swipestyle.slidediv}>
+          
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          <div className={swipestyle.slidediv}>
+          
+          </div>
         </SwiperSlide>
       </Swiper>
         </>
