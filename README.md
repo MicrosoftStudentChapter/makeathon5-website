@@ -1,6 +1,6 @@
 # Figma link for design 
 
-[Figma Link](figma.com/file/mNbvjKbaQNxXITz6r4voVk/Untitled?node-id=0%3A1&t=HUc01kbYtD62hvWs-0)
+[Figma Link](https://www.figma.com/file/mNbvjKbaQNxXITz6r4voVk/Untitled?node-id=0%3A1&t=HFN9WeKQbylSdx8y-1)
 
 # Getting Started with Create React App
 

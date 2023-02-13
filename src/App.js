@@ -1,38 +1,45 @@
-import Landing from './pages/Landing';
-import './index.css';
-import './App.css';
-import {Navbar} from './components/Navbar'
-import {LocomotiveScrollProvider} from 'react-locomotive-scroll';
-import { useRef } from 'react';
-import Speakers from './components/Speakers/speakers';
+import Landing from "./pages/Landing";
+import "./index.css";
+import "./App.css";
+import { Navbar } from "./components/Navbar";
+import { ChuLo } from "./components/ChuLo";
+import { Faq } from "./pages/Faq";
+import { Loader } from "./components/Loader/Loader";
+import { useEffect, useState } from "react";
+import  Speakers from './components/Speakers/Speakers';
+
 // import {black} from '@mui/material/colors';
 
 function App() {
-  const ref = useRef(null)
-  let options = {
-    smooth : true
-  }
+  const [loading, setLoading] = useState(true);
+
+  setTimeout(() => {
+    setLoading(false);
+  }, 5000);
+
   return (
-    // <LocomotiveScrollProvider
-    //   option={options}
-    //   containerRef={ref}
-    // >
-    //   <Navbar />
-    //   <main
-    //     data-scroll-conatiner
-    //     ref={ref}
-    //   >
-    //     <section 
-    //       id="landing" 
-    //       data-scroll
-    //       data-scroll-section
-    //     >
-    //       <Landing />
-    //     </section>
-        
-    //   </main>
-    // </LocomotiveScrollProvider>
-    <Speakers />
+
+    <>
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <Navbar />
+          <section id="landing">
+            <Landing />
+          </section>
+
+          <section id="faq">
+            <Faq />
+          </section>
+          <section id="speakers">
+            <Speakers/>
+          </section>
+          <ChuLo/>
+        </>
+      )}
+    </>
+
   );
 }
 

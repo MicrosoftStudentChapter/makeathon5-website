@@ -1,0 +1,16 @@
+/* .text{
+    display: flex;
+} */
+
+.wrapper{
+    padding-top: 1rem;
+}
+
+.text{
+    display: block;
+    font-family: 'Lexend Exa';
+
+    text-align: center;
+    font-size: 1rem;
+    color: coral;
+}
