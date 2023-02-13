@@ -10,7 +10,7 @@ export default function Speakercard(props) {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          width: "300px", 
+          width: "280px", 
           height: "300px",
           opacity: `${props.see? 1 : 0}`,
           transform: `Translate(0,${props.displace})`,

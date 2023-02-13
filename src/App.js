@@ -24,7 +24,7 @@ function App() {
         <Loader />
       ) : (
         <>
-          <Navbar />
+          {/* <Navbar />
           <section id="landing">
             <Landing />
           </section>
@@ -33,9 +33,10 @@ function App() {
             <Faq />
           </section>
           <section id="speakers">
-            <Speakers/>
+            
           </section>
-          <ChuLo/>
+          <ChuLo/> */}
+          <Speakers/>
         </>
       )}
     </>

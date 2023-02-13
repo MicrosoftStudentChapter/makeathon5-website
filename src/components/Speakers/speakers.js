@@ -6,6 +6,7 @@ import { display } from "@mui/system";
 import { useState } from "react";
 import data from "./speaker.json";
 import Speakerdesc from "./Speakerdesc";
+import Swipeelement from "./Swipeelement";
 
 function Speakers() {
     const [visible1, setVisible1] = useState(true);
@@ -368,10 +369,14 @@ function Speakers() {
     };
     
     return (
+        <>
         <div className={styles.speakerspage}>
             <div className={styles.bgoverlay}>
                 <div className={styles.pageheader}>
                     <h1>SPEAKERS</h1>
+                </div>
+                <div className={styles.respswipe}>
+                    <Swipeelement/> 
                 </div>
                 <div className={styles.speakerswrapper}>
                     <div className={styles.photoswrapper}>
@@ -476,6 +481,7 @@ function Speakers() {
                 </div>
             </div>
         </div>
+        </>
     );
 }
 

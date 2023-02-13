@@ -8,6 +8,9 @@ body{
     width: 100vw;
     min-height: 100vh;
 }
+.respswipe{
+    display: none;
+}
 .speakerspage{
     display: flex;
     flex-direction: column;
@@ -82,5 +85,13 @@ body{
     }
 }
 @media (max-width: 1000px) {
-    
+    .speakerswrapper{
+        display: none;
+    }
+    .respswipe{
+        min-height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
