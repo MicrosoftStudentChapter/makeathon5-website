@@ -76,8 +76,11 @@ body{
     width: 150%;
     display: flex;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .speakerswrapper{
         scale: 0.7;
     }
+}
+@media (max-width: 1000px) {
+    
 }

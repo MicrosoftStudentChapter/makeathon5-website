@@ -23,17 +23,32 @@ function Speakers() {
     const [card3, showcard3]=useState(false);
     const [card4, showcard4]=useState(false);
     const [card5, showcard5]=useState(false);
+    const [card7, showcard7]=useState(false);
+    const [card8, showcard8]=useState(false);
+    const [card9, showcard9]=useState(false);
+    const [card10, showcard10]=useState(false);
+    const [card11, showcard11]=useState(false);
     function shownone() {
         setVisible1(true);
         setVisible2(true);
         setVisible3(true);
         setVisible4(true);
         setVisible5(true);
+        setVisible7(true);
+        setVisible8(true);
+        setVisible9(true);
+        setVisible10(true);
+        setVisible11(true);
         showcard1(false);
         showcard2(false);
         showcard3(false);
         showcard4(false);
         showcard5(false);
+        showcard7(false);
+        showcard8(false);
+        showcard9(false);
+        showcard10(false);
+        showcard11(false);
     }
     function showone() {
         setVisible1(true);
@@ -41,11 +56,21 @@ function Speakers() {
         setVisible3(false);
         setVisible4(false);
         setVisible5(false);
+        setVisible7(false);
+        setVisible8(false);
+        setVisible9(false);
+        setVisible10(false);
+        setVisible11(false);
         showcard1(true);
         showcard2(false);
         showcard3(false);
         showcard4(false);
         showcard5(false);
+        showcard7(false);
+        showcard8(false);
+        showcard9(false);
+        showcard10(false);
+        showcard11(false);
     }
     function showtwo() {
         setVisible1(false);
@@ -53,11 +78,21 @@ function Speakers() {
         setVisible3(false);
         setVisible4(false);
         setVisible5(false);
+        setVisible7(false);
+        setVisible8(false);
+        setVisible9(false);
+        setVisible10(false);
+        setVisible11(false);
         showcard1(false);
         showcard2(true);
         showcard3(false);
         showcard4(false);
         showcard5(false);
+        showcard7(false);
+        showcard8(false);
+        showcard9(false);
+        showcard10(false);
+        showcard11(false);
     }
     function showthree() {
         setVisible1(false);
@@ -65,11 +100,21 @@ function Speakers() {
         setVisible3(true);
         setVisible4(false);
         setVisible5(false);
+        setVisible7(false);
+        setVisible8(false);
+        setVisible9(false);
+        setVisible10(false);
+        setVisible11(false);
         showcard1(false);
         showcard2(false);
         showcard3(true);
         showcard4(false);
         showcard5(false);
+        showcard7(false);
+        showcard8(false);
+        showcard9(false);
+        showcard10(false);
+        showcard11(false);
     }
     function showfour() {
         setVisible1(false);
@@ -77,11 +122,21 @@ function Speakers() {
         setVisible3(false);
         setVisible4(true);
         setVisible5(false);
+        setVisible7(false);
+        setVisible8(false);
+        setVisible9(false);
+        setVisible10(false);
+        setVisible11(false);
         showcard1(false);
         showcard2(false);
         showcard3(false);
         showcard4(true);
         showcard5(false);
+        showcard7(false);
+        showcard8(false);
+        showcard9(false);
+        showcard10(false);
+        showcard11(false);
     }
     function showfive() {
         setVisible1(false);
@@ -89,11 +144,131 @@ function Speakers() {
         setVisible3(false);
         setVisible4(false);
         setVisible5(true);
+        setVisible7(false);
+        setVisible8(false);
+        setVisible9(false);
+        setVisible10(false);
+        setVisible11(false);
         showcard1(false);
         showcard2(false);
         showcard3(false);
         showcard4(false);
         showcard5(true);
+        showcard7(false);
+        showcard8(false);
+        showcard9(false);
+        showcard10(false);
+        showcard11(false);
+    }
+    function showseven() {
+        setVisible1(false);
+        setVisible2(false);
+        setVisible3(false);
+        setVisible4(false);
+        setVisible5(false);
+        setVisible7(true);
+        setVisible8(false);
+        setVisible9(false);
+        setVisible10(false);
+        setVisible11(false);
+        showcard1(false);
+        showcard2(false);
+        showcard3(false);
+        showcard4(false);
+        showcard5(false);
+        showcard7(true);
+        showcard8(false);
+        showcard9(false);
+        showcard10(false);
+        showcard11(false);
+    }
+    function showeight() {
+        setVisible1(false);
+        setVisible2(false);
+        setVisible3(false);
+        setVisible4(false);
+        setVisible5(false);
+        setVisible7(false);
+        setVisible8(true);
+        setVisible9(false);
+        setVisible10(false);
+        setVisible11(false);
+        showcard1(false);
+        showcard2(false);
+        showcard3(false);
+        showcard4(false);
+        showcard5(false);
+        showcard7(false);
+        showcard8(true);
+        showcard9(false);
+        showcard10(false);
+        showcard11(false);
+    }
+    function shownine() {
+        setVisible1(false);
+        setVisible2(false);
+        setVisible3(false);
+        setVisible4(false);
+        setVisible5(false);
+        setVisible7(false);
+        setVisible8(false);
+        setVisible9(true);
+        setVisible10(false);
+        setVisible11(false);
+        showcard1(false);
+        showcard2(false);
+        showcard3(false);
+        showcard4(false);
+        showcard5(false);
+        showcard7(false);
+        showcard8(false);
+        showcard9(true);
+        showcard10(false);
+        showcard11(false);
+    }
+    function showten() {
+        setVisible1(false);
+        setVisible2(false);
+        setVisible3(false);
+        setVisible4(false);
+        setVisible5(false);
+        setVisible7(false);
+        setVisible8(false);
+        setVisible9(false);
+        setVisible10(true);
+        setVisible11(false);
+        showcard1(false);
+        showcard2(false);
+        showcard3(false);
+        showcard4(false);
+        showcard5(false);
+        showcard7(false);
+        showcard8(false);
+        showcard9(false);
+        showcard10(true);
+        showcard11(false);
+    }
+    function showeleven() {
+        setVisible1(false);
+        setVisible2(false);
+        setVisible3(false);
+        setVisible4(false);
+        setVisible5(false);
+        setVisible7(false);
+        setVisible8(false);
+        setVisible9(false);
+        setVisible10(false);
+        setVisible11(true);
+        showcard1(false);
+        showcard2(false);
+        showcard3(false);
+        showcard4(false);
+        showcard5(false);
+        showcard7(false);
+        showcard8(false);
+        showcard9(false);
+        showcard10(false);
+        showcard11(true);
     }
     const cardivstyle1 = {
         transform: "Translate(0,-50%)",
@@ -191,7 +366,7 @@ function Speakers() {
         // width: "100%",
         transition: "all 0.5s",
     };
-
+    
     return (
         <div className={styles.speakerspage}>
             <div className={styles.bgoverlay}>
@@ -249,41 +424,46 @@ function Speakers() {
                         </div> */}
                     </div>
                     <div className={styles.photoswrapper}>
-                        <div style={cardivstyle7}>
+                        <div onMouseOver={showseven} onMouseLeave={shownone} style={cardivstyle7}>
                             <SpeakerCard
                                 onMouseOver={showone}
                                 see={visible7}
                                 pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png"
                                 naam="Jason Derulo"
                             />
+                            <Speakerdesc see={card7} move="70%"/>
                         </div>
-                        <div style={cardivstyle8}>
+                        <div onMouseOver={showeight} onMouseLeave={shownone} style={cardivstyle8}>
                             <SpeakerCard
                                 see={visible8}
                                 pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675797998/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.42.33_kb1xs7-removebg-preview_wtiskc.png"
                                 naam="Network chuck"
                             />
+                            <Speakerdesc see={card8} move="70%"/>
                         </div>
-                        <div style={cardivstyle9}>
+                        <div onMouseOver={shownine} onMouseLeave={shownone} style={cardivstyle9}>
                             <SpeakerCard
                                 see={visible9}
                                 pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675794854/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.44.47_g9pcfz-removebg-preview_vpmhjn.png"
                                 naam="Dave Grohl"
                             />
+                            <Speakerdesc see={card9} move="70%"/>
                         </div>
-                        <div style={cardivstyle10}>
+                        <div onMouseOver={showten} onMouseLeave={shownone} style={cardivstyle10}>
                             <SpeakerCard
                                 see={visible10}
                                 pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675797928/Makeathon%205%20website/Speakers/IMG_4351-removebg-preview_dhi8pg.png"
                                 naam="komedian"
                             />
+                            <Speakerdesc see={card10} move="-100%"/>
                         </div>
-                        <div style={cardivstyle11}>
+                        <div onMouseOver={showeleven} onMouseLeave={shownone} style={cardivstyle11}>
                             <SpeakerCard
                                 see={visible11}
                                 pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png"
                                 naam="Jason Derulo"
                             />
+                            <Speakerdesc see={card11} move="-100%"/>
                         </div>
                         {/* <div style={cardivstyle12}>
                             <SpeakerCard
