@@ -4,6 +4,7 @@ import './App.css';
 import {Navbar} from './components/Navbar'
 import {LocomotiveScrollProvider} from 'react-locomotive-scroll';
 import { useRef } from 'react';
+import Speakers from './components/Speakers/speakers';
 // import {black} from '@mui/material/colors';
 
 function App() {
@@ -12,24 +13,26 @@ function App() {
     smooth : true
   }
   return (
-    <LocomotiveScrollProvider
-      option={options}
-      containerRef={ref}
-    >
-      <Navbar />
-      <main
-        data-scroll-conatiner
-        ref={ref}
-      >
-        <section 
-          id="landing" 
-          data-scroll
-          data-scroll-section
-        >
-          <Landing />
-        </section>
-      </main>
-    </LocomotiveScrollProvider>  
+    // <LocomotiveScrollProvider
+    //   option={options}
+    //   containerRef={ref}
+    // >
+    //   <Navbar />
+    //   <main
+    //     data-scroll-conatiner
+    //     ref={ref}
+    //   >
+    //     <section 
+    //       id="landing" 
+    //       data-scroll
+    //       data-scroll-section
+    //     >
+    //       <Landing />
+    //     </section>
+        
+    //   </main>
+    // </LocomotiveScrollProvider>
+    <Speakers />
   );
 }
 
