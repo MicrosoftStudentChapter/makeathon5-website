@@ -30,9 +30,9 @@ function App() {
           <section id="landing">
             <Landing />
           </section>
-          {/* <section id="tracks">
+          <section id="tracks">
             <Tracks />
-          </section> */}
+          </section> 
           <section id="faq">
             <Faq />
           </section>
