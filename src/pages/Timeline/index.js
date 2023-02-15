@@ -10,14 +10,14 @@ const data = {
   "content" : {
     "dystopia":[
       {
-        date: "19 Feb",
+        date: "19 Feb, 6:00 PM",
         position: "up",
-        content: "Offline Session by Shridhar Mankar on XYZ"
+        content: "ONLINE session by Shridhar Manker, the founder of Youtube channel 5 minute engineering"
       },
       {
         date: "20 Feb",
         position: "down",
-        content: "Workshop on XYZ XYZ ABC by Ajinkya Lohakre from Ditto Security"
+        content: "OFFLINE Cybersecurity session by Ajinkya Lohakare, CTO and founder of Ditto Security in LP101"
       },
       {
         date: "21 Feb",
@@ -27,7 +27,7 @@ const data = {
       {
         date: "22 Feb",
         position: "down",
-        content: "Session On Three.JS by Mr Pritish From Ikarus 3D"
+        content: "OFFLINE session on Three.Js by Pritish Sehzpaul, Head of Technology at Ikarus 3D in LP101"
       },
       {
         date: "23 Feb",
