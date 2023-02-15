@@ -20,10 +20,11 @@ export default function Question({ques, ans}) {
       // backdropFilter:'blur(10px)'
       }}>
         <AccordionSummary
+        
         className={styles.summary}
         onClick={() => {setSign(!sign)}}
         
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon sx={{color:'white'}}/>}
           aria-controls="panel1a-content"
           id="panel1a-header"
           

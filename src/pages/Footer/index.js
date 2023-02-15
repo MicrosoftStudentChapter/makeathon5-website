@@ -1,5 +1,9 @@
 import React from 'react'
 import styles from './footer.module.css';
+import King from './assets/King.png';
+import Mail from './assets/mail.png';
+import Location from './assets/location.png';
+import Phone from './assets/phone.png';
 // import Mail from './assets/mail.png'
 
 export const Footer = () => {
@@ -23,19 +27,19 @@ export const Footer = () => {
 
           <h2 className={styles.contact}>CONTACT US</h2>
           <div className={styles.bleh}>
-            <img src='./assets/mail.png'/> <text className={styles.side}>msc@thapar.edu</text>
+            <img className={styles.image} src={Mail}/> <text className={styles.side}>msc@thapar.edu</text>
           </div>
 
           <div className={styles.bleh}>
-            <img src='./assets/mail.png'/> <text className={styles.side}>TIET Patiala -147004</text>
+            <img className={styles.image} src={Location}/> <text className={styles.side}>TIET Patiala -147004</text>
           </div>
 
           <div className={styles.bleh}>
-            <img src='./assets/mail.png'/> <text className={styles.side}>+91 8168565940</text>
+            <img className={styles.image} src={Phone}/> <text className={styles.side}>+91 8872331055</text>
           </div>
 
           <div className={styles.bleh}>
-            <img src='./assets/mail.png'/> <text className={styles.side}>Adamay Mann</text>
+            <img className={styles.image} src={King}/> <text className={styles.side}>Adamay Mann</text>
           </div>
 
         </div>
