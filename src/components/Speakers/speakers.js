@@ -320,7 +320,7 @@ function Speakers() {
     };
 
     const cardivstyle7 = {
-        transform: "Translate(0,50%)",
+        transform: "Translate(0,0%)",
         margin: "0% 0 10% 0",
         zIndex: 2,
         display: "flex",
@@ -336,7 +336,7 @@ function Speakers() {
         transition: "all 0.5s",
     };
     const cardivstyle9 = {
-        transform: "Translate(0,0%)",
+        transform: "Translate(0,50%)",
         margin: "0% 0 10% 0",
         zIndex: 2,
         display: "flex",
@@ -352,7 +352,7 @@ function Speakers() {
         transition: "all 0.5s",
     };
     const cardivstyle11 = {
-        transform: "Translate(0,50%)",
+        transform: "Translate(0,0%)",
         margin: "0% 0 10% 0",
         zIndex: 2,
         display: "flex",

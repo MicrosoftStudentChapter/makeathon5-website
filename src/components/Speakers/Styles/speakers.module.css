@@ -38,7 +38,7 @@ body{
     height: 100%;
 } */
 .bgoverlay{
-    min-height: 100vh;
+    min-height: 180vh;
     width: 100%;
     background: rgba(255, 1, 247, 0.1);
     backdrop-filter: blur(8px);
@@ -56,7 +56,7 @@ body{
     letter-spacing: 10px;
 }
 .speakerswrapper{
-    height: 100% ;
+    min-height: 100% ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,7 +67,7 @@ body{
     align-items: center;
     justify-content: space-around;
     height: 100%;
-    margin: 4% 0;
+    margin: 3% 0 7% 0;
 }
 .speakerimg{
     width: 100%;
@@ -85,6 +85,12 @@ body{
     }
 }
 @media (max-width: 1000px) {
+    body{
+        min-height: 100vh;
+    }
+    .speakerspage{
+        min-height: 100vh;
+    }
     .speakerswrapper{
         display: none;
     }
@@ -94,4 +100,5 @@ body{
         justify-content: center;
         align-items: center;
     }
+
 }
