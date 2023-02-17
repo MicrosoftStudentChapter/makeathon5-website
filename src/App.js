@@ -6,6 +6,7 @@ import { ChuLo } from "./components/ChuLo";
 import { Faq } from "./pages/Faq";
 import { Loader } from "./components/Loader/Loader";
 import { useEffect, useState } from "react";
+import { Timeline } from "./pages/Timeline";
 import { Footer } from "./pages/Footer";
 import Speakers from "./components/Speakers/speakers.js";
 import { Tracks } from "./pages/Tracks";
@@ -20,6 +21,7 @@ function App() {
     setLoading(false);
   }, 5000);
 
+
   return (
     <>
       {loading ? (
@@ -30,6 +32,15 @@ function App() {
           <section id="landing">
             <Landing />
           </section>
+          <section id="timeline">
+            {/* <div className="head"> */}
+            {/*   Timeline */}
+            {/* </div> */}
+            <Timeline />
+          </section>
+          {/* <section id="speakers"> */}
+          {/*   <Speakers /> */}
+          {/* </section> */}
           <section id="tracks">
             <Tracks />
           </section> 
