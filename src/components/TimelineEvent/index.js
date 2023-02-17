@@ -26,8 +26,8 @@ export const TimelineEvent = ({position, content, date}) => {
           fontFamily: font,
           borderRadius: "10px",
           "@media (max-width: 800px)": {
-            left: "-21%",
-            top: position == "up" ? "22.75%" : "41.75%"
+            left: "-20%",
+            top: position == "up" ? "20.75%" : "55.75%"
           }
         }}
       >
@@ -52,7 +52,7 @@ export const TimelineEvent = ({position, content, date}) => {
           wordWrap:"break-word",
           backgroundColor: "transparent",
           "@media (max-width: 800px)" : {
-            height: "60vh"
+            height: "80vh"
           }
         }}
       >
