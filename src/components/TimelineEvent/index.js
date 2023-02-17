@@ -17,7 +17,7 @@ export const TimelineEvent = ({position, content, date}) => {
         color="inherit"
         sx={{
           posiiton: "fixed",
-          top: position == "up"  ? "22.75%" : "35.75%",
+          top: position == "up"  ? "20.75%" : "50.75%",
           // top: "25.75%",
           left: "32.3%",
           height: "5rem",
@@ -45,7 +45,7 @@ export const TimelineEvent = ({position, content, date}) => {
       <Box
         sx={{
           width: "inherit",
-          height: "50vh",
+          height: "70vh",
           display: "flex",
           flexDirection: "row",
           alignItems: position == "down" ? "flex-start" : "flex-end",

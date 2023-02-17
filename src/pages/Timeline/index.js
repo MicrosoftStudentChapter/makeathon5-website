@@ -10,34 +10,34 @@ const data = {
   "content" : {
     "dystopia":[
       {
+        date: "18 Feb, 6:00 PM",
+        position: "up",
+        content: "API-101 : Online session by Mr Ali Mustufa, Senior Developer Advocate at Postman"
+      },
+      {
         date: "19 Feb, 6:00 PM",
-        position: "up",
-        content: "ONLINE session by Shridhar Manker, the founder of Youtube channel 5 minute engineering"
-      },
-      {
-        date: "20 Feb",
         position: "down",
-        content: "OFFLINE Cybersecurity session by Ajinkya Lohakare, CTO and founder of Ditto Security in LP101"
+        content: "Data Science And Blockchain : Online session By Mr Shridhar Mankar, founder of the YouTube channel 5 Minutes Engineering"
       },
       {
-        date: "21 Feb",
+        date: "21 Feb, 6:00 PM",
         position: "up",
-        content: "Session from Postman"
+        content: "Workshop On Three.JS: Offline Workshop By Mr Pritish Shezpaul, CTO at Ikarus 3D"
       },
       {
-        date: "22 Feb",
+        date: "22 Feb, 6:00 PM",
         position: "down",
-        content: "OFFLINE session on Three.Js by Pritish Sehzpaul, Head of Technology at Ikarus 3D in LP101"
+        content: "Cyber Arms Race and Blockchain Future: Offline Session By Ajinkya Lohakare, CTO & Founder of Ditto Security"
       },
       {
-        date: "23 Feb",
+        date: "23 Feb, 11:00AM - 1:00PM",
         position: "up",
-        content: "Session from Three Way studio"
+        content: "WEB3 Simplified: Offline Session By Pranshul Saxena and Utkarsh Shrivastava, Co-Founders of Threeway Studio"
       },
       {
         date: "24 Feb",
         position: "down",
-        content: "Technical Talk by the Father of OpenSource RICHARD STALLMAN"
+        content: "Free Software and your Freedom: Online Session by Richard Stallman the Father of OpenSource"
       }, 
     ],
     "utopia" : [
