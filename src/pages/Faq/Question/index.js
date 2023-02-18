@@ -20,10 +20,11 @@ export default function Question({ques, ans}) {
       // backdropFilter:'blur(10px)'
       }}>
         <AccordionSummary
+        
         className={styles.summary}
         onClick={() => {setSign(!sign)}}
         
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon sx={{color:'white'}}/>}
           aria-controls="panel1a-content"
           id="panel1a-header"
           
@@ -31,7 +32,9 @@ export default function Question({ques, ans}) {
           <Typography sx={{fontFamily:'Lexend Exa',fontStyle:'normal',fontWeight:'700',fontSize:'0.9rem'}}>{sign ? "+"  : "-"} {ques}</Typography>
         </AccordionSummary>
         <AccordionDetails
-        
+        sx={{
+          color:"white"
+        }}
         >
           <Typography sx={{fontFamily:'Lexend Exa',fontStyle:'normal',fontSize:'0.8rem' ,Opacity:'0.5'}}>
             {ans}

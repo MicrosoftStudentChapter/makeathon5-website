@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap');
+
+.primary{
+  width: 30vw;
+  height:95vh;
+  display:flex;
+  flex-direction:column; 
+  justify-content:center;
+  align-content:center
+}
+
+.text{
+  width: inherit;
+  height: fit-content;
+  word-wrap: break-word;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 7px;
+  font-family: 'IBM Plex Mono', monospace;
+  /* word-spacing: 2px; */
+  color: #ffffff;
+}
+
+.text:hover{
+  color: #ffffff;
+  text-shadow: 2px 2px #ffffff5a;
+}
+
+@media (max-width: 800px) {
+  .text{
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+  }
+}
+
+/* .box{ */
+/*   width: inherit; */
+/*   height: 50vh; */
+/*   display: flex; */
+/*   flex-direction: row; */
+/*   color: black; */
+/*   word-wrap:break-word; */
+/*   background-color: white; */
+/* } */
+
+  

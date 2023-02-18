@@ -6,7 +6,11 @@ import { ChuLo } from "./components/ChuLo";
 import { Faq } from "./pages/Faq";
 import { Loader } from "./components/Loader/Loader";
 import { useEffect, useState } from "react";
-import  Speakers from './components/Speakers/Speakers';
+import { Timeline } from "./pages/Timeline";
+import { Footer } from "./pages/Footer";
+import Speakers from "./components/Speakers/speakers.js";
+import { Tracks } from "./pages/Tracks";
+import Sponsors from "./pages/Sponsors";
 
 // import {black} from '@mui/material/colors';
 
@@ -16,6 +20,7 @@ function App() {
   setTimeout(() => {
     setLoading(false);
   }, 5000);
+
 
   return (
 
@@ -28,15 +33,30 @@ function App() {
           <section id="landing">
             <Landing />
           </section>
-
+          <section id="timeline">
+            {/* <div className="head"> */}
+            {/*   Timeline */}
+            {/* </div> */}
+            <Timeline />
+          </section>
+          {/* <section id="speakers"> */}
+          {/*   <Speakers /> */}
+          {/* </section> */}
+          <section id="tracks">
+            <Tracks />
+          </section> 
           <section id="faq">
             <Faq />
           </section>
-          <section id="speakers">
-            
+          <section id="chulo">
+            <ChuLo />
+          </section>         
+          <section id="footer">
+            <Footer />
           </section>
-          <ChuLo/> */}
-          <Speakers/>
+          {/* <section id="sponsors">
+             <Sponsors />
+          </section> */}
         </>
       )}
     </>
