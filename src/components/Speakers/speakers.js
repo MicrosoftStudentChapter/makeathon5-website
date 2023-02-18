@@ -272,16 +272,16 @@ function Speakers() {
         showcard11(true);
     }
     const cardivstyle1 = {
-        transform: "Translate(0,-50%)",
-        margin: "10% 0 0% 0",
+        transform: "Translate(40%,15%)",
+        // margin: "10% 0 0% 0",
         zIndex: 2,
         display: "flex",
         // width: "100%",
         transition: "all 0.5s",
     };
     const cardivstyle2 = {
-        transform: "Translate(0,-25%)",
-        margin: "10% 0 0% 0",
+        transform: "Translate(-40%,15%)",
+        // margin: "10% 0 0% 0",
         zIndex: 2,
         display: "flex",
         // width: "100%",
@@ -289,30 +289,30 @@ function Speakers() {
     };
     const cardivstyle3 = {
         transform: "Translate(0,0%)",
-        margin: "10% 0 0% 0",
+        // margin: "10% 0 0% 0",
         zIndex: 2,
         display: "flex",
         // width: "100%",
         transition: "all 0.5s",
     };
     const cardivstyle4 = {
-        transform: "Translate(0,-25%)",
-        margin: "10% 0 0% 0",
+        transform: "Translate(0,0%)",
+        // margin: "10% 0 0% 0",
         zIndex: 2,
         display: "flex",
         // width: "100%",
         transition: "all 0.5s",
     };
     const cardivstyle5 = {
-        transform: "Translate(0,-50%)",
-        margin: "10% 0 0% 0",
+        transform: "Translate(0,0%)",
+        // margin: "10% 0 0% 0",
         zIndex: 2,
         display: "flex",
         // width: "100%",
         transition: "all 0.5s",
     };
     const cardivstyle6 = {
-        transform: "Translate(0,-0%)",
+        transform: "Translate(0,0%)",
         zIndex: 2,
         display: "flex",
         // width: "100%",
@@ -320,32 +320,32 @@ function Speakers() {
     };
 
     const cardivstyle7 = {
-        transform: "Translate(0,0%)",
-        margin: "0% 0 10% 0",
+        transform: "Translate(40%,-15%)",
+        // margin: "0% 0 10% 0",
         zIndex: 2,
         display: "flex",
         // width: "100%",
         transition: "all 0.5s",
     };
     const cardivstyle8 = {
-        transform: "Translate(0,25%)",
-        margin: "0% 0 10% 0",
+        transform: "Translate(-40%,-15%)",
+        // margin: "0% 0 10% 0",
         zIndex: 2,
         display: "flex",
         // width: "100%",
         transition: "all 0.5s",
     };
     const cardivstyle9 = {
-        transform: "Translate(0,50%)",
-        margin: "0% 0 10% 0",
+        transform: "Translate(0,0%)",
+        // margin: "0% 0 10% 0",
         zIndex: 2,
         display: "flex",
         // width: "100%",
         transition: "all 0.5s",
     };
     const cardivstyle10 = {
-        transform: "Translate(0,25%)",
-        margin: "0% 0 10% 0",
+        transform: "Translate(0,0%)",
+        // margin: "0% 0 10% 0",
         zIndex: 2,
         display: "flex",
         // width: "100%",
@@ -353,7 +353,7 @@ function Speakers() {
     };
     const cardivstyle11 = {
         transform: "Translate(0,0%)",
-        margin: "0% 0 10% 0",
+        // margin: "0% 0 10% 0",
         zIndex: 2,
         display: "flex",
         // width: "100%",
@@ -361,7 +361,7 @@ function Speakers() {
     };
     const cardivstyle12 = {
         transform: "Translate(0,0%)",
-        margin: "20 0 0 0",
+        // margin: "20 0 0 0",
         zIndex: 2,
         display: "flex",
         // width: "100%",
@@ -380,7 +380,7 @@ function Speakers() {
                 </div>
                 <div className={styles.speakerswrapper}>
                     <div className={styles.photoswrapper}>
-                        <div onMouseOver={showone} onMouseLeave={shownone} style={cardivstyle1}>
+                    <div onMouseOver={showone} onMouseLeave={shownone} style={cardivstyle1}>
                             <SpeakerCard
                                 see={visible1}
                                 pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png"
@@ -396,19 +396,22 @@ function Speakers() {
                             />
                             <Speakerdesc see={card2} move="70%"/>
                         </div>
+                    </div>
+                    <div className={styles.photoswrapper}>
                         <div onMouseOver={showthree} onMouseLeave={shownone} style={cardivstyle3}>
                             <SpeakerCard
                                 see={visible3}
-                                pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675794854/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.44.47_g9pcfz-removebg-preview_vpmhjn.png"
-                                naam="Dave Grohl"
+                                pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675797928/Makeathon%205%20website/Speakers/IMG_4351-removebg-preview_dhi8pg.png"
+                                naam="komedian"
                             />
                             <Speakerdesc see={card3} move="70%"/>
                         </div>
                         <div onMouseOver={showfour} onMouseLeave={shownone} style={cardivstyle4}>
                             <SpeakerCard
                                 see={visible4}
-                                pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675797928/Makeathon%205%20website/Speakers/IMG_4351-removebg-preview_dhi8pg.png"
-                                naam="komedian"
+                                stallman="true"
+                                pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675794854/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.44.47_g9pcfz-removebg-preview_vpmhjn.png"
+                                naam="Richard Stallman"
                             />
                             <Speakerdesc see={card4} move="-100%"/>
                         </div>
@@ -446,6 +449,7 @@ function Speakers() {
                             />
                             <Speakerdesc see={card8} move="70%"/>
                         </div>
+                        {/* 
                         <div onMouseOver={shownine} onMouseLeave={shownone} style={cardivstyle9}>
                             <SpeakerCard
                                 see={visible9}
@@ -469,7 +473,7 @@ function Speakers() {
                                 naam="Jason Derulo"
                             />
                             <Speakerdesc see={card11} move="-100%"/>
-                        </div>
+                        </div> */}
                         {/* <div style={cardivstyle12}>
                             <SpeakerCard
                                 see={visible5}

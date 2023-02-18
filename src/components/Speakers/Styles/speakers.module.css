@@ -18,6 +18,7 @@ body{
     /* background:linear-gradient(rgba(42,3,41,0.8),rgba(69,8,52,0.8)), url('https://t4.ftcdn.net/jpg/05/62/27/55/360_F_562275522_7G0skWZnt115YRzIX2ZZF2WeppgbaBth.jpg'); */
     background:linear-gradient(rgba(75, 2, 73, 0.4),rgba(75, 2, 73, 0.4)), url('https://res.cloudinary.com/damjdcgak/image/upload/v1676228463/Makeathon%205%20website/Backgrounds/Vishist_Bhagabati_dystopian_city_retrowave_a4a15f3e-739a-4815-b8a7-2347757ee295_rg3rfc.png');
     background-size: cover;
+    background-position: 0 15%;
     min-height: 100%;
     width: 100%;
     text-align: center;
@@ -38,7 +39,7 @@ body{
     height: 100%;
 } */
 .bgoverlay{
-    min-height: 180vh;
+    min-height: 100vh;
     width: 100%;
     background: rgba(255, 1, 247, 0.1);
     backdrop-filter: blur(8px);
@@ -52,7 +53,7 @@ body{
     color: white;
     font-size: 1.8rem;
     font-family: 'Fjalla One', sans-serif;
-    padding: 40px 0 0 0;
+    padding: 20px 0 0 0;
     letter-spacing: 10px;
 }
 .speakerswrapper{
@@ -67,13 +68,14 @@ body{
     align-items: center;
     justify-content: space-around;
     height: 100%;
-    margin: 3% 0 7% 0;
+    /* margin: 3% 0 7% 0; */
 }
 .speakerimg{
     width: 100%;
 }
 .spname{
     color: white;
+    font-size: 1.8rem;
 }
 .onepic{
     width: 150%;
@@ -81,15 +83,16 @@ body{
 }
 @media (max-width: 1300px) {
     .speakerswrapper{
-        scale: 0.7;
+        scale: 0.95;
     }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     body{
         min-height: 100vh;
     }
     .speakerspage{
-        min-height: 100vh;
+        height: 100vh;
+        background-position: center;
     }
     .speakerswrapper{
         display: none;
@@ -99,6 +102,9 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .spname{
+        font-size: 1.2rem;
     }
 
 }
