@@ -45,10 +45,19 @@ function Swipeelement() {
                     <div className={swipestyle.slidediv}>
                         <img
                             className={styles.speakerimg}
-                            src="https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png"
+                            src="https://res.cloudinary.com/damjdcgak/image/upload/v1676688246/Makeathon%205%20website/Speakers/Ali_Mustufa-Shaikh-removebg-preview_t0qq3g.png"
                         ></img>
                     </div>
-                        <h3 className={styles.spname}>Name</h3>
+                        <h3 className={styles.spname}>Ali Mustufa</h3>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className={swipestyle.slidediv}>
+                        <img
+                            className={styles.speakerimg}
+                            src="https://res.cloudinary.com/damjdcgak/image/upload/v1675797998/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.42.33_kb1xs7-removebg-preview_wtiskc.png"
+                        ></img>
+                    </div>
+                        <h3 className={styles.spname}>Shridhar Mankar</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={swipestyle.slidediv}>
@@ -57,13 +66,40 @@ function Swipeelement() {
                             src="https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png"
                         ></img>
                     </div>
-                        <h3 className={styles.spname}>Name</h3>
+                        <h3 className={styles.spname}>Pritish Sehzpaul</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className={swipestyle.slidediv}>
                         <img
                             className={styles.speakerimg}
-                            src="https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png"
+                            src="https://res.cloudinary.com/damjdcgak/image/upload/v1675797928/Makeathon%205%20website/Speakers/IMG_4351-removebg-preview_dhi8pg.png"
+                        ></img>
+                    </div>
+                        <h3 className={styles.spname}>Ajinkya lohakare</h3>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className={swipestyle.slidediv}>
+                        <img
+                            className={styles.speakerimg}
+                            src="https://res.cloudinary.com/damjdcgak/image/upload/v1676689462/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-17_at_1.43.01_AM__1_-removebg-preview_1_clo56j.png"
+                        ></img>
+                    </div>
+                        <h3 className={styles.spname}>Utkarsh Saxena</h3>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className={swipestyle.slidediv}>
+                        <img
+                            className={styles.speakerimg}
+                            src="https://res.cloudinary.com/damjdcgak/image/upload/v1676689823/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-17_at_1.43.01_AM-removebg-preview_wphim7.png"
+                        ></img>
+                    </div>
+                        <h3 className={styles.spname}>Prashul</h3>
+                </SwiperSlide>
+                {/* <SwiperSlide>
+                    <div className={swipestyle.slidediv}>
+                        <img
+                            className={styles.speakerimg}
+                            src="https://res.cloudinary.com/damjdcgak/image/upload/v1676689823/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-17_at_1.43.01_AM-removebg-preview_wphim7.png"
                         ></img>
                         <h3 className={styles.spname}>Name</h3>
                     </div>
@@ -76,43 +112,7 @@ function Swipeelement() {
                         ></img>
                         <h3 className={styles.spname}>Name</h3>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className={swipestyle.slidediv}>
-                        <img
-                            className={styles.speakerimg}
-                            src="https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png"
-                        ></img>
-                        <h3 className={styles.spname}>Name</h3>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className={swipestyle.slidediv}>
-                        <img
-                            className={styles.speakerimg}
-                            src="https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png"
-                        ></img>
-                        <h3 className={styles.spname}>Name</h3>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className={swipestyle.slidediv}>
-                        <img
-                            className={styles.speakerimg}
-                            src="https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png"
-                        ></img>
-                        <h3 className={styles.spname}>Name</h3>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className={swipestyle.slidediv}>
-                        <img
-                            className={styles.speakerimg}
-                            src="https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png"
-                        ></img>
-                        <h3 className={styles.spname}>Name</h3>
-                    </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
         </>
     );

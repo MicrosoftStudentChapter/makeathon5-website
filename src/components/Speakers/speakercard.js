@@ -11,7 +11,7 @@ export default function Speakercard(props) {
           justifyContent: "center",
           alignItems: "center",
           width: `${props?.stallman? "300px": "220px"}`, 
-          height: "250px",
+          height: "230px",
           opacity: `${props.see? 1 : 0}`,
           transform: `Translate(0,${props.displace})`,
           borderRadius: 5,

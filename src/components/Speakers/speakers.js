@@ -328,7 +328,7 @@ function Speakers() {
         transition: "all 0.5s",
     };
     const cardivstyle8 = {
-        transform: "Translate(-40%,-15%)",
+        transform: "Translate(-40%,-10%)",
         // margin: "0% 0 10% 0",
         zIndex: 2,
         display: "flex",
@@ -383,28 +383,28 @@ function Speakers() {
                     <div onMouseOver={showone} onMouseLeave={shownone} style={cardivstyle1}>
                             <SpeakerCard
                                 see={visible1}
-                                pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png"
-                                naam="Jason Derulo"
+                                pic="https://res.cloudinary.com/damjdcgak/image/upload/v1676688246/Makeathon%205%20website/Speakers/Ali_Mustufa-Shaikh-removebg-preview_t0qq3g.png"
+                                naam="Ali Mustafa"
                             />
-                            <Speakerdesc see={card1} move="70%"/>
+                            <Speakerdesc spk="speaker1" see={card1} move="70%"/>
                         </div>
                         <div onMouseOver={showtwo} onMouseLeave={shownone} style={cardivstyle2}>
                             <SpeakerCard
                                 see={visible2}
                                 pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675797998/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.42.33_kb1xs7-removebg-preview_wtiskc.png"
-                                naam="Network chuck"
+                                naam="Shridhar Mankar"
                             />
-                            <Speakerdesc see={card2} move="70%"/>
+                            <Speakerdesc spk="speaker2" see={card2} move="-110%"/>
                         </div>
                     </div>
                     <div className={styles.photoswrapper}>
                         <div onMouseOver={showthree} onMouseLeave={shownone} style={cardivstyle3}>
                             <SpeakerCard
                                 see={visible3}
-                                pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675797928/Makeathon%205%20website/Speakers/IMG_4351-removebg-preview_dhi8pg.png"
-                                naam="komedian"
+                                pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png"
+                                naam="Pritish Sehzpaul"  
                             />
-                            <Speakerdesc see={card3} move="70%"/>
+                            <Speakerdesc spk="speaker3" see={card3} move="70%"/>
                         </div>
                         <div onMouseOver={showfour} onMouseLeave={shownone} style={cardivstyle4}>
                             <SpeakerCard
@@ -413,15 +413,15 @@ function Speakers() {
                                 pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675794854/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.44.47_g9pcfz-removebg-preview_vpmhjn.png"
                                 naam="Richard Stallman"
                             />
-                            <Speakerdesc see={card4} move="-100%"/>
+                            <Speakerdesc spk="speaker4" see={card4} move="-100%"/>
                         </div>
                         <div onMouseOver={showfive} onMouseLeave={shownone} style={cardivstyle5}>
                             <SpeakerCard
                                 see={visible5}
-                                pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png"
-                                naam="Jason Derulo"
+                                pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675797928/Makeathon%205%20website/Speakers/IMG_4351-removebg-preview_dhi8pg.png"
+                                naam="ajinkya lohakare"
                             />
-                            <Speakerdesc see={card5} move="-100%"/>
+                            <Speakerdesc spk="speaker5" see={card5} move="-100%"/>
                         </div>
                         {/* <div style={cardivstyle6}>
                             <SpeakerCard
@@ -436,18 +436,18 @@ function Speakers() {
                             <SpeakerCard
                                 onMouseOver={showone}
                                 see={visible7}
-                                pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png"
-                                naam="Jason Derulo"
+                                pic="https://res.cloudinary.com/damjdcgak/image/upload/v1676689462/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-17_at_1.43.01_AM__1_-removebg-preview_1_clo56j.png"
+                                naam="Utkarsh Saxena"
                             />
-                            <Speakerdesc see={card7} move="70%"/>
+                            <Speakerdesc spk="speaker6" see={card7} move="70%"/>
                         </div>
                         <div onMouseOver={showeight} onMouseLeave={shownone} style={cardivstyle8}>
                             <SpeakerCard
                                 see={visible8}
-                                pic="https://res.cloudinary.com/damjdcgak/image/upload/v1675797998/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.42.33_kb1xs7-removebg-preview_wtiskc.png"
-                                naam="Network chuck"
+                                pic="https://res.cloudinary.com/damjdcgak/image/upload/v1676689823/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-17_at_1.43.01_AM-removebg-preview_wphim7.png"
+                                naam="Prashul"
                             />
-                            <Speakerdesc see={card8} move="70%"/>
+                            <Speakerdesc spk="speaker7" see={card8} move="-110%"/>
                         </div>
                         {/* 
                         <div onMouseOver={shownine} onMouseLeave={shownone} style={cardivstyle9}>

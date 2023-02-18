@@ -1,41 +1,38 @@
 {
     "speaker1" :
-    [
-        {
-            "name" : "speaker1",
-            "pic" : "https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png",
-            "displacement" : "-25%"
-        }
-    ],
-    "speaker2" :
-    [
     {
-        "name" : "speaker2",
-        "pic" : "https://res.cloudinary.com/damjdcgak/image/upload/v1675797998/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.42.33_kb1xs7-removebg-preview_wtiskc.png",
-        "displacement" : "0"
-    }
-    ],
-    "speaker3" :[
-        {
-            "name" : "speaker3",
-            "pic" : "https://res.cloudinary.com/damjdcgak/image/upload/v1675794854/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.44.47_g9pcfz-removebg-preview_vpmhjn.png",
-            "displacement" : "50%"
-        }
-    ],
-    "speaker4" :[
-        {
-            "name" : "speaker4",
-            "pic" : "https://res.cloudinary.com/damjdcgak/image/upload/v1675797928/Makeathon%205%20website/Speakers/IMG_4351-removebg-preview_dhi8pg.png",
-            "displacement" : "0"
-        }
-    ],
+        "date": "18th FEB",
+        "description" : "Postman"
+    },
+    "speaker2" :
+    {
+        "date": "19th FEB",
+        "description" : "5 minutes engineering"
+    },
+    "speaker3" :
+    {
+        "date": "21st FEB",
+        "description" : "more information soon"
+    },
+    "speaker4" :
+    {
+        "date": "24th FEB",
+        "description" : "more information soon"
+    },
     "speaker5" :
-    [
-        {
-            "name" : "speaker5",
-            "pic" : "https://res.cloudinary.com/damjdcgak/image/upload/v1675794811/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-07_at_23.43.42_fnbwok-removebg-preview_kneizb.png",
-            "displacement" : "-25%"
-        }
-
-    ]
+    {
+        "date": "22nd FEB",
+        "description" : "more information soon"
+    },
+    "speaker6" :
+    {
+        "date": "23rd FEB",
+        "description" : "more information soon"
+    },
+    "speaker7" :
+    {
+        "date": "23rd FEB",
+        "description" : "more information soon"
+    }
+    
 }

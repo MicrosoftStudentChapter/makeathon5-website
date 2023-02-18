@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 *{
     padding:0;
     margin: 0;
@@ -18,7 +19,7 @@ body{
     /* background:linear-gradient(rgba(42,3,41,0.8),rgba(69,8,52,0.8)), url('https://t4.ftcdn.net/jpg/05/62/27/55/360_F_562275522_7G0skWZnt115YRzIX2ZZF2WeppgbaBth.jpg'); */
     background:linear-gradient(rgba(75, 2, 73, 0.4),rgba(75, 2, 73, 0.4)), url('https://res.cloudinary.com/damjdcgak/image/upload/v1676228463/Makeathon%205%20website/Backgrounds/Vishist_Bhagabati_dystopian_city_retrowave_a4a15f3e-739a-4815-b8a7-2347757ee295_rg3rfc.png');
     background-size: cover;
-    background-position: 0 15%;
+    background-position: 0 20%;
     min-height: 100%;
     width: 100%;
     text-align: center;
@@ -53,7 +54,8 @@ body{
     color: white;
     font-size: 1.8rem;
     font-family: 'Fjalla One', sans-serif;
-    padding: 20px 0 0 0;
+    /* padding: 20px 0 0 0; */
+    margin: 6px 0 0 0;
     letter-spacing: 10px;
 }
 .speakerswrapper{
@@ -74,17 +76,15 @@ body{
     width: 100%;
 }
 .spname{
+    font-family: 'Roboto Mono', monospace;
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 .onepic{
     width: 150%;
     display: flex;
-}
-@media (max-width: 1300px) {
-    .speakerswrapper{
-        scale: 0.95;
-    }
 }
 @media (max-width: 1100px) {
     body{
