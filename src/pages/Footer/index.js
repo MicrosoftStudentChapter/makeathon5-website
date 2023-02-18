@@ -4,6 +4,12 @@ import King from './assets/King.png';
 import Mail from './assets/mail.png';
 import Location from './assets/location.png';
 import Phone from './assets/phone.png';
+
+import LD from './assets/linkedin.png'
+import Yt from './assets/yt.png'
+import Ig from './assets/insta.png'
+import Fb from './assets/fb.png'
+
 // import Mail from './assets/mail.png'
 
 export const Footer = () => {
@@ -20,6 +26,11 @@ export const Footer = () => {
             <div className={styles.text}>
                 <h2 className={styles.legacy}>Legacy of</h2>
                 <h2 className={styles.innovations}>INNOVATIONS</h2>
+
+                <img className={styles.imager} src={LD}/> 
+                <img className={styles.imager} src={Yt}/> 
+                <img className={styles.imager} src={Fb}/> 
+                <img className={styles.imager} src={Ig}/> 
             </div>
         </div>
 

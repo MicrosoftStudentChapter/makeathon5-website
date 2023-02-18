@@ -95,6 +95,11 @@
     color: #FFCF9C;
 }
 
+.imager{
+    size: 2rem;
+    padding-left: 1rem;
+}
+
 .image{
     aspect-ratio: 1;
     width: 1.4rem;
@@ -110,7 +115,7 @@
 .side{
     font-family: 'Raleway', sans-serif;
     color: #FFCF9C;
-    /* padding-left: 1rem; */
+    padding-left: 1rem;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
