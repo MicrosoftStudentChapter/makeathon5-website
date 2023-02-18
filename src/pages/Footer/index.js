@@ -26,11 +26,21 @@ export const Footer = () => {
             <div className={styles.text}>
                 <h2 className={styles.legacy}>Legacy of</h2>
                 <h2 className={styles.innovations}>INNOVATIONS</h2>
-
+                <div className={styles.socials}>
+                <a href='https://www.linkedin.com/company/microsoft-learn-student-chapter'>
                 <img className={styles.imager} src={LD}/> 
+                </a>
+                <a href='https://www.youtube.com/c/microsoftlearnstudentchaptertietpatiala'>
                 <img className={styles.imager} src={Yt}/> 
+                </a>
+                <a href='https://www.facebook.com/mlsctiet'>
                 <img className={styles.imager} src={Fb}/> 
+                </a>
+                <a href='https://www.instagram.com/mlsc_tiet/'>
                 <img className={styles.imager} src={Ig}/> 
+
+                </a>
+                </div>
             </div>
         </div>
 

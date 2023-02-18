@@ -72,6 +72,10 @@
     margin-left: 4rem;
 }
 
+.socials{
+    margin-top: 2rem;
+    margin-left: -1rem;
+}
 
 .right{
     display: flex;
@@ -155,7 +159,25 @@
     .bleh{
         padding-top: 1rem;
         padding-bottom: 1rem;
-        padding-left: 2.5rem;
+        /* padding-left: 2.5rem;
+         */
+         margin-left: 2rem;
+        }
+    .contact{
+        line-height: 1rem;
+        margin-left: 2rem;
+        letter-spacing: 0.01rem;
+        margin-bottom: 4rem;
+    }
+    .socials{
+        margin-left: -1rem;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+    .imager{
+        margin-left: -1rem;
+        size: 2rem;
+        padding-left: 2rem;
     }
     .side{
         color: #FFCF9C;
