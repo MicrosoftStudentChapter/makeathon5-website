@@ -23,12 +23,13 @@ function App() {
 
 
   return (
+
     <>
       {loading ? (
         <Loader />
       ) : (
         <>
-          <Navbar />
+          {/* <Navbar />
           <section id="landing">
             <Landing />
           </section>
@@ -59,6 +60,7 @@ function App() {
         </>
       )}
     </>
+
   );
 }
 
