@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from '@mui/material';
 import { Translate } from '@mui/icons-material';
+import styles from "./Styles/speakers.module.css";
 import data from "./speaker.json"
 console.log(data)
 function Speakerdesc(props) {
@@ -8,7 +9,7 @@ function Speakerdesc(props) {
         <Card
             sx={{
                 borderRadius: 2,
-                padding: "2px",
+                padding: "1px 10px",
                 position: "absolute",
                 display: `${props.see? "": "none"}`,
                 zIndex: 1,
@@ -20,9 +21,11 @@ function Speakerdesc(props) {
                 transition: "opacity 0.2s",
             }} 
         >  
-        <h1>{data[props.spk].date}</h1>
+        <div className={styles.descheader}>
+        <h1 >{data[props.spk].date}</h1>
         <p>{data[props.spk].description}</p>
-
+        </div>
+        <p>{data[props.spk].writeup}</p>
         </Card>
     )
 }

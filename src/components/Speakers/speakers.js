@@ -437,7 +437,7 @@ function Speakers() {
                                 onMouseOver={showone}
                                 see={visible7}
                                 pic="https://res.cloudinary.com/damjdcgak/image/upload/v1676689462/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-17_at_1.43.01_AM__1_-removebg-preview_1_clo56j.png"
-                                naam="Utkarsh Saxena"
+                                naam="Utkarsh Shrivastava"
                             />
                             <Speakerdesc spk="speaker6" see={card7} move="70%"/>
                         </div>
@@ -445,7 +445,7 @@ function Speakers() {
                             <SpeakerCard
                                 see={visible8}
                                 pic="https://res.cloudinary.com/damjdcgak/image/upload/v1676689823/Makeathon%205%20website/Speakers/WhatsApp_Image_2023-02-17_at_1.43.01_AM-removebg-preview_wphim7.png"
-                                naam="Prashul"
+                                naam="Prashul Saxena"
                             />
                             <Speakerdesc spk="speaker7" see={card8} move="-110%"/>
                         </div>
