@@ -317,7 +317,7 @@ export const Tracks = () => {
           </Slide4>
           <Slide5>
             <TrackTitle
-              onClick={() => {handleClick(Object.keys(data)[4])}}
+              // onClick={() => {handleClick(Object.keys(data)[4])}}
             >
               {Object.keys(data)[4]}
             </TrackTitle>
