@@ -25,6 +25,24 @@ export const ButtonsBar = () => {
         data-button-theme="light"
         style={{ height: "44px", width: "312px" }}
       ></div>
+      <a href="https://tally.so/r/3xVk7E">
+      <Button
+        variant="contained"
+        // disabled
+        sx={{
+          marginLeft: "2rem",
+          width: "312px",
+          height: "44px",
+          "@media (max-width: 800px)": {
+            marginTop: "1rem",
+            marginLeft: "0rem",
+          },
+        }}
+        color="secondary"
+      >
+        Offline Registration Form
+      </Button>
+      </a>
       <Button
         variant="contained"
         disabled
@@ -41,6 +59,7 @@ export const ButtonsBar = () => {
       >
         Download The Checkin App
       </Button>
+      
     </Box>
   );
 };
