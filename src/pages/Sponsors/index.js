@@ -1,5 +1,3 @@
-// import React, { useState } from "react";
-
 import styles from './sponsor.module.css';
 
 import Data from './data.json'
@@ -12,7 +10,6 @@ export default function Sponsors() {
     return (
 
         <>                    <center>
-
 
             <div className={styles.sponsors}>
                 <Container>
@@ -35,7 +32,7 @@ export default function Sponsors() {
                     </div>
 
                     <div className={styles.sponsors_section}>
-                        <span className={styles.subheading}>Power Sponsors</span><br><br></br></br>
+                        <span className={styles.subheading}>Power Sponsors</span>
 
                         <Grid container spacing={2} className={styles.grid_justify}>
                             {Data["data"]["power"].map((item) => (
@@ -80,7 +77,6 @@ export default function Sponsors() {
 
                 </Container>
             </div>
-        
         </center>
 
         </>
