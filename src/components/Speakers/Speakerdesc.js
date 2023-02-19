@@ -23,7 +23,7 @@ function Speakerdesc(props) {
         >  
         <div className={styles.descheader}>
         <h1 >{data[props.spk].date}</h1>
-        <p>{data[props.spk].description}</p>
+        <p className={styles.descsubhead}>{data[props.spk].description}</p>
         </div>
         <p>{data[props.spk].writeup}</p>
         </Card>
