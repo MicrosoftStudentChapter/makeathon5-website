@@ -34,9 +34,9 @@ function App() {
           <section id="landing">
             <Landing />
           </section>
-          <section id="about">
+          {/* <section id="about">
             <About />
-          </section>
+          </section> */}
           <section id="timeline">
             {/* <div className="head">
               Timeline
