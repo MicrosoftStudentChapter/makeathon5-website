@@ -29,19 +29,19 @@ function App() {
         <Loader />
       ) : (
         <>
-          {/* <Navbar />
+          <Navbar />
           <section id="landing">
             <Landing />
           </section>
           <section id="timeline">
-            {/* <div className="head"> */}
-            {/*   Timeline */}
-            {/* </div> */}
+            {/* <div className="head">
+              Timeline
+            </div> */}
             <Timeline />
           </section>
-          {/* <section id="speakers"> */}
-          {/*   <Speakers /> */}
-          {/* </section> */}
+          <section id="speakers">
+            <Speakers />
+          </section>
           <section id="tracks">
             <Tracks />
           </section> 
