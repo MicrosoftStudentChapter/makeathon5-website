@@ -46,7 +46,7 @@ body{
     background: rgba(255, 1, 247, 0.1);
     backdrop-filter: blur(8px);
     animation: 1s overlaymagic linear infinite alternate;
-    padding: 10px 0;
+    padding: 10px 0 30px 0;
 }
 @keyframes overlaymagic{
     0% {background: rgba(42,3,41,0.1);}

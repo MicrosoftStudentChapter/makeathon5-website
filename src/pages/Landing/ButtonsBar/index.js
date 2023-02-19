@@ -25,7 +25,7 @@ export const ButtonsBar = () => {
         data-button-theme="light"
         style={{ height: "44px", width: "312px" }}
       ></div>
-      <a href="https://tally.so/r/3xVk7E">
+      <a href="https://tally.so/r/3xVk7E" target="_blank" rel="noopener noreferrer">
       <Button
         variant="contained"
         // disabled
