@@ -51,7 +51,7 @@ export default function Sponsors() {
                         <span className={styles.subheading}>Associate Sponsors</span>
 
                         <Grid container spacing={2} className={styles.grid_justify}>
-                            {Data["data"]["associate"].slice(0, -2).map((item) => (
+                            {Data["data"]["associate"].map((item) => (
 
                                 <Grid item xs={12} lg={2} md={6} >
                                     <SponsorCard src={item.src} alt={item.name} />
@@ -61,7 +61,7 @@ export default function Sponsors() {
                             )
                             )}
 
-                            {Data["data"]["associate"].slice(-2).map((item) => (
+                            {/* {Data["data"]["associate"].slice(-2).map((item) => (
 
                                 <Grid item xs={12} lg={2} md={6} className={styles.grid_justify}>
                                     <SponsorCard src={item.src} alt={item.name} />
@@ -69,7 +69,7 @@ export default function Sponsors() {
                                 </Grid>
 
                             )
-                            )}
+                            )} */}
                         </Grid>
 
 
