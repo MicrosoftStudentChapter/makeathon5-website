@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .imageContainer{
+    height: 30vh;
+  }
+  
+  .flexMainContainer{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+  }
+  
+  .flexInnerContainer{
+  
+      display: flex;
+      flex-direction: column;
+      margin: 2rem;
+      margin-top: 0;
+  }
+  
+  circleRight,
+  circleLeft {
+    color: white;
+    /* border: 1px solid red; */
+    background-color: #440e3f;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow : 0 5px 10px rgba(0,0,0,0.5);
+  }
+  
+  aboutCircle {
+    color: white;
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: #440e3f;
+    margin: 0 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow : 0 5px 10px rgba(0,0,0,0.5);
+  }
+  
+  .aboutHeading{
+    font-size: 4rem;
+    font-weight: 500;
+  }
+  
+  .aboutText{
+    padding: 2rem;
+    text-align: justify;
+    margin: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .inner{
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  circleLeft {
+    margin: 0 0 0 10rem;
+    background-color: #082c45;
+  }
+  
+  /* media queries */
+  @media screen and (min-width: 2560px) {
+    aboutCircle{
+      width: 700px;
+      height: 700px;
+    }
+    .aboutHeading{
+      font-size: 5rem;
+    }
+    .aboutText{
+      font-size: 1.75rem;
+      padding: 3rem;
+    }
+    circleRight,
+    circleLeft{
+      height: 210px;
+      width: 210px;
+    }
+    .inner{
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 2560px) {
+    aboutCircle{
+      width: 700px;
+      height: 700px;
+    }
+    .aboutHeading{
+      font-size: 5rem;
+    }
+    .aboutText{
+      font-size: 1.75rem;
+      padding: 3rem;
+    }
+    circleRight,
+    circleLeft{
+      height: 210px;
+      width: 210px;
+    }
+    .inner{
+      font-size: 2.5rem;
+    }
+  }
+  
+  
+  @media screen and  (max-width: 2000px){
+    aboutCircle{
+      width: 600px;
+      height: 600px;
+    }
+    .aboutHeading{
+      font-size: 4rem;
+    }
+    .aboutText{
+      font-size: 1.5rem;
+      padding: 3rem;
+    }
+    circleRight,
+    circleLeft{
+      height: 180px;
+      width: 180px;
+    }
+    .inner{
+      font-size: 2.25rem;
+    }
+  }
+  
+  @media screen and  (max-width: 1440px){
+    .imageContainer{
+      height: 25vh;
+    }
+    aboutCircle{
+      width: 520px;
+      height: 520px;
+    }
+    .aboutHeading{
+      font-size: 3rem;
+    }
+    .aboutText{
+      font-size: 1.25rem;
+      padding: 3rem;
+    }
+    circleRight,
+    circleLeft{
+      height: 150px;
+      width: 150px;
+    }
+    .inner{
+      font-size: 1.75rem;
+    }
+  }
+  
+  @media screen and  (max-width: 1170px){
+    .imageContainer{
+      height: 22.5vh;
+    }
+    aboutCircle{
+      width: 400px;
+      height: 400px;
+    }
+    .aboutHeading{
+      font-size: 2.25rem;
+    }
+    .aboutText{
+      font-size: 1rem;
+      padding: 1rem;
+    }
+    circleRight,
+    circleLeft{
+      height: 100px;
+      width: 100px;
+    }
+    .inner{
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media screen and  (max-width: 1000px){
+    .imageContainer{
+      height: 21vh;
+    }
+    aboutCircle{
+      width: 350px;
+      height: 350px;
+    }
+    .aboutHeading{
+      font-size: 2.15rem;
+    }
+    .aboutText{
+      font-size: 0.9rem;
+      padding: 0;
+    }
+    circleRight,
+    circleLeft{
+      height: 100px;
+      width: 100px;
+    }
+    .inner{
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media screen and  (max-width: 950px){
+    .imageContainer{
+      height: 18vh;
+    }
+    .flexMainContainer{
+      flex-direction: column;
+      align-items: center;
+    }
+    .flexInnerContainer{
+      margin-top: 2rem;
+      flex-direction: row;
+      gap:20vw;
+    }
+    aboutCircle{
+      width: 300px;
+      height: 300px;
+    }
+    .aboutHeading{
+      font-size: 1.75rem;
+    }
+    .aboutText{
+      font-size: 0.75rem;
+  
+      margin-top: 0.75rem;
+    }
+    circleRight,
+    circleLeft{
+      height: 80px;
+      width: 80px;
+      margin: 0;
+    }
+    .inner{
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and  (max-width: 800px){
+    .imageContainer{
+      height: 15vh;
+    }
+  }
+  
+  @media screen and  (max-width: 700px){
+    .imageContainer{
+      height: 13.5vh;
+    }
+  }
+  
+  @media screen and  (max-width: 600px){
+    .imageContainer{
+      height: 12vh;
+    }
+  }
+  
+  @media screen and  (max-width: 500px){
+    .imageContainer{
+      height: 10vh;
+    }
+    aboutCircle{
+      width: 250px;
+      height: 250px;
+    }
+    .flexInnerContainer{
+      gap:10vw;
+    }
+    .aboutHeading{
+      font-size: 1.5rem;
+    }
+    .aboutText{
+      font-size: 0.6rem;
+  
+      margin-top: 0.5rem;
+    }
+    circleRight,
+    circleLeft{
+      height: 60px;
+      width: 60px;
+      margin: 0;
+    }
+    .inner{
+      font-size: 0.75rem;
+    }
+  }
+  
+  @media screen and  (max-width: 400px){
+    .imageContainer{
+      height: 8vh;
+    }
+  }
