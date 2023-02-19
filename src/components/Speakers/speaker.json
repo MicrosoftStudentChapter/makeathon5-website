@@ -2,7 +2,7 @@
     "speaker1" :
     {
         "date": "18th FEB",
-        "description" : "Postman API",
+        "description" : "Senior Development Advocate Postman",
         "writeup": "Ali Mustufa is the Senior Developer Advocate at Postman. Postman is an API(application programming interface) development tool that helps build, test and modify APIs. Awarded the IEEE MGA Larry K. Wilson Regional Student Volunteer Award, Ali Mustafa has helped many students to achieve the most of their potential."
     },
     "speaker2" :
@@ -14,13 +14,13 @@
     "speaker3" :
     {
         "date": "21st FEB",
-        "description" : "3-Js Session",
+        "description" : "Head of Technology Ikarus 3D",
         "writeup": "Pritish Sehzpaul is the Head of Technology at Ikarus 3D. He is a software engineer by profession and has experience creating a cloud-enabled system for the device from scratch to enable the handling of time-intensive tasks like text extraction at the cloud server. He is skilled in designing and developing the cloud-enabled system, resource optimisation and performance improvement."
     },
     "speaker4" :
     {
         "date": "24th FEB",
-        "description" : "RMS",
+        "description" : "Founder of free software foundations",
         "writeup": "Richard Stallman is an American free software movement activist and programmer. He campaigns for software to be distributed in such a manner that its users have the freedom to use, study, distribute, and modify that software. Stallman popularised the Copyleft, a legal mechanism to protect the modification and redistribution rights for free software."
     },
     "speaker5" :
