@@ -37,6 +37,8 @@ export const ButtonsBar = () => {
             marginTop: "1rem",
             marginLeft: "0rem",
           },
+          textDecoration:"none",
+          
         }}
         color="secondary"
       >
