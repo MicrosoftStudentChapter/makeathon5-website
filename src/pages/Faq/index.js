@@ -17,7 +17,7 @@ export const Faq = () => {
 
             {Data["data1"].map((item) => (
               <div className={styles.card}>
-                <Question ques={item.question} ans={item.answer}  />
+                <Question ques={item.question} ans={item.answer} exp={item.open}  />
                 <br></br>
               </div>
             )
@@ -26,7 +26,7 @@ export const Faq = () => {
           <div className={styles.box2}>
             {Data["data2"].map((item) => (
               <div>
-                <Question ques={item.question} ans={item.answer} />
+                <Question ques={item.question} ans={item.answer}  exp={item.open}/>
                 <br></br>
               </div>
             )

@@ -3,7 +3,7 @@
         {
             "question": "What is MAKEATHON?",
             "answer": "MAKEATHON is one of the most premiere Hackathons in India, where 1,500+ students of different skill levels come together from around India to experiment and create unique software or hardware projects from scratch. This 24 hour hackathon is filled with development, mentoring, fun and a night worth remembering.",
-            "open": false
+            "open": true
         },
         {
             "question": "Can beginners participate in MAKEATHON?",
@@ -35,7 +35,7 @@
         {
             "question":"What is the mode of hack?",
             "answer": "MAKEATHON will be a hybrid event i.e it will be conducted both offline and online virtually.",
-            "open": false
+            "open": true
         },
         
     {
