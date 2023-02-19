@@ -4,7 +4,7 @@ import styles from './styles/about.module.css'
 import backg from './assets/header.png'
 import { margin, padding, width } from '@mui/system'
 
-const About = () => {
+export const About = () => {
   const data = {
     "bgImage" : {
       image: backg,
@@ -51,4 +51,3 @@ const About = () => {
   )
 }
 
-export default About
