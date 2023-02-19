@@ -6,9 +6,9 @@ export default function SponsorCard({ src, alt = "" }) {
     return (
         <>
             <motion.div
-                whileHover={{ scale: 1.2 ,  }}
-                whileTap={{ scale: 0.9 }}
-                style={{ transition: easeInOut }} 
+                // whileHover={{ scale: 1.2 ,  }}
+                // whileTap={{ scale: 0.9 }}
+                // style={{ transition: easeInOut }} 
                 viewport={{ once: true }}
 
                 className={styles.cardhoverbox}

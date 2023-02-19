@@ -13,6 +13,7 @@ export default function Sponsors() {
 
         <>                    <center>
 
+
             <div className={styles.sponsors}>
                 <Container>
                     <span className={styles.heading}>Our Partners</span>
@@ -23,7 +24,7 @@ export default function Sponsors() {
                         <Grid container spacing={2} className={styles.grid_justify}>
                             {Data["data"]["title"].map((item) => (
 
-                                <Grid item xs={12} lg={3} md={6} >
+                                <Grid item xs={12} lg={5} md={6} >
                                     <SponsorCard src={item.src} alt={item.name} />
                                 </Grid>
 
@@ -34,10 +35,10 @@ export default function Sponsors() {
                     </div>
 
                     <div className={styles.sponsors_section}>
-                        <span className={styles.subheading}>Power Sponsors</span>
+                        <span className={styles.subheading}>Power Sponsors</span><br><br></br></br>
 
                         <Grid container spacing={2} className={styles.grid_justify}>
-                            {Data["data"]["associate"].map((item) => (
+                            {Data["data"]["power"].map((item) => (
 
                                 <Grid item xs={12} lg={3} md={6} >
                                     <SponsorCard src={item.src} alt={item.name} />
@@ -53,7 +54,7 @@ export default function Sponsors() {
                         <span className={styles.subheading}>Associate Sponsors</span>
 
                         <Grid container spacing={2} className={styles.grid_justify}>
-                            {Data["data"]["power"].slice(0, -2).map((item) => (
+                            {Data["data"]["associate"].slice(0, -2).map((item) => (
 
                                 <Grid item xs={12} lg={2} md={6} >
                                     <SponsorCard src={item.src} alt={item.name} />
@@ -63,9 +64,9 @@ export default function Sponsors() {
                             )
                             )}
 
-                            {Data["data"]["power"].slice(-2).map((item) => (
+                            {Data["data"]["associate"].slice(-2).map((item) => (
 
-                                <Grid item xs={12} lg={4} md={4} className={styles.grid_justify}>
+                                <Grid item xs={12} lg={2} md={4} className={styles.grid_justify}>
                                     <SponsorCard src={item.src} alt={item.name} />
 
                                 </Grid>
@@ -79,6 +80,7 @@ export default function Sponsors() {
 
                 </Container>
             </div>
+        
         </center>
 
         </>
