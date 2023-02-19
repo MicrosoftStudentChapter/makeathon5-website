@@ -18,7 +18,7 @@ export default function Sponsors() {
                     <span className={styles.heading}>Our Partners</span>
 
                     <div className={styles.titleSponsors}>
-                        <span className={styles.subheading}>Title Sponsors</span>
+                        <span className={styles.subheading}>Title555 Sponsors</span>
 
                         <Grid container spacing={2} className={styles.grid_justify}>
                             {Data["data"]["title"].map((item) => (

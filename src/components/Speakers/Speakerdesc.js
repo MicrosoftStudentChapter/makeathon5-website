@@ -1,25 +1,31 @@
 import React from 'react'
 import { Card } from '@mui/material';
 import { Translate } from '@mui/icons-material';
-
-
+import styles from "./Styles/speakers.module.css";
+import data from "./speaker.json"
+console.log(data)
 function Speakerdesc(props) {
     return (
         <Card
             sx={{
                 borderRadius: 2,
+                padding: "1px 10px",
                 position: "absolute",
-                display: `${props.present}`,
+                display: `${props.see? "": "none"}`,
                 zIndex: 1,
-                opacity: `${props.see}`, 
+                opacity: `${props.see?1:0}`, 
                 background: "rgba(255,207,156,1)",
-                height: "300px",
+                height: "260px",
                 width: "400px",
-                transform: `Translate(${props.move}, 0)`,
-                transition: "opacity 0.3s",
+                transform: `Translate(${props.move}, -10%)`,
+                transition: "opacity 0.2s",
             }} 
         >  
-        <h1>hi kids</h1>
+        <div className={styles.descheader}>
+        <h1 >{data[props.spk].date}</h1>
+        <p>{data[props.spk].description}</p>
+        </div>
+        <p>{data[props.spk].writeup}</p>
         </Card>
     )
 }

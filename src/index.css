@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap');
 html {
   box-sizing: border-box;
 }
@@ -7,8 +8,11 @@ html, body, #root {
   margin: 0px !important;;
   height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  overflow: -moz-scrollbars-none;
 }
+
+body::-webkit-scrollbar{width: 0 !important; height: 0 !important;}
 
 body {
   margin: 0;
@@ -22,4 +26,22 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.head{
+  font-size: 5rem;
+  background-color: #290834;
+  /* font-family: 'Lexend Exa', sans-serif; */
+  display: flex;
+  font-weight: semi-bold;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 3rem;
+}
+
+@media (min-width:800px){
+  .head{
+    font-size: "3rem";
+  }
 }

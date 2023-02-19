@@ -1,7 +1,7 @@
 .main{
     width: 100vw;
     height: fit-content;
-
+    padding-top: 1.5rem;
 
     background: linear-gradient(180deg, #450834 12.5%, #290329 72.92%);
     /* border: 1px solid #000000; */
