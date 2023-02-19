@@ -63,7 +63,7 @@ export default function Sponsors() {
 
                             {Data["data"]["associate"].slice(-2).map((item) => (
 
-                                <Grid item xs={12} lg={2} md={4} className={styles.grid_justify}>
+                                <Grid item xs={12} lg={2} md={6} className={styles.grid_justify}>
                                     <SponsorCard src={item.src} alt={item.name} />
 
                                 </Grid>
