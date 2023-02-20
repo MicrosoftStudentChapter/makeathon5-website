@@ -6,6 +6,7 @@ import background1 from "./assets/t1.png";
 import background2 from "./assets/t2.png";
 import background3 from "./assets/t3.png";
 import background4 from "./assets/t4.png";
+import background5 from "./assets/t5.png";
 // MUI components
 import {
   Box,
@@ -21,7 +22,7 @@ export const Tracks = () => {
   const font = "'Lexend Exa', sans-serif";
   const headFont = "'Titillium Web', sans-serif";
   const data = {
-    "Health" : {
+    "HealthCare" : {
       image: background1,
       content: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -53,6 +54,14 @@ export const Tracks = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       ]
     },
+    "Sponsor Tracks" : {
+      image: background5,
+      content: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      ]
+    },
     "TRACKS" : {
       image : ""
     }
@@ -70,7 +79,7 @@ export const Tracks = () => {
     }
   });
   const Slide1 = styled(Box)({
-    width: "25vw",
+    width: "20vw",
     position: "relative",
     height: "100vh",
     diplay:"flex",
@@ -78,7 +87,7 @@ export const Tracks = () => {
     transition: "0.8s",
     "@media (max-width: 800px)" : {
       width: "100vw",
-      height: "25vh",
+      height: "20vh",
       "&:hover":{
         width: "100vw",
         height: "40vh"
@@ -93,7 +102,7 @@ export const Tracks = () => {
     },
   });
   const Slide2 = styled(Box)({
-    width: "25vw",
+    width: "20vw",
     position: "relative",
     height: "100vh",
     diplay:"flex",
@@ -101,7 +110,7 @@ export const Tracks = () => {
     transition: "0.8s",
     "@media (max-width: 800px)" : {
       width: "100vw",
-      height: "25vh",
+      height: "20vh",
       "&:hover":{
         width: "100vw",
         height: "40vh"
@@ -116,7 +125,7 @@ export const Tracks = () => {
     },
   });
   const Slide3 = styled(Box)({
-    width: "25vw",
+    width: "20vw",
     position: "relative",
     height: "100vh",
     diplay:"flex",
@@ -124,7 +133,7 @@ export const Tracks = () => {
     transition: "0.8s",
     "@media (max-width: 800px)" : {
       width: "100vw",
-      height: "25vh",
+      height: "20vh",
     },
     "&:hover":{
       width: "40vw",
@@ -135,7 +144,7 @@ export const Tracks = () => {
     },
   });
   const Slide4 = styled(Box)({
-    width: "25vw",
+    width: "20vw",
     position: "relative",
     height: "100vh",
     diplay:"flex",
@@ -143,7 +152,26 @@ export const Tracks = () => {
     transition: "0.8s",
     "@media (max-width: 800px)" : {
       width: "100vw",
-      height: "25vh",
+      height: "20vh",
+    },
+    "&:hover":{
+      width: "40vw",
+      "@media (max-width: 800px)":{
+        width: "100vw",
+        height: "40vh"
+      }
+    },
+  });
+  const Slide5 = styled(Box)({
+    width: "20vw",
+    position: "relative",
+    height: "100vh",
+    diplay:"flex",
+    backgroundImage: `url(${background5})`,
+    transition: "0.8s",
+    "@media (max-width: 800px)" : {
+      width: "100vw",
+      height: "20vh",
     },
     "&:hover":{
       width: "40vw",
@@ -287,6 +315,13 @@ export const Tracks = () => {
               {Object.keys(data)[3]}
             </TrackTitle>
           </Slide4>
+          <Slide5>
+            <TrackTitle
+              // onClick={() => {handleClick(Object.keys(data)[4])}}
+            >
+              {Object.keys(data)[4]}
+            </TrackTitle>
+          </Slide5>
         </>
         ) : (
           <FullBox>

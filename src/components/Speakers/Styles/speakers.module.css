@@ -1,58 +1,127 @@
-.speakerspage{
-    background: linear-gradient(rgba(42,3,41,1),rgba(69,8,52,1));
-    min-height: 100vh;
-    width: 100vw;
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+    padding:0;
+    margin: 0;
 }
-.speakerspagewrapper{
-    height: 100%;
-    width: 100%;
+body{
+    width: 100vw;
+    min-height: 100vh;
+}
+.respswipe{
+    display: none;
+}
+.speakerspage{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    /* background: url('https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'), linear-gradient(rgba(42,3,41,1),rgba(69,8,52,1)); */
+    /* background:linear-gradient(rgba(42,3,41,0.8),rgba(69,8,52,0.8)), url('https://t4.ftcdn.net/jpg/05/62/27/55/360_F_562275522_7G0skWZnt115YRzIX2ZZF2WeppgbaBth.jpg'); */
+    background:linear-gradient(rgba(75, 2, 73, 0.4),rgba(75, 2, 73, 0.4)), url('https://res.cloudinary.com/damjdcgak/image/upload/v1676228463/Makeathon%205%20website/Backgrounds/Vishist_Bhagabati_dystopian_city_retrowave_a4a15f3e-739a-4815-b8a7-2347757ee295_rg3rfc.png');
+    background-size: cover;
+    background-position: 0 20%;
+    min-height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    /* padding: 1px; */
+    animation: grad  4s infinite ;
 }
-.speakersheader{
-    font-size: 3.5rem;
-    color: white;
-    letter-spacing: 5px;
-}
-.speakercard{
-    height: 500px;
-    width: 400px;
-    background: linear-gradient(0.25turn,rgb(0, 0, 0,0.2),rgba(99, 99, 99, 0.2));
-}
-.cardwrap{
+/* @keyframes grad{
+    0% {background:linear-gradient(rgba(42,3,41,0.95),rgba(69,8,52,0.95)), url('https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;}
+    100% {background:linear-gradient(rgba(42,3,41,1),rgba(69,8,52,1)), url('https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    }
+} */
+/* .bgoverlay{
+    display: flex;
+    width: 100%;
     height: 100%;
+} */
+.bgoverlay{
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(255, 1, 247, 0.1);
+    backdrop-filter: blur(8px);
+    animation: 1s overlaymagic linear infinite alternate;
+    padding: 10px 0 30px 0;
+}
+@keyframes overlaymagic{
+    0% {background: rgba(42,3,41,0.1);}
+    100% {background: rgba(42,3,41, 0.5);}
+}
+.pageheader{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Fjalla One', sans-serif;
+    /* padding: 20px 0 0 0; */
+    margin: 6px 0 0 0;
+    letter-spacing: 10px;
+}
+.speakerswrapper{
+    min-height: 100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+.photoswrapper{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    z-index: 1;
-    transform: scale(1);
-}
-.carddiv{
-    height: 300px;
-    text-align: center;
+    justify-content: space-around;
+    height: 100%;
+    /* margin: 3% 0 7% 0; */
 }
 .speakerimg{
-    width: 200px;
+    width: 100%;
 }
-.hov{
-    /* padding: 10% 0; */
-    /* height: 100%; */
-    transition: all 0.5s;
-    text-align: center;
+.spname{
+    /* font-family: 'Roboto Mono', monospace; */
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin: 5px 0;
+    text-transform: uppercase;
 }
-/* .hov:hover{
-    transform: scale(1.0);
-} */
-@media (max-width: 1125px) {
-    .cardwrap{
-        transform: scale(0.85);
+.descheader{
+    margin: 8px 0;
+}
+.descsubhead{
+    font-style: italic, bold;
+    margin-top: 10px;
+}
+.descpara{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.onepic{
+    width: 150%;
+    display: flex;
+}
+@media (max-width: 1100px) {
+    body{
+        min-height: 100vh;
     }
-}
-@media (max-width: 950px) {
-    .cardwrap{
-        transform: scale(0.7);
+    .speakerspage{
+        height: 100vh;
+        background-position: center;
     }
+    .speakerswrapper{
+        display: none;
+    }
+    .respswipe{
+        min-height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .spname{
+        font-size: 1.2rem;
+    }
+
 }

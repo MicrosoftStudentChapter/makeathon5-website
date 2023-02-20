@@ -1,0 +1,30 @@
+.padding-block {
+  display: flex;
+  text-align: center;
+  font-size: 5vmax;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef;
+  color: #333;
+}
+
+.scroll-carousel {
+  /* background: linear-gradient(180deg, #290834 12.5%, #290329 72.92%); */
+  background: black;
+  background-repeat: no-repeat;
+  /* background-size: 300vw 100vh; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.sticky-box {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.transform-box {
+  display: flex;
+  will-change: transform;
+}
+

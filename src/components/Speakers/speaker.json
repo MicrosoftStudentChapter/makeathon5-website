@@ -1,0 +1,45 @@
+{
+    "speaker1" :
+    {
+        "date": "18th FEB",
+        "description" : "Senior Development Advocate Postman",
+        "writeup": "Ali Mustufa is the Senior Developer Advocate at Postman. Postman is an API(application programming interface) development tool that helps build, test and modify APIs. Awarded the IEEE MGA Larry K. Wilson Regional Student Volunteer Award, Ali Mustafa has helped many students to achieve the most of their potential."
+    },
+    "speaker2" :
+    {
+        "date": "19th FEBRUARY",
+        "description" : "5 Minutes Engineering",
+        "writeup": "Shridhar Mankar is the founder of the YouTube channel 5 Minutes Engineering with 430K subscribers. His channel aims to help engineering students through video lectures and to impart knowledge on topics like AI, ML, Deep Learning, Programming and many more."
+    },
+    "speaker3" :
+    {
+        "date": "21st FEBRUARY",
+        "description" : "Head of Technology Ikarus 3D",
+        "writeup": "Pritish Sehzpaul is the Head of Technology at Ikarus 3D. He is a software engineer by profession and has experience creating a cloud-enabled system for the device from scratch to enable the handling of time-intensive tasks like text extraction at the cloud server. He is skilled in designing and developing the cloud-enabled system, resource optimisation and performance improvement."
+    },
+    "speaker4" :
+    {
+        "date": "24th FEBRUARY",
+        "description" : "Founder of Free Software foundation",
+        "writeup": "Richard Stallman is an American free software movement activist and programmer. He campaigns for software to be distributed in such a manner that its users have the freedom to use, study, distribute, and modify that software. Stallman popularised the Copyleft, a legal mechanism to protect the modification and redistribution rights for free software."
+    },
+    "speaker5" :
+    {
+        "date": "22nd FEBRUARY",
+        "description" : "CTO Ditto Security",
+        "writeup": "Ajinkya Lohakare is the Chief Technological Officer and Founder at Ditto Security. He is an ethical hacker by profession and performed 500+ TedX Talks. His company is an information security-based innovation centre and provides development services for cybersecurity, mobile development, software testing etc."
+    },
+    "speaker6" :
+    {
+        "date": "23rd FEBRUARY",
+        "description" : "Co-founder Threeway Studio",
+        "writeup": "Utkarsh Srivastava is the Co-founder and Chief Operating Officer at Threeway Studio. Their company builds a metaverse with Design, Marketing and Engineering and supports early-stage companies to make a huge difference with Design and Product-oriented services."
+    },
+    "speaker7" :
+    {
+        "date": "23rd FEBRUARY",
+        "description" : "Co-founder Threeway Studio",
+        "writeup" : "Pranshul Saxena is the Co-founder and Chief Executive Officer at Threeway Studio. He is a software engineer by profession and works on web applications and web infrastructure. He also has prior experience in frontend, backend, app development and DevOps."
+    }
+    
+}

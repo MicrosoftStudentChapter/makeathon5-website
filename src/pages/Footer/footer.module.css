@@ -7,6 +7,9 @@
 
 }
 
+.mark{
+    background: #0F4CA7;
+}
 
 .main{
     height: fit-content;
@@ -52,6 +55,7 @@
     letter-spacing: 0.27em;
 
     color: #FFFFFF;
+    padding-bottom: 0.5rem;
     
 }
 
@@ -62,24 +66,68 @@
     font-size: 28px;
     line-height: 33px;
     /* identical to box height */
+    display: inline-block;
 
+
+    background: #0F4CA7;
     letter-spacing: 0.27em;
 
     color: #FFFFFF;
 }
 
 .text{
-    margin-left: 4rem;
+    margin-left: 4.2rem;
 }
 
+.socials{
+    margin-top: 2rem;
+    margin-left: -1rem;
+}
 
 .right{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* width: 50vw; */
+    padding-right: 8rem;
+    justify-content: flex-end;
+    padding-bottom: 2rem;
+}
+
+.boxer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+.rightL{
     display: flex;
     flex-direction: column;
     /* width: 50vw; */
     padding-right: 2rem;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     padding-bottom: 2rem;
+}
+
+.rightR{
+    display: flex;
+    flex-direction: column;
+    /* width: 50vw; */
+    padding-right: 2rem;
+    /* justify-content: flex-end; */
+    padding-bottom: 2rem;
+}
+
+.gen{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 0.5rem;
+    color: #FFCF9C;
+    padding-left: 2rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .contact{
@@ -91,8 +139,14 @@
     line-height: 1rem;
     text-align: center;
     letter-spacing: 0.28em;
-    /* margin-bottom: -2%; */
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     color: #FFCF9C;
+}
+
+.imager{
+    size: 2rem;
+    padding-left: 1rem;
 }
 
 .image{
@@ -110,11 +164,16 @@
 .side{
     font-family: 'Raleway', sans-serif;
     color: #FFCF9C;
-    /* padding-left: 1rem; */
+    padding-left: 2rem;
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1rem;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 966px) {
@@ -122,6 +181,7 @@
         background: #000 url("./assets/newfooter.png");
         background-size: contain;
         background-repeat: no-repeat;
+        /* height: fit-content; */
     }
     .left{
         display: flex;
@@ -130,12 +190,15 @@
         justify-content: flex-start;
         align-self: flex-start;
     }
+
+    
     .sheild{
         width: 10rem;
         height: 10rem;
         margin-left: 4rem;
         margin-top: 2rem;
     }
+
     .text{
         margin-left: 4rem;
         margin-top: 0rem;
@@ -145,12 +208,34 @@
         flex-direction: column;
         /* width: 50vw; */
         /* padding-right: 2rem; */
-        justify-content: flex-end;
+        justify-content: flex-start;
+        align-self: flex-start;
+        /* justify-content: flex-end; */
+    }
+    .boxer{
+        display: flex;
+        flex-direction: column;
     }
     .bleh{
         padding-top: 1rem;
         padding-bottom: 1rem;
-        padding-left: 2.5rem;
+        /* padding-left: 2.5rem;
+         */
+         margin-left: 2rem;
+         padding-right: 2.5rem;
+
+        }
+    
+    .socials{
+        margin-left: -1rem;
+        margin-bottom: 4rem;
+        margin-top: 1rem;
+
+    }
+    .imager{
+        margin-left: -1rem;
+        size: 2rem;
+        padding-left: 2rem;
     }
     .side{
         color: #FFCF9C;
@@ -160,7 +245,9 @@
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 500;
-        font-size: 1.3rem;
+        font-size: 1rem;
+        display: inline-block;
+        word-wrap: none;
     }
     .wrapper{
         display:flex; 
@@ -176,6 +263,12 @@
         line-height: 1rem;
         text-align: center;
         letter-spacing: 0.28em;
+        display: inline-block;
+
+        line-height: 1rem;
+        margin-left: 2rem;
+        letter-spacing: 0.01rem;
+        margin-bottom: 2rem;
 
         /* padding-left: 2rem;body {
     } */
@@ -183,6 +276,9 @@
         text-align: center;
         justify-content: center;
         color: #FFCF9C;
+    }
+    .image{
+        padding-right:-52rem;
     }
     .legacy{
     
@@ -203,9 +299,15 @@
         font-size: 28px;
         line-height: 33px;
         /* identical to box height */
-    
+        
+        display: inline-block;
+        margin-bottom: 1rem;
         letter-spacing: 0.27em;
     
         color: #FFFFFF;
+    }
+
+    .rightL{
+        padding-bottom: 0;
     }
   }
