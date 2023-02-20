@@ -1,11 +1,11 @@
 
 .sponcercard{
-    padding: 1.5rem;
+    padding: 3%;
     max-width: 330px;
     width: 80%;
-    background: transparent;
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-    border-radius: 0.5rem;
+    /* background: transparent; */
+    /* box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem; */
     /* position: relative; */
     z-index: 1;
     aspect-ratio: 16/9;
@@ -13,6 +13,30 @@
 
 }
 
-.cardhoverbox:hover{
+/* .cardhoverbox:hover{
     filter:saturate(5);
-}
+} */
+
+  
+img {
+    --g: 2px;     /* the gap */
+    --b: 3px;    /* border thickness*/
+    --c: transparent; /* the color */
+    
+    
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    background:
+      var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+      var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b),var(--b) 200%;
+    transition: .3s;
+  }
+  img:hover {
+    --_p: 75%;
+    filter: grayscale(0%);
+    --c: #00FFFF; 
+  }
+  
