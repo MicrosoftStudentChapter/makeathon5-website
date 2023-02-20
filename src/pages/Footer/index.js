@@ -47,22 +47,35 @@ export const Footer = () => {
         <div className={styles.right}>
 
           <h2 className={styles.contact}>CONTACT US</h2>
-          <div className={styles.bleh}>
-            <img className={styles.image} src={Mail}/> <text className={styles.side}>msc@thapar.edu</text>
-          </div>
+          <div className={styles.boxer}>
+            <div className={styles.rightL}>
 
-          <div className={styles.bleh}>
-            <img className={styles.image} src={Location}/> <text className={styles.side}>TIET Patiala -147004</text>
-          </div>
+              <a href='mailto: msc@thapar.edu' target='_blank'>
+                <div className={styles.bleh}>
+                  <img className={styles.image} src={Mail}/> <text className={styles.side}>msc@thapar.edu</text>
+                </div>
+              </a>
 
-          <div className={styles.bleh}>
-            <img className={styles.image} src={Phone}/> <text className={styles.side}>+91 8872331055</text>
-          </div>
+              <a href='https://goo.gl/maps/bMSfh8uoYCVuLEjD6' target='_blank'> 
+                <div className={styles.bleh}>
+                  <img className={styles.image} src={Location}/> <text className={styles.side}>TIET Patiala</text>
+                </div>
+              </a>
 
-          <div className={styles.bleh}>
-            <img className={styles.image} src={King}/> <text className={styles.side}>Adamay Mann</text>
-          </div>
+            </div>
+            
+              <div className={styles.rightR}>
+              <a href='tel:+918872331055' target='_blank'>
+                <div className={styles.bleh}>
+                  <img className={styles.image} src={Phone}/> <text className={styles.side}>+91 8872331055</text>
+                </div>
+              </a>
 
+              <div className={styles.bleh}>
+                <img className={styles.image} src={King}/> <text className={styles.side}>Adamay Mann</text><br></br> <text className={styles.gen}>(General Secretary)</text>
+              </div>
+            </div>
+          </div>
         </div>
         
       </div>

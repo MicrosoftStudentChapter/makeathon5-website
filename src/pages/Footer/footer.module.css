@@ -7,6 +7,9 @@
 
 }
 
+.mark{
+    background: #0F4CA7;
+}
 
 .main{
     height: fit-content;
@@ -52,6 +55,7 @@
     letter-spacing: 0.27em;
 
     color: #FFFFFF;
+    padding-bottom: 0.5rem;
     
 }
 
@@ -63,13 +67,16 @@
     line-height: 33px;
     /* identical to box height */
 
+
+
+    background: #0F4CA7;
     letter-spacing: 0.27em;
 
     color: #FFFFFF;
 }
 
 .text{
-    margin-left: 4rem;
+    margin-left: 4.2rem;
 }
 
 .socials{
@@ -78,12 +85,49 @@
 }
 
 .right{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* width: 50vw; */
+    padding-right: 8rem;
+    justify-content: flex-end;
+    padding-bottom: 2rem;
+}
+
+.boxer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+.rightL{
     display: flex;
     flex-direction: column;
     /* width: 50vw; */
     padding-right: 2rem;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     padding-bottom: 2rem;
+}
+
+.rightR{
+    display: flex;
+    flex-direction: column;
+    /* width: 50vw; */
+    padding-right: 2rem;
+    /* justify-content: flex-end; */
+    padding-bottom: 2rem;
+}
+
+.gen{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 0.5rem;
+    color: #FFCF9C;
+    padding-left: 2rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .contact{
@@ -95,7 +139,8 @@
     line-height: 1rem;
     text-align: center;
     letter-spacing: 0.28em;
-    /* margin-bottom: -2%; */
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     color: #FFCF9C;
 }
 
@@ -119,11 +164,16 @@
 .side{
     font-family: 'Raleway', sans-serif;
     color: #FFCF9C;
-    padding-left: 1rem;
+    padding-left: 2rem;
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1rem;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 966px) {
@@ -145,6 +195,7 @@
         margin-left: 4rem;
         margin-top: 2rem;
     }
+
     .text{
         margin-left: 4rem;
         margin-top: 0rem;
@@ -155,6 +206,10 @@
         /* width: 50vw; */
         /* padding-right: 2rem; */
         justify-content: flex-end;
+    }
+    .boxer{
+        display: flex;
+        flex-direction: column;
     }
     .bleh{
         padding-top: 1rem;
