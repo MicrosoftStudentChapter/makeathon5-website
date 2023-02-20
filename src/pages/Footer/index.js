@@ -4,7 +4,10 @@ import King from './assets/King.png';
 import Mail from './assets/mail.png';
 import Location from './assets/location.png';
 import Phone from './assets/phone.png';
-
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import FmdGoodOutlinedIcon from '@mui/icons-material/FmdGoodOutlined';
+import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import LD from './assets/linkedin.png'
 import Yt from './assets/yt.png'
 import Ig from './assets/insta.png'
