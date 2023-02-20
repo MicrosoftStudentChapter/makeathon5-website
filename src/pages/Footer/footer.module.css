@@ -103,7 +103,10 @@
     size: 2rem;
     padding-left: 1rem;
 }
-
+.imager:hover{ 
+    transform: scale(1.2);
+    transition: 0.5s;
+}
 .image{
     aspect-ratio: 1;
     width: 1.4rem;
