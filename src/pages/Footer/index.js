@@ -4,7 +4,10 @@ import King from './assets/King.png';
 import Mail from './assets/mail.png';
 import Location from './assets/location.png';
 import Phone from './assets/phone.png';
-
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import FmdGoodOutlinedIcon from '@mui/icons-material/FmdGoodOutlined';
+import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
+import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import LD from './assets/linkedin.png'
 import Yt from './assets/yt.png'
 import Ig from './assets/insta.png'
@@ -48,19 +51,19 @@ export const Footer = () => {
 
           <h2 className={styles.contact}>CONTACT US</h2>
           <div className={styles.bleh}>
-            <img className={styles.image} src={Mail}/> <text className={styles.side}>msc@thapar.edu</text>
+          <EmailOutlinedIcon/> <a className={styles.side} href="mailto:msc@thapar.edu" target="blank">msc@thapar.edu</a>
           </div>
 
           <div className={styles.bleh}>
-            <img className={styles.image} src={Location}/> <text className={styles.side}>TIET Patiala -147004</text>
+            <FmdGoodOutlinedIcon/> <a className={styles.side} href="https://goo.gl/maps/dfKDwmYJNFAJHSPP7" target="blank">TIET Patiala -147004</a>
           </div>
 
           <div className={styles.bleh}>
-            <img className={styles.image} src={Phone}/> <text className={styles.side}>+91 8872331055</text>
+          <CallOutlinedIcon/> <text className={styles.side}>+91 8872331055</text>
           </div>
 
           <div className={styles.bleh}>
-            <img className={styles.image} src={King}/> <text className={styles.side}>Adamay Mann</text>
+            <PersonOutlineOutlinedIcon/> <text className={styles.side}>Adamay Mann</text>
           </div>
 
         </div>

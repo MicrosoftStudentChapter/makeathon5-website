@@ -112,8 +112,10 @@
 
 .bleh{
     padding-top: 1rem;
-    padding-bottom: 0.5m;
+    padding-bottom: 0.5;
+    margin-bottom:0.5;
     padding-left: 2.5rem;
+    
 }
 
 .side{
