@@ -85,6 +85,46 @@ export default function Sponsors() {
                                     ))}
                                 </Grid>
                             </div>
+                            <div className={styles.sponsors_section}>
+                                <span className={styles.subheading}>
+                                    Other Sponsors
+                                </span>
+
+                                <Grid
+                                    container
+                                    spacing={2}
+                                    className={styles.grid_justify}
+                                >
+                                    {Data["data"]["OtherSponsors"].map((item) => (
+                                        <Grid item xs={12} lg={2} md={6}>
+                                            <SponsorCard
+                                                src={item.src}
+                                                alt={item.name}
+                                            />
+                                        </Grid>
+                                    ))}
+                                </Grid>
+                            </div>
+                            <div className={styles.sponsors_section}>
+                                <span className={styles.subheading}>
+                                    Community Outreach
+                                </span>
+
+                                <Grid
+                                    container
+                                    spacing={2}
+                                    className={styles.grid_justify}
+                                >
+                                    {Data["data"]["CommunityOutreach"].map((item) => (
+                                        <Grid item xs={12} lg={2} md={6}>
+                                            <SponsorCard
+                                                src={item.src}
+                                                alt={item.name}
+                                            />
+                                        </Grid>
+                                    ))}
+                                </Grid>
+                            </div>
                         </Container>
                     </div>
                 </div>

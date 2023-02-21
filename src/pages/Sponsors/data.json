@@ -236,6 +236,65 @@
                 "name": "bpb",
                 "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974175/Makeathon%205%20website/Sponsors%20Page/Associate/bpb_xiatnc.png"
             }
+        ],
+        "OtherSponsors": [
+            {
+                "name": "The Dribbles Cafe",
+                "backcolor": "#FFCC04",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974185/Makeathon%205%20website/Sponsors%20Page/Other/IMG-20230214-WA0020_ekclkr.jpg"
+            },
+            {
+                "name": "TrueScholar",
+                "backcolor": "#15FFE6",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974184/Makeathon%205%20website/Sponsors%20Page/Other/TruScholar_Logo_gmmlid.png"
+            },
+            {
+                "name": "Rio Innobev",
+                "backcolor": "#15FFE6",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974184/Makeathon%205%20website/Sponsors%20Page/Other/rio_inhqbb.png"
+            },
+            {
+                "name": "Bucks Cafe & Bar",
+                "backcolor": "#15FFE6",
+                "src" : "https://res.cloudinary.com/damjdcgak/image/upload/v1676974183/Makeathon%205%20website/Sponsors%20Page/Other/Bucks_fu8k5g.jpg"
+            },
+            {
+                "name": "Blogadda",
+                "backcolor": "#15FFE6",
+                "src" : "https://res.cloudinary.com/damjdcgak/image/upload/v1676974183/Makeathon%205%20website/Sponsors%20Page/Other/blogadda_pqicso.png"
+            }
+        ],
+        "CommunityOutreach": [
+            {
+                "name": "Youth Incorporated",
+                "backcolor": "#FFCC04",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974184/Makeathon%205%20website/Sponsors%20Page/Community-Outreach/youth_hhfbti.png"
+            },
+            {
+                "name": "The Product House",
+                "backcolor": "#15FFE6",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974183/Makeathon%205%20website/Sponsors%20Page/Community-Outreach/Product_House_de5udu.jpg"
+            },
+            {
+                "name": "Web3 PB",
+                "backcolor": "#15FFE6",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974183/Makeathon%205%20website/Sponsors%20Page/Community-Outreach/OFhGnboY_400x400_iunoud.jpg"
+            },
+            {
+                "name": "Younity",
+                "backcolor": "#15FFE6",
+                "src" : "https://res.cloudinary.com/damjdcgak/image/upload/v1676974183/Makeathon%205%20website/Sponsors%20Page/Community-Outreach/younity_uflhx8.png"
+            },
+            {
+                "name": "Desi Crypto",
+                "backcolor": "#15FFE6",
+                "src" : "https://res.cloudinary.com/damjdcgak/image/upload/v1676974182/Makeathon%205%20website/Sponsors%20Page/Community-Outreach/Logo-A-color_vz5dt7.png"
+            },
+            {
+                "name": "Notice Board",
+                "backcolor": "#15FFE6",
+                "src" : "https://res.cloudinary.com/damjdcgak/image/upload/v1676974182/Makeathon%205%20website/Sponsors%20Page/Community-Outreach/noticebard_byfsde.png"
+            }
         ]
     }
 }

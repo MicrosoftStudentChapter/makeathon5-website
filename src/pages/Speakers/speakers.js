@@ -384,7 +384,7 @@ function Speakers() {
                             <SpeakerCard
                                 see={visible1}
                                 pic="https://res.cloudinary.com/damjdcgak/image/upload/v1676688246/Makeathon%205%20website/Speakers/Ali_Mustufa-Shaikh-removebg-preview_t0qq3g.png"
-                                naam="Ali Mustafa"
+                                naam="Ali Mustufa"
                             />
                             <Speakerdesc spk="speaker1" see={card1} move="70%"/>
                         </div>
