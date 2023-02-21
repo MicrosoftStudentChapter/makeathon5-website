@@ -2,76 +2,65 @@
     "data": {
         "title": [
             {
-                "name": "Interview Buddy",
+                "name": "Alison",
                 "backcolor": "#FFCC04",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691974/Makeathon%205%20website/Sponsors%20Page/InterviewBuddy_Logo_Alpha_cqybwv.png"
+                "src": "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676973162/alison_kwq4vx.jpg"
             },
             {
-                "name": "Skill vertex",
+                "name": "Devfolio",
                 "backcolor": "#15FFE6",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691972/Makeathon%205%20website/Sponsors%20Page/SkillVertex_Logo_wgva6k.jpg"
+                "src": "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676973163/devfolio_s6unf3.png"
             },
             {
-                "name": "10x academy",
+                "name": "Polygon",
                 "backcolor": "#15FFE6",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691971/Makeathon%205%20website/Sponsors%20Page/The_10x_academy_logo1_dtg5fa.jpg"
+                "src": "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676973163/Polygon_adnnzd.png"
             },
             {
-                "name": ".xyz",
+                "name": "Ikarus 3D",
                 "backcolor": "#15FFE6",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691968/Makeathon%205%20website/Sponsors%20Page/xyz-logo-color_zkdzst.png"
+                "src" : "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676973162/ikarus_mqryjv.jpg"
+            },
+            {
+                "name": "Skill Vertex",
+                "backcolor": "#15FFE6",
+                "src" : "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676973165/SkillVertex_ptvlip.jpg"
             }
         ],
         "power": [
             {
                 "name": "Interview Buddy",
                 "backcolor": "#15FFE6",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691974/Makeathon%205%20website/Sponsors%20Page/InterviewBuddy_Logo_Alpha_cqybwv.png"
+                "src": "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676998765/cn_mkhthn.jpg"
             },
             {
                 "name": "TrueScholar",
                 "backcolor": "#15FFE6",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691968/Makeathon%205%20website/Sponsors%20Page/TruScholar_Logo_-_500_px_Colour_PNG_3_bsvakp.png"
+                "src": "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676998765/jetbrains_logo_nu6njs.webp"
             },
             {
                 "name": "Interview Buddy",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691974/Makeathon%205%20website/Sponsors%20Page/InterviewBuddy_Logo_Alpha_cqybwv.png"
+                "src": "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676998765/github_y2dk9d.jpg"
             },
             {
                 "name": "TrueScholar",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691968/Makeathon%205%20website/Sponsors%20Page/TruScholar_Logo_-_500_px_Colour_PNG_3_bsvakp.png"
+                "src": "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676998765/deepfence_zrytyr.jpg"
             },
             {
                 "name": "Interview Buddy",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691974/Makeathon%205%20website/Sponsors%20Page/InterviewBuddy_Logo_Alpha_cqybwv.png"
+                "src": "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676998765/Codechef_gmhpii.png"
             },
             {
                 "name": "TrueScholar",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691968/Makeathon%205%20website/Sponsors%20Page/TruScholar_Logo_-_500_px_Colour_PNG_3_bsvakp.png"
+                "src": "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676998766/Threeway_Logo_sou9m8.png"
             },
             {
                 "name": "Interview Buddy",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691974/Makeathon%205%20website/Sponsors%20Page/InterviewBuddy_Logo_Alpha_cqybwv.png"
+                "src": "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676998765/Coding_Blocks_lkrwf2.png"
             },
             {
                 "name": "TrueScholar",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691968/Makeathon%205%20website/Sponsors%20Page/TruScholar_Logo_-_500_px_Colour_PNG_3_bsvakp.png"
-            },
-            {
-                "name": "Interview Buddy",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691974/Makeathon%205%20website/Sponsors%20Page/InterviewBuddy_Logo_Alpha_cqybwv.png"
-            },
-            {
-                "name": "TrueScholar",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691968/Makeathon%205%20website/Sponsors%20Page/TruScholar_Logo_-_500_px_Colour_PNG_3_bsvakp.png"
-            },
-            {
-                "name": "Interview Buddy",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691974/Makeathon%205%20website/Sponsors%20Page/InterviewBuddy_Logo_Alpha_cqybwv.png"
-            },
-            {
-                "name": "TrueScholar",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691968/Makeathon%205%20website/Sponsors%20Page/TruScholar_Logo_-_500_px_Colour_PNG_3_bsvakp.png"
+                "src": "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676998765/shardeum_etfap8.jpg"
             }
         ],
         "associate": [

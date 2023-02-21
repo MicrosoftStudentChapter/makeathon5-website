@@ -22,8 +22,6 @@ img {
     --g: 2px;     /* the gap */
     --b: 3px;    /* border thickness*/
     --c: transparent; /* the color */
-    
-    
     padding: calc(var(--g) + var(--b));
     --_c: #0000 0 25%, var(--c) 0 50%;
     --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
@@ -34,9 +32,9 @@ img {
     background-size: 200% var(--b),var(--b) 200%;
     transition: .3s;
   }
-  img:hover {
-    --_p: 75%;
-    filter: grayscale(0%);
-    --c: #00FFFF; 
-  }
+  /* img:hover { */
+  /*   --_p: 75%; */
+  /*   filter: grayscale(0%); */
+  /*   --c: #00FFFF;  */
+  /* } */
   
