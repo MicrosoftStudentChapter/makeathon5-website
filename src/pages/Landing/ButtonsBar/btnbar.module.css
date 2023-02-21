@@ -1,0 +1,9 @@
+.anchor{
+    margin-left: 2rem;
+}
+
+@media (max-width: 800px) {
+    .anchor{
+        margin-left: 0rem;
+    }
+}

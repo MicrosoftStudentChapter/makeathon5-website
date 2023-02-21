@@ -74,7 +74,7 @@
   }
   
   /* media queries */
-  @media screen and (min-width: 2560px) {
+  /* @media screen and (min-width: 2560px) {
     aboutCircle{
       width: 700px;
       height: 700px;
@@ -94,9 +94,9 @@
     .inner{
       font-size: 2.5rem;
     }
-  }
+  } */
   
-  @media screen and (max-width: 2560px) {
+  /* @media screen and (max-width: 2560px) {
     aboutCircle{
       width: 700px;
       height: 700px;
@@ -116,10 +116,10 @@
     .inner{
       font-size: 2.5rem;
     }
-  }
+  } */
   
   
-  @media screen and  (max-width: 2000px){
+  /* @media screen and  (max-width: 2000px){
     aboutCircle{
       width: 600px;
       height: 600px;
@@ -139,7 +139,7 @@
     .inner{
       font-size: 2.25rem;
     }
-  }
+  } */
   
   @media screen and  (max-width: 1440px){
     .imageContainer{
