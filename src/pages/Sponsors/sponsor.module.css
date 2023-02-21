@@ -30,7 +30,8 @@
   min-height: 100%;
   /* background: rgba(79, 6, 46, 0.4); */
   padding: 1px 0;
-  /* backdrop-filter: blur(10px); */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 .titleSponsors{
   backdrop-filter: blur(15px);
