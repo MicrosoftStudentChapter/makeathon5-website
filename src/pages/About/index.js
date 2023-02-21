@@ -39,7 +39,7 @@ export const About = () => {
         <div className={styles.flexMainContainer}>
           <aboutCircle className={styles.flexAbout}>
             <div className={styles.aboutHeading}>About</div>
-            <p className={styles.aboutText}>lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet lorem ipsum dolor sit amet</p>
+            <p className={styles.aboutText}>At the Microsoft Learn Student Chapter, we believe that young people with the right technology have the potential to revolutionise the world as we know it today. And through several events held over the years, we have made fair progress. Microsoft Learn Student Chapter was institutionalised to provide students with a systematic platform to develop technical skills and team spirit. Our vision is to create a community of computer enthusiasts with a development spirit.</p>
           </aboutCircle>
           <div className={styles.flexInnerContainer}>
             <circleRight className={styles.right} style={{marginTop:'0'}}><div className={styles.inner}>100k+</div></circleRight>
