@@ -65,28 +65,176 @@
         ],
         "associate": [
             {
+                "name": "yhills",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974184/Makeathon%205%20website/Sponsors%20Page/Associate/yhills_zzurhi.png"
+            },
+            {
+                "name": ".xyz",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974183/Makeathon%205%20website/Sponsors%20Page/Associate/xyz_nf1zt9.png"
+            },
+            {
+                "name": "voiceflow",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974182/Makeathon%205%20website/Sponsors%20Page/Associate/Voiceflow_en9cbb.png"
+            },
+            {
+                "name": "Wolfram Language",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974182/Makeathon%205%20website/Sponsors%20Page/Associate/wolfram_ei0ob6.png"
+            },
+            {
+                "name": "Yocket",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974182/Makeathon%205%20website/Sponsors%20Page/Associate/Yocket_ux9ddh.png"
+            },
+            {
+                "name": "Vercel",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974181/Makeathon%205%20website/Sponsors%20Page/Associate/vercel_qjhivm.png"
+            },
+            {
+                "name": "White Eagle",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974181/Makeathon%205%20website/Sponsors%20Page/Associate/white_eagle_tz5pej.jpg"
+            },
+            {
+                "name": "The Chocolate Room",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974181/Makeathon%205%20website/Sponsors%20Page/Associate/The_chocolate_room_nxggox.jpg"
+            },
+            {
                 "name": "Interview Buddy",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691974/Makeathon%205%20website/Sponsors%20Page/InterviewBuddy_Logo_Alpha_cqybwv.png"
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974181/Makeathon%205%20website/Sponsors%20Page/Associate/InterviewBuddy_vcqn31.png"
             },
             {
-                "name": "Skill vertex",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691972/Makeathon%205%20website/Sponsors%20Page/SkillVertex_Logo_wgva6k.jpg"
+                "name": "Dock",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974181/Makeathon%205%20website/Sponsors%20Page/Associate/Dock_g2auue.jpg"
             },
             {
-                "name": "10x academy",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691971/Makeathon%205%20website/Sponsors%20Page/The_10x_academy_logo1_dtg5fa.jpg"
+                "name": "Verbwire",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974180/Makeathon%205%20website/Sponsors%20Page/Associate/verbwire_hwfpfd.png"
             },
             {
-                "name": "Interview Buddy",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691974/Makeathon%205%20website/Sponsors%20Page/InterviewBuddy_Logo_Alpha_cqybwv.png"
+                "name": "Solana",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974180/Makeathon%205%20website/Sponsors%20Page/Associate/solana_t6vcz1.png"
             },
             {
-                "name": "Skill vertex",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691972/Makeathon%205%20website/Sponsors%20Page/SkillVertex_Logo_wgva6k.jpg"
+                "name": "Tezos India",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974180/Makeathon%205%20website/Sponsors%20Page/Associate/tezos_llthmo.jpg"
             },
             {
-                "name": "10x academy",
-                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1675691971/Makeathon%205%20website/Sponsors%20Page/The_10x_academy_logo1_dtg5fa.jpg"
+                "name": "Taskade",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974180/Makeathon%205%20website/Sponsors%20Page/Associate/taskade_piegoj.png"
+            },
+            {
+                "name": "Orane International",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974180/Makeathon%205%20website/Sponsors%20Page/Associate/orane_umg17p.png"
+            },
+            {
+                "name": "Rosenfeld",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974180/Makeathon%205%20website/Sponsors%20Page/Associate/rosenfeld_mxwhls.png"
+            },
+            {
+                "name": "Replit",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974179/Makeathon%205%20website/Sponsors%20Page/Associate/replit_hkws6y.jpg"
+            },
+            {
+                "name": "Postman",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974179/Makeathon%205%20website/Sponsors%20Page/Associate/Postman_lc0zzb.jpg"
+            },
+            {
+                "name": "Mentro",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974179/Makeathon%205%20website/Sponsors%20Page/Associate/Mentro_m9cji0.png"
+            },
+            {
+                "name": "O 'Reilly",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974181/Makeathon%205%20website/Sponsors%20Page/Associate/vercel_qjhivm.png"
+            },
+            {
+                "name": "Beeceptor",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974179/Makeathon%205%20website/Sponsors%20Page/Associate/O_Reilly_lbutde.jpg"
+            },
+            {
+                "name": "Lets Grow More",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974178/Makeathon%205%20website/Sponsors%20Page/Associate/LGM_LOGO_zl8nba.jpg"
+            },
+            {
+                "name": "Let's Roam",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974178/Makeathon%205%20website/Sponsors%20Page/Associate/Lets_Roam_Logo_horizontal_tygcsn.png"
+            },
+            {
+                "name": "Languify",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974178/Makeathon%205%20website/Sponsors%20Page/Associate/Languify_hslspt.png"
+            },
+            {
+                "name": "Interview Cake",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974178/Makeathon%205%20website/Sponsors%20Page/Associate/InterviewCake_gtwlku.png"
+            },
+            {
+                "name": "The Food Dude",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974178/Makeathon%205%20website/Sponsors%20Page/Associate/fooddude_ljay65.jpg"
+            },
+            {
+                "name": "GrabOn",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974178/Makeathon%205%20website/Sponsors%20Page/Associate/grabon_wzlvmp.png"
+            },
+            {
+                "name": "filecoin",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974177/Makeathon%205%20website/Sponsors%20Page/Associate/filecoin_nasjyu.png"
+            },
+            {
+                "name": "echo3D",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974177/Makeathon%205%20website/Sponsors%20Page/Associate/echo3D_g8f77r.jpg"
+            },
+            {
+                "name": "fueler",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974177/Makeathon%205%20website/Sponsors%20Page/Associate/fueler_iqwulb.png"
+            },
+            {
+                "name": "Flipr",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974177/Makeathon%205%20website/Sponsors%20Page/Associate/Flipr_z01u51.png"
+            },
+            {
+                "name": "eLearnmarkets",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974177/Makeathon%205%20website/Sponsors%20Page/Associate/elm_uqigy1.png"
+            },
+            {
+                "name": "CoinDCX",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974176/Makeathon%205%20website/Sponsors%20Page/Associate/coindcx_mllvfv.png"
+            },
+            {
+                "name": "Cyberancee",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1677013970/Makeathon%205%20website/Sponsors%20Page/Associate/Cybrancee_uzaskd.png"
+            },
+            {
+                "name": "Digital Ocean",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974176/Makeathon%205%20website/Sponsors%20Page/Associate/Digitalocean_m7isoy.png"
+            },
+            {
+                "name": "duolearn",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974176/Makeathon%205%20website/Sponsors%20Page/Associate/duolearn_tmifjd.jpg"
+            },
+            {
+                "name": "balsamiq",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974176/Makeathon%205%20website/Sponsors%20Page/Associate/balsamiq_ilvw5b.png"
+            },
+            {
+                "name": "coding minutes",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974176/Makeathon%205%20website/Sponsors%20Page/Associate/Coding_Minutes_hrv2ac.jpg"
+            },
+            {
+                "name": "buythevalue",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974176/Makeathon%205%20website/Sponsors%20Page/Associate/buythevalue_oeylm4.jpg"
+            },
+            {
+                "name": "Axure",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974175/Makeathon%205%20website/Sponsors%20Page/Associate/Axure_mda1jx.png"
+            },
+            {
+                "name": "10x",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974175/Makeathon%205%20website/Sponsors%20Page/Associate/10x_lmio51.jpg"
+            },
+            {
+                "name": "1Password",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974175/Makeathon%205%20website/Sponsors%20Page/Associate/1password-logo-2-e1635493566517_ml1fqq.png"
+            },
+            {
+                "name": "bpb",
+                "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974175/Makeathon%205%20website/Sponsors%20Page/Associate/bpb_xiatnc.png"
             }
         ]
     }

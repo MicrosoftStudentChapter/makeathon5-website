@@ -64,7 +64,7 @@
 
 @media (max-width: 800px){
     .main{
-        height: 190vh;
+        min-height: 100vh;
     }
     .heading{
         margin-left: 1rem;
