@@ -17,7 +17,8 @@ export const Navbar = () => {
     <Box
       sx={{
         display: "flex",
-        position: "absolute",
+        position: "fixed",
+        top: 0,
         zIndex: "1000",
         flexDirection: "row"
       }}
@@ -127,7 +128,7 @@ export const Navbar = () => {
               alignItems: "center"
             }}
           >
-            <NavItems />
+            <NavItems close={setIsOpen}/>
           </Box>
         </Box>
       </Drawer>

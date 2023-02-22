@@ -27,7 +27,7 @@ export const TimelineEvent = ({position, content, date}) => {
           borderRadius: "10px",
           "@media (max-width: 800px)": {
             left: "-20%",
-            top: position == "up" ? "15.75%" : "55.75%"
+            top: position == "up" ? "15.75%" : "63.75%"
           }
         }}
       >
