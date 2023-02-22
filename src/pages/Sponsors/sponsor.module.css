@@ -4,64 +4,99 @@
     box-shadow: none;
     letter-spacing: 5px;
     text-transform: uppercase;
-    width: 100%;
-    -webkit-box-reflect: below 10px linear-gradient(transparent, #0008);
+    /* width: 100%; */
+    /* -webkit-box-reflect: below 10px linear-gradient(transparent, #0008); */
     /* line-height: 0.70em; */
     /* animation: animate 5s linear infinite; */
-    font-size: 48px;
+    font-size: 5rem;
     /* line-height: 125px; */
     color: #FFFFFF;
     text-align: center;
     text-shadow: 1px 1px 2px #00FFFF;
+    margin: 10px 0;
 }
 
 
 
- .sponsors{
-    padding-top: 3%;
-    /* background-image: url('https://wallpapercave.com/wp/wp7051632.jpg'); */
-    /* background-image: url('https://wallpapercave.com/wp/wp6252300.jpg');
-    background-image: url('https://wallpapercave.com/wp/wp6656168.jpg'); */
-    background-image: url('https://wallpapercave.com/wp/wp7051791.jpg');
-    /* background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    align-items: center;	
-    text-align: center;
+.sponsors{
+  min-height: 100vh;
+  background: url('https://res.cloudinary.com/damjdcgak/image/upload/v1676228463/Makeathon%205%20website/Backgrounds/Vishist_Bhagabati_dystopian_city_retrowave_9a0551e8-6f29-4d77-8cab-e5ed4d5a3ac9_tymxe4.png') ;
+  background-size: cover;
+  align-items: center;	
+  text-align: center;
 }
-
-
+.sponsorsOverlay{
+  width: 100%;
+  min-height: 100%;
+  /* background: rgba(79, 6, 46, 0.4); */
+  padding: 1px 0;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.titleSponsors{
+  backdrop-filter: blur(15px);
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-right: 1px solid rgba(255,255,255,0.5);
+  box-shadow: 8px 12px 50px rgba(0,0,0,0.4);
+  border-radius: 16px;
+  background-color: rgba(131, 129, 129, 0.1);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 4%;
+  padding: 10px 30px ;
+}
 .sponsors_section{
-    backdrop-filter: blur(8px);
-    border-top: 1px solid rgba(255,255,255,0.5);
-    border-right: 1px solid rgba(255,255,255,0.5);
-    box-shadow: 8px 12px 50px rgba(0,0,0,0.4);
-    border-radius: 16px;
-    -webkit-backdrop-filter: blur(8px);
-    padding: 3%;
-    margin : 5%;
+  backdrop-filter: blur(15px);
+  border-top: 1px solid rgba(255,255,255,0.5);
+  border-right: 1px solid rgba(255,255,255,0.5);
+  box-shadow: 8px 12px 50px rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  -webkit-backdrop-filter: blur(8px);
+  background-color: rgba(131, 129, 129, 0.1);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 4%;
+  padding: 10px 30px ;
 } 
 
 .grid_justify {
-    padding: 4%;
-    justify-content: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  /* padding: 4%; */
+  justify-content: center;
 }
 
 .subheading{
-    padding: 10px;
-    box-shadow: none;
-    letter-spacing: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    width: 100%;
-    -webkit-box-reflect: below 10px linear-gradient(transparent, #0008);
-    /* line-height: 0.70em; */
-    outline: none;
-    text-shadow: 1px 1px 2px #00FFFF;
-    /* animation: animate 5s linear infinite; */
+  padding-top: 3rem;
+  box-shadow: none;
+  letter-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.6rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  width: 100%;
+  /* -webkit-box-reflect: below 10px linear-gradient(transparent, #0008); */
+  /* line-height: 0.70em; */
+  outline: none;
+  text-shadow: 1px 1px 2px #00FFFF;
+  /* animation: animate 5s linear infinite; */
+}
+
+@media (max-width: 800px){
+  .heading{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+  }
+  .subheading{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
 }
 

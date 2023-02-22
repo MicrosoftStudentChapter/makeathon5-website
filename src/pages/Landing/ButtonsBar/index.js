@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, IconButton, Button } from "@mui/material";
 import Logo from "../assets/devfolio.svg";
+import btnstyles from "./btnbar.module.css" 
 export const ButtonsBar = () => {
   return (
     <Box
@@ -25,12 +26,12 @@ export const ButtonsBar = () => {
         data-button-theme="light"
         style={{ height: "44px", width: "312px" }}
       ></div>
-      <a href="https://tally.so/r/3xVk7E" target="_blank" rel="noopener noreferrer">
+      <a className={btnstyles.anchor} href="https://tally.so/r/3xVk7E" target="_blank" rel="noopener noreferrer">
       <Button
         variant="contained"
         // disabled
         sx={{
-          marginLeft: "2rem",
+          marginLeft: "0rem",
           width: "312px",
           height: "44px",
           "@media (max-width: 800px)": {
