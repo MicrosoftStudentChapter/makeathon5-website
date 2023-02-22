@@ -91,10 +91,12 @@
   .heading{
     padding-top: 2rem;
     padding-bottom: 2rem;
+    font-size: 3rem;
   }
   .subheading{
     padding-top: 2rem;
     padding-bottom: 2rem;
+    font-size: 2rem;
   }
 }
 

@@ -1,0 +1,56 @@
+{
+	"data": {
+		"big": {
+			"Best Hack": [
+				"20,000 Rs. Cash",
+				"Official MLSC Merch",
+				"Devkits from Ikarus3D",
+				"CodeChef Pro Subscription",
+				"Jetbrains Academy 3 months free access",
+				"Lifetime upgrade to Taskade pro",
+				"Intership opportunity at Flipr And LetsGrowMore",
+				"Full kits from DuoLearn",
+				"Access to Fueler Premium worth $100"
+			],
+			"2nd Best Hack": [
+				"15,000 Rs Cash Prize",
+				"Official MLSC Merch",
+				"Devkits from Ikarus 3D",
+				"Jetbrains Academy 3 months free access",
+				"Lifetime upgrade to Taskade pro",
+				"Intership opportunity at Flipr And LetsGrowMore",
+				"Full kits from DuoLearn",
+				"Access to Fueler Premium worth $100"
+			],
+			"3rd Best Hack": [
+				"10,00 Rs Cash Prize",
+				"Devkits from Ikarus 3D",
+				"Jetbrains Academy 3 months free access",
+				"Lifetime upgrade to Taskade pro",
+				"Intership opportunity at Flipr And LetsGrowMore",
+				"Full kits from DuoLearn",
+				"Access to Fueler Premium worth $100"
+			]
+		},
+		"small": {
+			"Most Innovative Hack": [
+				"5000 Rs Cash Prize",
+				"Devkits from Ikarus 3D",
+				"Devkits from Threeway Studios",
+				"Multiple Shwags"
+			],
+			"Best Crowd Based Hack": [
+				"5000 Rs Cash Prize",
+				"Devkits from Ikarus 3D",
+				"Devkits from Threeway Studios",
+				"Multiple Shwags"
+			],
+			"Best First Year Hack": [
+				"5000 Rs Cash Prize",
+				"Devkits from Ikarus 3D",
+				"Devkits from Threeway Studios",
+				"Multiple Shwags"
+			]
+		}
+	}
+}
