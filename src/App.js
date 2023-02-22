@@ -46,9 +46,6 @@ function App() {
           <section id="tracks">
             <Tracks />
           </section> 
-          <section id="prizes">
-            <Prizes />
-          </section> 
           <section id="sponsors">
              <Sponsors />
           </section>
