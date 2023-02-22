@@ -22,7 +22,7 @@ const TitleText = styled(Typography)({
 const PrizeCard = styled(Box)({
   width: "30vw",
   height: "30vh",
-  backgroundColor: "#ffffff11",
+  backgroundColor: "#ffffff",
   backdropFilter: "blur(10px)"
 })
 
@@ -42,9 +42,6 @@ export const Prizes = () => {
         <TitleText variant="h1">
           Prizes
         </TitleText>
-        {
-          data["big"].map(()=>(<PrizeCard/>))
-        }
       </Box>
     </ParentBox>
   )

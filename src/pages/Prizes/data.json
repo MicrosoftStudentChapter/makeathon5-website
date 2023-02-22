@@ -1,6 +1,5 @@
 {
 	"data": {
-		"big": {
 			"Best Hack": [
 				"20,000 Rs. Cash",
 				"Official MLSC Merch",
@@ -30,9 +29,7 @@
 				"Intership opportunity at Flipr And LetsGrowMore",
 				"Full kits from DuoLearn",
 				"Access to Fueler Premium worth $100"
-			]
-		},
-		"small": {
+			],
 			"Most Innovative Hack": [
 				"5000 Rs Cash Prize",
 				"Devkits from Ikarus 3D",
@@ -52,5 +49,4 @@
 				"Multiple Shwags"
 			]
 		}
-	}
 }
