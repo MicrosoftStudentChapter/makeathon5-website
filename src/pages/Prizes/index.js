@@ -3,7 +3,6 @@ import { Box, Typography } from "@mui/material";
 import styles from "./prizes.module.css";
 const ParentBox = styled(Box)({
   width: "100vw",
-  height: "100vh",
   display: "flex",
   flexDirection: "column",
   backgroundColor: "black",
@@ -16,12 +15,6 @@ const TitleText = styled(Typography)({
   color: "white",
 });
 
-const PrizeCard = styled(Box)({
-  width: "30vw",
-  height: "30vh",
-  backgroundColor: "#ffffff",
-  backdropFilter: "blur(10px)",
-});
 
 export const Prizes = () => {
   return (
