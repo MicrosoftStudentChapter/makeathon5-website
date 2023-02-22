@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './styles/about.module.css'
 
 import backg from './assets/header.png'
-import { margin, padding, width } from '@mui/system'
 
 export const About = () => {
   const data = {
@@ -14,14 +13,12 @@ export const About = () => {
   return (
     <div className={styles.main} style={
         {
-          // height: '100%',
           fontFamily: 'Lexend Exa, sans-serif',
           // backgroundImage: `url(${backg})`,
           backgroundColor:'#72d7be',
           // backgroundRepeat: 'no-repeat',
           // backgroundSize: 'cover',
           // backgroundBlendMode: 'color-burn',
-          height: '100%'
         }
       }>
         <div className={styles.imageContainer}>
@@ -42,9 +39,9 @@ export const About = () => {
             <p className={styles.aboutText}>At the Microsoft Learn Student Chapter, we believe that young people with the right technology have the potential to revolutionise the world as we know it today. And through several events held over the years, we have made fair progress. Microsoft Learn Student Chapter was institutionalised to provide students with a systematic platform to develop technical skills and team spirit. Our vision is to create a community of computer enthusiasts with a development spirit.</p>
           </aboutCircle>
           <div className={styles.flexInnerContainer}>
-            <circleRight className={styles.right} style={{marginTop:'0'}}><div className={styles.inner}>100k+</div></circleRight>
-            <circleLeft className={styles.left}><div className={styles.inner}>150+</div></circleLeft>
-            <circleRight className={styles.right}><div className={styles.inner}>500+</div></circleRight>
+            <circleRight className={styles.right} style={{marginTop:'0'}}><div className={styles.inner}>100+ Projects</div></circleRight>
+            <circleLeft className={styles.left}><div className={styles.inner}>1000+ Applications</div></circleLeft>
+            <circleRight className={styles.right}><div className={styles.inner}>10+ Workshops</div></circleRight>
           </div>
         </div>
       </div>
