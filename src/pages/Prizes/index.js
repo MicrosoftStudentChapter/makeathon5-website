@@ -47,8 +47,15 @@ export const Prizes = () => {
                 <img src="https://res.cloudinary.com/dcvqnyvvt/image/upload/v1677078787/1_yocxfh.png" />
               </div>
               <div className={styles.desc}>
-                Elijah has collected bugs since they were six years old and now
-                has many dozen bugs but none in their pants.
+              <span className={styles.bold}>₹ 20,000/- Cash</span>
+                <br />
+                Official MLSC Merch
+                <br />
+                Devkits from Ikarus3D
+                <br />
+                CodeChef Pro Subscription
+                <br />
+                and more!
               </div>
             </article>
             <div className={styles.actions}>
@@ -70,8 +77,15 @@ export const Prizes = () => {
                 <img src="https://res.cloudinary.com/dcvqnyvvt/image/upload/v1677078788/3_mwkuoq.png" />
               </div>
               <div className={styles.desc}>
-                Morgan has collected ants since they were six years old and now
-                has many dozen ants but none in their pants.
+              <span className={styles.bold}> ₹ 15,000/- Cash</span>
+                <br />
+                Official MLSC Merch
+                <br />
+                Devkits from Ikarus3D
+                <br />
+                CodeChef Pro Subscription
+                <br />
+                and more!
               </div>
             </article>
             <div className={styles.actions}>
@@ -94,8 +108,15 @@ export const Prizes = () => {
                 <img src="https://res.cloudinary.com/dcvqnyvvt/image/upload/v1677078788/2_f0hzt6.png" />
               </div>
               <div className={styles.desc}>
-                Adrian has collected flies since they were six years old and now
-                has many dozen flies but none in their pants.
+                <span className={styles.bold}>₹ 10,000/- Cash</span>
+                <br />
+                Official MLSC Merch
+                <br />
+                Devkits from Ikarus3D
+                <br />
+                CodeChef Pro Subscription
+                <br />
+                and more!
               </div>
             </article>
             <div className={styles.actions}>

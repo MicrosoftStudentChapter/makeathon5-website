@@ -201,7 +201,8 @@
 }
 .cards .card article .desc {
   padding: 10px 30px;
-  font-size: 20 px;
+  font-size: 25 px;
+  font-stretch: expanded;
   text-align: center;
   line-height: 24px;
   font-weight: 470;
@@ -412,4 +413,7 @@
 .cards .card.closed:hover .arrow {
   background-size: 100%;
   opacity: 0.6;
+}
+.bold{
+    font-weight: 650;
 }
