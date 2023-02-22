@@ -204,7 +204,8 @@
   font-size: 20 px;
   text-align: center;
   line-height: 24px;
-  color: #666;
+  font-weight: 470;
+  color: #3c3c3c;
   height: 90px;
   transition: all 0.4s ease-out;
 }
@@ -214,7 +215,7 @@
   overflow: hidden;
   border-radius: 100%;
   margin: 20px 0;
-  box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.682);
   transition: all 0.6s ease;
   
 }
