@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
 @import url("https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700&display=swap");
-.prize{
-    background: url("./background.gif");
-    background-size: cover;
-}
 .about {
   position: fixed;
   z-index: 10;
@@ -159,7 +155,7 @@ body {
   width: calc(100% + 100px);
   content: "";
   position: absolute;
-  background-image: linear-gradient(to top, #eb44b1 0%, #04befe 100%);
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
   border-radius: 4px 4px 100% 100%;
   transition: all 0.4s ease-out;
   top: 0;
