@@ -32,13 +32,30 @@ export default function Sponsors() {
                                     container
                                     spacing={1}
                                     className={styles.grid_justify}
+                                    sx={{
+                                        display:"flex",
+                                        justifyContent:"center",
+                                        alignItems: "center"
+                                    }}
                                 >
                                     {Data["data"]["title"].map((item) => (
-                                        <Grid item xs={12} lg={5} md={6}>
+                                        <Grid item xs={12} lg={5} md={6}
+                                        // sx={{
+                                        //     display:"flex",
+                                        //     justifyContent:"center",
+                                        //     alignItems: "center",
+                                        //     background:"rgba(255,255,255,1)",
+                                        //     width:"300px",
+                                        //     height:"300px",
+                                        //     margin:"1px"
+                                        // }}
+                                        >
+                                            <a href={item.link}>
                                             <SponsorCard
                                                 src={item.src}
                                                 alt={item.name}
                                             />
+                                            </a>
                                         </Grid>
                                     ))}
                                 </Grid>
@@ -53,13 +70,30 @@ export default function Sponsors() {
                                     container
                                     spacing={2}
                                     className={styles.grid_justify}
+                                    sx={{
+                                        display:"flex",
+                                        justifyContent:"center",
+                                        alignItems: "center"
+                                    }}
                                 >
                                     {Data["data"]["power"].map((item) => (
-                                        <Grid item xs={12} lg={3} md={6}>
+                                        <Grid item xs={12} lg={3} md={6}
+                                        // sx={{
+                                        //     display:"flex",
+                                        //     justifyContent:"center",
+                                        //     alignItems: "center",
+                                        //     background:"rgba(255,255,255,1)",
+                                        //     width:"300px",
+                                        //     height:"300px",
+                                        //     margin:"1px"
+                                        // }}
+                                        >
+                                            <a href={item.link}>
                                             <SponsorCard
                                                 src={item.src}
                                                 alt={item.name}
                                             />
+                                            </a>
                                         </Grid>
                                     ))}
                                 </Grid>
@@ -74,13 +108,28 @@ export default function Sponsors() {
                                     container
                                     spacing={2}
                                     className={styles.grid_justify}
+                                    sx={{
+                                        
+                                    }}
                                 >
                                     {Data["data"]["associate"].map((item) => (
-                                        <Grid item xs={12} lg={2} md={6}>
+                                        <Grid item xs={12} lg={2} md={6}
+                                        // sx={{
+                                        //     display:"flex",
+                                        //     justifyContent:"center",
+                                        //     alignItems: "center",
+                                        //     // background:"rgba(255,255,255,1)",
+                                        //     width:"300px",
+                                        //     height:"300px",
+                                        //     margin:"1px"
+                                        // }}
+                                        >
+                                            <a href={item.link}>
                                             <SponsorCard
                                                 src={item.src}
                                                 alt={item.name}
                                             />
+                                            </a>
                                         </Grid>
                                     ))}
                                 </Grid>
@@ -94,13 +143,30 @@ export default function Sponsors() {
                                     container
                                     spacing={2}
                                     className={styles.grid_justify}
+                                    sx={{
+                                        display:"flex",
+                                        justifyContent:"center",
+                                        alignItems: "center"
+                                    }}
                                 >
                                     {Data["data"]["OtherSponsors"].map((item) => (
-                                        <Grid item xs={12} lg={2} md={6}>
+                                        <Grid item xs={12} lg={2} md={6}
+                                        // sx={{
+                                        //     display:"flex",
+                                        //     justifyContent:"center",
+                                        //     alignItems: "center",
+                                        //     background:"rgba(255,255,255,1)",
+                                        //     width:"300px",
+                                        //     height:"300px",
+                                        //     margin:"1px"
+                                        // }}
+                                        >
+                                            <a href={item.link}>
                                             <SponsorCard
                                                 src={item.src}
                                                 alt={item.name}
                                             />
+                                            </a>
                                         </Grid>
                                     ))}
                                 </Grid>
@@ -114,13 +180,22 @@ export default function Sponsors() {
                                     container
                                     spacing={2}
                                     className={styles.grid_justify}
+                                    sx={{
+                                        display:"flex",
+                                        justifyContent:"center",
+                                        alignItems: "center"
+                                    }}
                                 >
                                     {Data["data"]["CommunityOutreach"].map((item) => (
-                                        <Grid item xs={12} lg={2} md={6}>
+                                        <Grid item xs={12} lg={2} md={5}
+                                        
+                                        >
+                                            <a href={item.link}>
                                             <SponsorCard
                                                 src={item.src}
                                                 alt={item.name}
                                             />
+                                            </a>
                                         </Grid>
                                     ))}
                                 </Grid>
