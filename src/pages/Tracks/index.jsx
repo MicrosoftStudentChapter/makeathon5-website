@@ -221,10 +221,11 @@ export const Tracks = () => {
     alignItems: "center",
     top: "55%",
     left: "10%",
-    fontSize: "3rem",
-    "@media (max-width: 800px)" : {
-      fontSize: "1.5rem"
+    fontSize: "150%",
+    "@media (max-width: 950px)" : {
+      fontSize: "150%"
     }
+    
   })
   const FullBox = styled(Box)({
     width: "100vw",
