@@ -289,35 +289,35 @@ export const Tracks = () => {
         <>
           <Slide1>
             <TrackTitle
-              // onClick={()=>{handleClick(Object.keys(data)[0])}}
+              onClick={()=>{handleClick(Object.keys(data)[0])}}
             >
               {Object.keys(data)[0]}
             </TrackTitle>
           </Slide1>
           <Slide2>
             <TrackTitle
-              // onClick={() => {handleClick(Object.keys(data)[1])}}
+              onClick={() => {handleClick(Object.keys(data)[1])}}
             >
               {Object.keys(data)[1]}
             </TrackTitle>
           </Slide2>
           <Slide3>
             <TrackTitle
-              // onClick={() => {handleClick(Object.keys(data)[2])}}
+              onClick={() => {handleClick(Object.keys(data)[2])}}
             >
               {Object.keys(data)[2]}
             </TrackTitle>
           </Slide3>
           <Slide4>
             <TrackTitle
-              // onClick={() => {handleClick(Object.keys(data)[3])}}
+              onClick={() => {handleClick(Object.keys(data)[3])}}
             >
               {Object.keys(data)[3]}
             </TrackTitle>
           </Slide4>
           <Slide5>
             <TrackTitle
-              // onClick={() => {handleClick(Object.keys(data)[4])}}
+              onClick={() => {handleClick(Object.keys(data)[4])}}
             >
               {Object.keys(data)[4]}
             </TrackTitle>
