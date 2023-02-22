@@ -114,15 +114,15 @@ export default function Sponsors() {
                                 >
                                     {Data["data"]["associate"].map((item) => (
                                         <Grid item xs={12} lg={2} md={6}
-                                        // sx={{
-                                        //     display:"flex",
-                                        //     justifyContent:"center",
-                                        //     alignItems: "center",
-                                        //     // background:"rgba(255,255,255,1)",
-                                        //     width:"300px",
-                                        //     height:"300px",
-                                        //     margin:"1px"
-                                        // }}
+                                        sx={{
+                                            display:"flex",
+                                            justifyContent:"center",
+                                            alignItems: "center",
+                                            // background:"rgba(255,255,255,1)",
+                                            // width:"300px",
+                                            // height:"300px",
+                                            // margin:"1px"
+                                        }}
                                         >
                                             <a href={item.link}>
                                             <SponsorCard
