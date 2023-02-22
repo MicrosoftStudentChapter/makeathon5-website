@@ -52,7 +52,7 @@ function App() {
           <section id="sponsors">
              <Sponsors />
           </section>
-          <section id="faq">
+          <section id="faqs">
             <Faq />
           </section>
           <section id="chulo">

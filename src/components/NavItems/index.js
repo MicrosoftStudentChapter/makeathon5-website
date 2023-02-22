@@ -4,15 +4,15 @@ import{
   ListItemButton, ListItemText, Typography
 } from '@mui/material';
 
-export const NavItems = () => {
+export const NavItems = ({close}) => {
   const items = {
     "HOME": "#home",
     // "ABOUT US" : "#about",
-    // "TIMELINE" : "#timeline",
-    // "TRACKS" : "#tracks",
-    // "SPEAKERS": "#speakers",
+    "TIMELINE" : "#timeline",
+    "TRACKS" : "#tracks",
+    "SPEAKERS": "#speakers",
     // "PRIZES" : "#prizes",
-    // "SPONSORS": "#sponsors",
+    "SPONSORS": "#sponsors",
     "FAQs" : "#faqs"
   }
   const fontq = "'Lexend Exa', sans-serif";
@@ -32,6 +32,7 @@ export const NavItems = () => {
                 borderLeft: "3px solid #ffffff",
               }
             }}
+            onClick={() => {close(false); window.location=items[text]}}
             disablePadding
           >
             <ListItemButton
@@ -40,6 +41,7 @@ export const NavItems = () => {
                 color:'white'
               }
             }}>
+            <a href={items[text]}>
               <ListItemText
                 primary={text}
                 primaryTypographyProps={{
@@ -50,6 +52,7 @@ export const NavItems = () => {
                 }} 
                 
               />
+            </a>
             </ListItemButton>
           </ListItem>
         ))
