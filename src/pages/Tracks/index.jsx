@@ -54,7 +54,7 @@ export const Tracks = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       ]
     },
-    "Sponsor Tracks" : {
+    "Miscellaneous" : {
       image: background5,
       content: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -163,7 +163,7 @@ export const Tracks = () => {
     },
   });
   const Slide5 = styled(Box)({
-    width: "20vw",
+    width: "20%",
     position: "relative",
     height: "100vh",
     diplay:"flex",
@@ -221,7 +221,7 @@ export const Tracks = () => {
     alignItems: "center",
     top: "55%",
     left: "10%",
-    fontSize: "3rem",
+    fontSize: "2.3rem",
     "@media (max-width: 800px)" : {
       fontSize: "1.5rem"
     }
@@ -289,35 +289,35 @@ export const Tracks = () => {
         <>
           <Slide1>
             <TrackTitle
-              // onClick={()=>{handleClick(Object.keys(data)[0])}}
+              onClick={()=>{handleClick(Object.keys(data)[0])}}
             >
               {Object.keys(data)[0]}
             </TrackTitle>
           </Slide1>
           <Slide2>
             <TrackTitle
-              // onClick={() => {handleClick(Object.keys(data)[1])}}
+              onClick={() => {handleClick(Object.keys(data)[1])}}
             >
               {Object.keys(data)[1]}
             </TrackTitle>
           </Slide2>
           <Slide3>
             <TrackTitle
-              // onClick={() => {handleClick(Object.keys(data)[2])}}
+              onClick={() => {handleClick(Object.keys(data)[2])}}
             >
               {Object.keys(data)[2]}
             </TrackTitle>
           </Slide3>
           <Slide4>
             <TrackTitle
-              // onClick={() => {handleClick(Object.keys(data)[3])}}
+              onClick={() => {handleClick(Object.keys(data)[3])}}
             >
               {Object.keys(data)[3]}
             </TrackTitle>
           </Slide4>
           <Slide5>
             <TrackTitle
-              // onClick={() => {handleClick(Object.keys(data)[4])}}
+              onClick={() => {handleClick(Object.keys(data)[4])}}
             >
               {Object.keys(data)[4]}
             </TrackTitle>
