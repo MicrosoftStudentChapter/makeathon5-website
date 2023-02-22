@@ -54,7 +54,7 @@ export const Tracks = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       ]
     },
-    "Sponsor Tracks" : {
+    "Miscellaneous" : {
       image: background5,
       content: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -163,7 +163,7 @@ export const Tracks = () => {
     },
   });
   const Slide5 = styled(Box)({
-    width: "20vw",
+    width: "20%",
     position: "relative",
     height: "100vh",
     diplay:"flex",
@@ -221,7 +221,7 @@ export const Tracks = () => {
     alignItems: "center",
     top: "55%",
     left: "10%",
-    fontSize: "3rem",
+    fontSize: "2.3rem",
     "@media (max-width: 800px)" : {
       fontSize: "1.5rem"
     }
