@@ -47,9 +47,9 @@ function App() {
           <section id="tracks">
             <Tracks />
           </section>
-          {/* <section id="sponsorTracks"> */}
-          {/*   <SponsorTracks /> */}
-          {/* </section> */}
+          <section id="sponsorTracks">
+            <SponsorTracks />
+          </section>
           <section id="prizes">
             <Prizes />
           </section>
