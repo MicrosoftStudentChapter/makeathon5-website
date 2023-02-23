@@ -3,7 +3,7 @@ import { easeInOut, motion } from "framer-motion"
 import styles from './sponcercard.module.css';
 import Box from '@mui/material/Box';
 
-export default function SponsorCard({ src, alt = "", bacc= "rgba(255,255,255,0)"}) {
+export default function SponsorCard({ src, alt = "", bacc= "rgba(255,255,255,0)", scl = ""}) {
     return (
         <>
             <motion.div
@@ -17,7 +17,11 @@ export default function SponsorCard({ src, alt = "", bacc= "rgba(255,255,255,0)"
                 <center>
                     <Box
                     sx={{
-                        background: `${bacc}`
+                        background: `${bacc}`,
+                        scale: `${scl}`,
+                        "@media(max-width: 800px)": {
+                            scale: "1",
+                          },
                     }}
                     >
                     <img className={styles.sponcercard} src={src} alt={alt} />
