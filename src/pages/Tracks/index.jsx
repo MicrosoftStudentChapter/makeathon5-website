@@ -144,7 +144,7 @@ export const Tracks = () => {
     position: "relative",
     height: "100%",
     diplay:"flex",
-    backgroundImage: `url(${background3})`,
+    backgroundImage: `url(${background4})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     transition: "0.8s",
@@ -165,7 +165,7 @@ export const Tracks = () => {
     position: "relative",
     height: "100%",
     diplay:"flex",
-    backgroundImage: `url(${background4})`,
+    backgroundImage: `url(${background5})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     transition: "0.8s",
@@ -218,6 +218,7 @@ export const Tracks = () => {
     letterSpacing: "0.5rem",
     color: "white",
     fontFamily: headFont,
+    fontWeight: "bold",
     textAlign: "center",
     animation: "fade 1s ease-in 1",
     "@keyframes fade" : {
@@ -280,6 +281,7 @@ export const Tracks = () => {
     fontSize: "1.2rem",
     wordWrap: "break-word",
     marginRight:"2rem",
+    fontWeight: "600",
     "@media (max-width: 800px)":{
       fontSize: "1rem",
       margin: "0",
@@ -376,6 +378,7 @@ export const Tracks = () => {
                     color: "white",
                     marginBottom: "0.5rem",
                     fontFamily: headFont,
+                    fontWeight: "600",
                   }}
                 >
                   Brief:
@@ -387,6 +390,7 @@ export const Tracks = () => {
                       sx={{
                       color: "white",
                       fontFamily: headFont,
+                      fontWeight: "600",
                     }}
                     >
                       {stuff}
@@ -398,7 +402,9 @@ export const Tracks = () => {
                   sx={{
                     color: "white",
                     marginTop: "0.7rem",
-                    marginBottom: "0.5rem"
+                    marginBottom: "0.5rem",
+                    fontFamily: headFont,
+                    fontWeight: "600",
                   }}
                 >
                   Problem Statements:

@@ -10,8 +10,9 @@ export const NavItems = ({close}) => {
     "ABOUT US" : "#about",
     "TIMELINE" : "#timeline",
     "TRACKS" : "#tracks",
+    "SPONSOR TRACKS" : "#sponsorTracks",
     "SPEAKERS": "#speakers",
-    // "PRIZES" : "#prizes",
+    "PRIZES" : "#prizes",
     "SPONSORS": "#sponsors",
     "FAQs" : "#faqs"
   }
@@ -49,6 +50,9 @@ export const NavItems = ({close}) => {
                   fontSize: '1.7rem',
                   color: "#ffffffaa",
                   fontWeight: "900",
+                  "@media (max-width: 950px)":{
+                    fontSize: "1rem"
+                  }
                 }} 
                 
               />
