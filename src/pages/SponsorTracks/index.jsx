@@ -89,7 +89,7 @@ export const SponsorTracks = () => {
             marginBottom: "10px",
             border: "none"
           }}
-          defaultExpanded={true}
+          // defaultExpanded={true}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{color: "white"}}/>}
@@ -194,7 +194,7 @@ export const SponsorTracks = () => {
             border: "none",
             fontFamily: headFont,
           }}
-          defaultExpanded={true}
+          // defaultExpanded={true}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{color: "white"}}/>}
@@ -274,7 +274,7 @@ export const SponsorTracks = () => {
             border: "none",
             fontFamily: headFont,
           }}
-          defaultExpanded={true}
+          // defaultExpanded={true}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{color: "white"}}/>}
@@ -366,7 +366,7 @@ export const SponsorTracks = () => {
             marginBottom: "10px",
             border: "none"
           }}
-          defaultExpanded={true}
+          // defaultExpanded={true}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{color: "white"}}/>}
@@ -421,7 +421,7 @@ export const SponsorTracks = () => {
             marginBottom: "10px",
             border: "none"
           }}
-          defaultExpanded={true}
+          // defaultExpanded={true}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{color: "white"}}/>}
@@ -510,7 +510,7 @@ export const SponsorTracks = () => {
             border: "none",
             fontFamily: headFont,
           }}
-          defaultExpanded={true}
+          // defaultExpanded={true}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{color: "white"}}/>}
@@ -593,7 +593,7 @@ export const SponsorTracks = () => {
             border: "none",
             fontFamily: headFont,
           }}
-          defaultExpanded={true}
+          // defaultExpanded={true}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon sx={{color: "white"}}/>}
