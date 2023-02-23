@@ -40,21 +40,23 @@ export default function Sponsors() {
                                 >
                                     {Data["data"]["title"].map((item) => (
                                         <Grid item xs={12} lg={5} md={6}
-                                        // sx={{
-                                        //     display:"flex",
-                                        //     justifyContent:"center",
-                                        //     alignItems: "center",
-                                        //     background:"rgba(255,255,255,1)",
-                                        //     width:"300px",
-                                        //     height:"300px",
-                                        //     margin:"1px"
-                                        // }}
+                                        sx={{
+                                            display:"flex",
+                                            justifyContent:"center",
+                                            alignItems: "center",
+                                            background:"rgba(255,255,255,1)",
+                                            width:"100px",
+                                            height:"175px",
+                                            margin:"10px",
+                                            scale: "0.9"
+                                        }}
                                         >
                                             <a href={item.link}>
                                             <SponsorCard
                                                 src={item.src}
                                                 alt={item.name}
                                                 bacc={item.bg}
+                                                scl={item.scl}
                                             />
                                             </a>
                                         </Grid>
@@ -168,6 +170,7 @@ export default function Sponsors() {
                                             <SponsorCard
                                                 src={item.src}
                                                 alt={item.name}
+                                                bacc={item.bg}
                                             />
                                             </a>
                                         </Grid>
@@ -197,6 +200,7 @@ export default function Sponsors() {
                                             <SponsorCard
                                                 src={item.src}
                                                 alt={item.name}
+                                                bacc={item.bg}
                                             />
                                             </a>
                                         </Grid>
