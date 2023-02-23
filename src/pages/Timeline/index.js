@@ -106,21 +106,7 @@ export const Timeline = () => {
                /> 
              ) 
            })} 
-        </div> 
-        <div
-          className={styles.box2}
-        >
-            {/*{data["content"]["utopia"].map((item)=>{ 
-            return(
-              <TimelineEvent
-                position={item.position}
-                content={item.content}
-                date={item.date}
-              />
-            )
-          })}*/}
-        </div>
-        
+        </div>         
       </ScrollCarousel>
   )
 }
