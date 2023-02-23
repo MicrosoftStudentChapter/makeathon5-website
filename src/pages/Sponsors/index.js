@@ -54,6 +54,7 @@ export default function Sponsors() {
                                             <SponsorCard
                                                 src={item.src}
                                                 alt={item.name}
+                                                bacc={item.bg}
                                             />
                                             </a>
                                         </Grid>
@@ -92,6 +93,7 @@ export default function Sponsors() {
                                             <SponsorCard
                                                 src={item.src}
                                                 alt={item.name}
+                                                bacc={item.bg}
                                             />
                                             </a>
                                         </Grid>
@@ -128,6 +130,7 @@ export default function Sponsors() {
                                             <SponsorCard
                                                 src={item.src}
                                                 alt={item.name}
+                                                bacc={item.bg}
                                             />
                                             </a>
                                         </Grid>

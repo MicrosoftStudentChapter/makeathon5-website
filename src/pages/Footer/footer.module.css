@@ -38,11 +38,24 @@
     align-self: flex-start;
 }
 
+.div{
+  margin-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div2{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .sheild{
     width: 10rem;
     height: 10rem;
-    margin-left: 4rem;
-
 }
 
 .legacy{
@@ -59,6 +72,14 @@
     
 }
 
+.div3 {
+  display: flex;
+  margin-left: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .innovations{    
     font-family: 'Raleway';
     font-style: normal;
@@ -66,7 +87,7 @@
     font-size: 28px;
     line-height: 33px;
     /* identical to box height */
-    display: inline-block;
+    display: block;
 
 
     background: #0F4CA7;
@@ -123,7 +144,7 @@
     font-family: 'Raleway', sans-serif;
     padding-top: 0.5rem;
     color: #FFCF9C;
-    padding-left: 2rem;
+    padding-left: 5rem;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
@@ -160,10 +181,10 @@
 
 .bleh{
     padding-top: 1rem;
-    padding-bottom: 0.5;
+    padding-bottom: 1.5;
     margin-bottom:0.5;
     padding-left: 2.5rem;
-    
+    display: flex;
 }
 
 .side{
@@ -174,6 +195,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 1rem;
+    
 }
 
 a {
@@ -183,7 +205,8 @@ a {
 
 @media only screen and (max-width: 966px) {
     .main{
-        background: #000 url("./assets/newfooter.png");
+        /* background: #000 url("./assets/newfooter.png"); */
+        background: #000;
         background-size: contain;
         background-repeat: no-repeat;
         /* height: fit-content; */
@@ -195,12 +218,24 @@ a {
         justify-content: flex-start;
         align-self: flex-start;
     }
-
-    
+    .div{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
+    }
+    .div2{
+      flex-direction: column;
+      margin-left: 0;
+    }
+    .div3{
+      margin-left: 0;
+    }
     .sheild{
         width: 10rem;
         height: 10rem;
-        margin-left: 4rem;
+        /* margin-left: 4rem; */
         margin-top: 2rem;
     }
 
@@ -212,7 +247,7 @@ a {
         display: flex;
         flex-direction: column;
         /* width: 50vw; */
-        /* padding-right: 2rem; */
+        padding-right: 2rem;
         justify-content: flex-start;
         align-self: flex-start;
         /* justify-content: flex-end; */
@@ -232,7 +267,7 @@ a {
         }
     
     .socials{
-        margin-left: -1rem;
+        margin-left: 0rem;
         margin-bottom: 4rem;
         margin-top: 1rem;
 
@@ -293,7 +328,7 @@ a {
         font-size: 36px;
         line-height: 42px;
         letter-spacing: 0.27em;
-    
+        padding-left: 5%;
         color: #FFFFFF;
         
     }
@@ -304,7 +339,7 @@ a {
         font-size: 28px;
         line-height: 33px;
         /* identical to box height */
-        
+        padding-left:5%;
         display: inline-block;
         margin-bottom: 1rem;
         letter-spacing: 0.27em;

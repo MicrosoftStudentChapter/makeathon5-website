@@ -86,7 +86,11 @@
   text-shadow: 1px 1px 2px #00FFFF;
   /* animation: animate 5s linear infinite; */
 }
-
+@media screen and (max-width: 1237px) {
+  .titleSponsors,.sponsors_section{
+    width:80%;
+  }
+}
 @media (max-width: 800px){
   .titleSponsors,.sponsors_section{
     padding: 0;

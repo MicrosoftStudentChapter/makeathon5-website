@@ -24,11 +24,19 @@ export const Footer = () => {
     <div className={styles.main}>
       <div className={styles.wrapper}>
         <div className={styles.left}>
-            <img className={styles.sheild} src="https://res.cloudinary.com/damjdcgak/image/upload/v1675798256/Makeathon%205%20website/Chu%20Logo/mlsc_shield_new_2_vq7q49.png"/>
 
-            <div className={styles.text}>
-                <h2 className={styles.legacy}>Legacy of</h2>
-                <h2 className={styles.innovations}>INNOVATIONS</h2>
+            <div className={styles.div}>
+                <div
+                  className={styles.div2}
+                >
+                  <img className={styles.sheild} src="https://res.cloudinary.com/damjdcgak/image/upload/v1675798256/Makeathon%205%20website/Chu%20Logo/mlsc_shield_new_2_vq7q49.png"/>
+                  <div
+                    className={styles.div3}
+                  >
+                    <h2 className={styles.legacy}>Legacy of</h2>
+                    <h2 className={styles.innovations}>INNOVATIONS</h2>
+                  </div>
+                </div>
                 <div className={styles.socials}>
                 <a href='https://www.linkedin.com/company/microsoft-learn-student-chapter'>
                 <img className={styles.imager} src={LD}/> 
@@ -55,13 +63,13 @@ export const Footer = () => {
 
               <a href='mailto: msc@thapar.edu' target='_blank'>
                 <div className={styles.bleh}>
-                  <img className={styles.image} src={Mail}/> <text className={styles.side}>msc@thapar.edu</text>
+                  <img className={styles.image} src={Mail}/> <div className={styles.side}>msc@thapar.edu</div>
                 </div>
               </a>
 
               <a href='https://goo.gl/maps/bMSfh8uoYCVuLEjD6' target='_blank'> 
                 <div className={styles.bleh}>
-                  <img className={styles.image} src={Location}/> <text className={styles.side}>TIET Patiala</text>
+                  <img className={styles.image} src={Location}/> <div className={styles.side}>TIET Patiala</div>
                 </div>
               </a>
 
@@ -70,13 +78,14 @@ export const Footer = () => {
               <div className={styles.rightR}>
               <a href='tel:+918872331055' target='_blank'>
                 <div className={styles.bleh}>
-                  <img className={styles.image} src={Phone}/> <text className={styles.side}>+91 8872331055</text>
+                  <img className={styles.image} src={Phone}/> <div className={styles.side}>+91 8872331055</div>
                 </div>
               </a>
 
               <div className={styles.bleh}>
-                <img className={styles.image} src={King}/> <text className={styles.side}>Adamay Mann</text><br></br> <text className={styles.gen}>(General Secretary)</text>
+                <img className={styles.image} src={King}/> <div className={styles.side}>Adamay Mann</div><br></br>
               </div>
+              <span className={styles.gen}>(General Secretary)</span>
             </div>
           </div>
         </div>

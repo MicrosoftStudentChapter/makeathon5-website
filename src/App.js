@@ -45,10 +45,10 @@ function App() {
           </section>
           <section id="tracks">
             <Tracks />
-          </section> 
+          </section>
           <section id="prizes">
             <Prizes />
-          </section> 
+          </section>
           <section id="sponsors">
              <Sponsors />
           </section>
