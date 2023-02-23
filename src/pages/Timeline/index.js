@@ -94,23 +94,10 @@ const data = {
 export const Timeline = () => {
   return(
       <ScrollCarousel>
-        {/* <div */}
-        {/*   className={styles.box} */}
-        {/* > */}
-        {/*   {data["content"]["dystopia"].map((item)=>{  */}
-        {/*     return( */}
-        {/*       <TimelineEvent */}
-        {/*         position={item.position} */}
-        {/*         content={item.content} */}
-        {/*         date={item.date} */}
-        {/*       /> */}
-        {/*     ) */}
-        {/*   })} */}
-        {/* </div> */}
         <div
-          className={styles.box2}
+          className={styles.box}
         >
-          {data["content"]["utopia"].map((item)=>{ 
+          {data["content"]["dystopia"].map((item)=>{ 
             return(
               <TimelineEvent
                 position={item.position}
@@ -120,7 +107,19 @@ export const Timeline = () => {
             )
           })}
         </div>
-        
+        {/* <div */}
+        {/*   className={styles.box2} */}
+        {/* > */}
+        {/*   {data["content"]["utopia"].map((item)=>{  */}
+        {/*     return( */}
+        {/*       <TimelineEvent */}
+        {/*         position={item.position} */}
+        {/*         content={item.content} */}
+        {/*         date={item.date} */}
+        {/*       /> */}
+        {/*     ) */}
+        {/*   })} */}
+        {/* </div> */}
       </ScrollCarousel>
   )
 }
