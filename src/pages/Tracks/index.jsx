@@ -49,7 +49,7 @@ export const Tracks = () => {
       links: []
     },
     "Heritage" : {
-      image: background4,
+      image: background3,
       content: [
         "Heritage, encompasses tangible and intangible, natural and cultural, movable and immovable and documentary assets inherited from the past and transmitted to future generations by virtue of their irreplaceable value. The term ‘heritage’ has evolved considerably over time. Initially referring exclusively to the monumental remains of cultures, the concept of heritage has gradually been expanded to embrace living culture and contemporary expressions. As a source of identity, heritage is a valuable factor for empowering local communities and enabling vulnerable groups to participate fully in social and cultural life. It can also provide time-tested solutions for conflict prevention and reconciliation."
       ],
@@ -61,7 +61,7 @@ export const Tracks = () => {
       links : []
     },
     "Miscellaneous" : {
-      image: background5,
+      image: background4,
       content: [
         "Welcome to the year 2912, where a cosmic riddle needs to be solved via data science. Things weren't looking good when we received a communication from a star system four lightyears away. A month ago, the Spaceship Titanic, an intergalactic passenger liner, was launched. The ship left on its maiden mission carrying emigrants from our solar system to three newly habitable exoplanets orbiting nearby stars with approximately 13,000 passengers on board. The unsuspecting Starship Titanic collided with a spacetime anomaly concealed beneath a dust cloud as it rounded Alpha Centauri on its way to its first destination—the scorching 55 CancriE. Tragically, it experienced the same demise as its namesake from 1000 years before. The ship was unharmed, but approximately half of the people were taken to another dimension."
       ],
