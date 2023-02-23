@@ -36,16 +36,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-image: url(./assets/wall2.png);
+  background-image: url(./assets/wall2.svg);
   background-repeat: no-repeat;
   // background-position-y: -10rem;
   // background-size: cover;
-  padding-right: 100rem;
+  padding-right: 3rem;
   // padding-left: 50rem;
   padding-bottom: 30rem;
   /* need to hardcode box sizes, else images loading throws off calculations */
   /* could be a job for imagesLoaded */
-  width: 300vw;
+  width: 290vw;
   height: 100vh;
   margin-left: "-100%";
 }

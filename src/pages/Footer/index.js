@@ -24,11 +24,19 @@ export const Footer = () => {
     <div className={styles.main}>
       <div className={styles.wrapper}>
         <div className={styles.left}>
-            <img className={styles.sheild} src="https://res.cloudinary.com/damjdcgak/image/upload/v1675798256/Makeathon%205%20website/Chu%20Logo/mlsc_shield_new_2_vq7q49.png"/>
 
             <div className={styles.div}>
-                <h2 className={styles.legacy}>Legacy of</h2>
-                <h2 className={styles.innovations}>INNOVATIONS</h2>
+                <div
+                  className={styles.div2}
+                >
+                  <img className={styles.sheild} src="https://res.cloudinary.com/damjdcgak/image/upload/v1675798256/Makeathon%205%20website/Chu%20Logo/mlsc_shield_new_2_vq7q49.png"/>
+                  <div
+                    className={styles.div3}
+                  >
+                    <h2 className={styles.legacy}>Legacy of</h2>
+                    <h2 className={styles.innovations}>INNOVATIONS</h2>
+                  </div>
+                </div>
                 <div className={styles.socials}>
                 <a href='https://www.linkedin.com/company/microsoft-learn-student-chapter'>
                 <img className={styles.imager} src={LD}/> 

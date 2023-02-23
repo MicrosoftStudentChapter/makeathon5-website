@@ -5,6 +5,7 @@ import {ScrollCarousel} from '../../components/ScrollCarousel';
 import {TimelineEvent} from '../../components/TimelineEvent';
 import styles from './timeline.module.scss'
 import background from './assets/wall1.svg'
+import background2 from './assets/wall2.svg'
 
 const data = {
   "content" : {
@@ -93,10 +94,23 @@ const data = {
 export const Timeline = () => {
   return(
       <ScrollCarousel>
+        {/* <div */}
+        {/*   className={styles.box} */}
+        {/* > */}
+        {/*   {data["content"]["dystopia"].map((item)=>{  */}
+        {/*     return( */}
+        {/*       <TimelineEvent */}
+        {/*         position={item.position} */}
+        {/*         content={item.content} */}
+        {/*         date={item.date} */}
+        {/*       /> */}
+        {/*     ) */}
+        {/*   })} */}
+        {/* </div> */}
         <div
-          className={styles.box}
+          className={styles.box2}
         >
-          {data["content"]["dystopia"].map((item)=>{ 
+          {data["content"]["utopia"].map((item)=>{ 
             return(
               <TimelineEvent
                 position={item.position}
@@ -111,20 +125,7 @@ export const Timeline = () => {
   )
 }
 
-const extra = () => {
-  return(
-    <div
-      className={styles.box2}
-    >
-      {data["content"]["utopia"].map((item)=>{ 
-        return(
-          <TimelineEvent
-            position={item.position}
-            content={item.content}
-            date={item.date}
-          />
-        )
-      })}
-    </div>
-  )
-}
+// const extra = () => {
+//   return(
+//   )
+// }
