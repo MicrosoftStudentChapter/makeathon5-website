@@ -49,7 +49,6 @@ export const Footer = () => {
                 </a>
                 <a href='https://www.instagram.com/mlsc_tiet/'>
                 <img className={styles.imager} src={Ig}/> 
-
                 </a>
                 </div>
             </div>
