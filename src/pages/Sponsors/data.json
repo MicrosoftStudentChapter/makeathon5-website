@@ -9,13 +9,13 @@
             },
             {
                 "name": "Devfolio",
-                "backcolor": "#15FFE6",
+                "bg": "rgba(255,255,255,1)",
                 "src": "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676973163/devfolio_s6unf3.png",
                 "link": "https://devfolio.co/"
             },
             {
                 "name": "Polygon",
-                "backcolor": "#15FFE6",
+                "bg": "rgba(255,255,255,1)",
                 "src": "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676973163/Polygon_adnnzd.png",
                 "link": "https://polygon.technology/"
             },
@@ -68,6 +68,7 @@
             {
                 "name": "Coding Blocks",
                 "src": "https://res.cloudinary.com/ds7xs3pq1/image/upload/v1676998765/Coding_Blocks_lkrwf2.png",
+                "bg": "rgba(255,255,255,1)",
                 "link": "https://codingblocks.com/"
             },
             {
@@ -180,7 +181,7 @@
             {
                 "name": "Beeceptor",
                 "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974179/Makeathon%205%20website/Sponsors%20Page/Associate/logo-large_ydv1uf.png",
-                "link": ""
+                "link": "https://beeceptor.com/"
             },
             {
                 "name": "Lets Grow More",
@@ -190,7 +191,7 @@
             {
                 "name": "Let's Roam",
                 "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974178/Makeathon%205%20website/Sponsors%20Page/Associate/Lets_Roam_Logo_horizontal_tygcsn.png",
-                "link": ""
+                "link": "https://www.letsroam.com/"
             },
             {
                 "name": "Languify",
