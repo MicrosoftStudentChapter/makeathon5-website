@@ -1,8 +1,9 @@
 import React from 'react'
 import { easeInOut, motion } from "framer-motion"
 import styles from './sponcercard.module.css';
+import Box from '@mui/material/Box';
 
-export default function SponsorCard({ src, alt = "" }) {
+export default function SponsorCard({ src, alt = "", bacc= "rgba(255,255,255,0)"}) {
     return (
         <>
             <motion.div
@@ -14,7 +15,13 @@ export default function SponsorCard({ src, alt = "" }) {
                 className={styles.cardhoverbox}
             >
                 <center>
+                    <Box
+                    sx={{
+                        background: `${bacc}`
+                    }}
+                    >
                     <img className={styles.sponcercard} src={src} alt={alt} />
+                    </Box>
                 </center>
             </motion.div>
         </>
