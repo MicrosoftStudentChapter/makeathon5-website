@@ -273,7 +273,7 @@
     }
   }
   
-  @media screen and  (max-width: 500px){
+  @media screen and  (max-width: 600px){
     .imageContainer{
       height: 10vh;
     }

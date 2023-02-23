@@ -213,7 +213,7 @@ a {
         display: flex;
         flex-direction: column;
         /* width: 50vw; */
-        /* padding-right: 2rem; */
+        padding-right: 2rem;
         justify-content: flex-start;
         align-self: flex-start;
         /* justify-content: flex-end; */
@@ -233,7 +233,7 @@ a {
         }
     
     .socials{
-        margin-left: -1rem;
+        margin-left: 1rem;
         margin-bottom: 4rem;
         margin-top: 1rem;
 
@@ -294,7 +294,7 @@ a {
         font-size: 36px;
         line-height: 42px;
         letter-spacing: 0.27em;
-    
+        padding-left: 5%;
         color: #FFFFFF;
         
     }
@@ -305,7 +305,7 @@ a {
         font-size: 28px;
         line-height: 33px;
         /* identical to box height */
-        
+        padding-left:5%;
         display: inline-block;
         margin-bottom: 1rem;
         letter-spacing: 0.27em;
