@@ -26,7 +26,6 @@ export const Loader = () => {
               <span className="char c4 g2">D</span>
               <span className="char c5 g2">A</span>
               <span className="char c6 g2">Y</span>
-              <span className="char c7 g2">S</span>
               <span className="char c8 g2"> </span>
               <span className="char c9 g3">L</span>
               <span className="char c10 g3">E</span>

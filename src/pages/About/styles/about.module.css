@@ -22,8 +22,8 @@
     color: white;
     /* border: 1px solid red; */
     background-color: #440e3f;
-    height: 190px;
-    width: 190px;
+    height: 230px;
+    width: 230px;
     border-radius: 50%;
     margin: 3rem;
     display: flex;
@@ -35,8 +35,8 @@
   aboutCircle {
     color: white;
     /* border: 1px solid red; */
-    height: 700px;
-    width: 700px;
+    height: 800px;
+    width: 800px;
     border-radius: 50%;
     background-color: #440e3f;
     margin: 0 9rem;
@@ -207,7 +207,7 @@
       width: 100px;
     }
     .inner{
-      font-size: 1.25rem;
+      font-size: 1rem;
     }
   }
 
@@ -246,8 +246,8 @@
     }
     circleRight,
     circleLeft{
-      height: 80px;
-      width: 80px;
+      height: 100px;
+      width: 100px;
       margin: 0;
     }
     .inner{
@@ -290,8 +290,9 @@
     }
     circleRight,
     circleLeft{
-      height: 60px;
-      width: 60px;
+      display: none;
+      /* height: 70px; */
+      /* width: 70px; */
       margin: 0;
     }
     .inner{

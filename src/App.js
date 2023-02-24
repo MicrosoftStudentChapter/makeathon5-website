@@ -13,6 +13,7 @@ import { Tracks } from "./pages/Tracks";
 import { About } from "./pages/About";
 import Sponsors from "./pages/Sponsors";
 import {Prizes} from "./pages/Prizes"
+import { SponsorTracks } from "./pages/SponsorTracks";
 // import {black} from '@mui/material/colors';
 
 function App() {
@@ -45,6 +46,9 @@ function App() {
           </section>
           <section id="tracks">
             <Tracks />
+          </section>
+          <section id="sponsorTracks">
+            <SponsorTracks />
           </section>
           <section id="prizes">
             <Prizes />

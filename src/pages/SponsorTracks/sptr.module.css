@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+.img{
+  width: 12%;
+}
+.imgik{
+  width: 9%;
+}
+.imgvb{
+  width: 5%;
+}
+@media (max-width: 950px){
+  .img{
+    width: 50%;
+  }
+  .imgik{
+    width: 50%;
+  }
+  .imgvb{
+    width: 30%;
+  }
+}
