@@ -241,7 +241,7 @@ export const SponsorTracks = () => {
                     fontFamily: headFont
                   }}
                 >
-                  Best Hack built on Etherium + Polygon:  Read about the bounty details and find code templates for Polygon on: <a target="_blank" href="https://nsb.dev/polygon-bounty" style={{color: "#00a0ff"}}>https://nsb.dev/polygon-bounty</a> (250 USD)
+                  Best Hack built on Etherium + Polygon:  Read about the bounty details and find code templates for Polygon on: <a target="_blank" href="https://nsb.dev/polygon-bounty" style={{color: "#00a0ff"}}>https://nsb.dev/polygon-bounty</a>
                 </Typography>
               </li>
               <li
@@ -256,7 +256,7 @@ export const SponsorTracks = () => {
                     fontFamily: headFont
                   }}
                 >
-                  Best hack built on Etherium:  Read about the bounty details and find code templates for Polygon on: <a target="_blank" href="https://nsb.dev/polygon-bounty" style={{color: "#00a0ff"}}>https://nsb.dev/polygon-bounty</a>&nbsp;(150 USD)
+                  Best hack built on Etherium:  Read about the bounty details and find code templates for Polygon on: <a target="_blank" href="https://nsb.dev/polygon-bounty" style={{color: "#00a0ff"}}>https://nsb.dev/polygon-bounty</a>&nbsp;
                 </Typography>
               </li>
 
@@ -461,7 +461,7 @@ export const SponsorTracks = () => {
                     fontFamily: headFont
                   }}
                 >
-                  <strong>Young Gun:</strong> For the best project beginners just starting out on Solana - <em>100 USD</em>
+                  <strong>Young Gun:</strong> For the best project beginners just starting out on Solana
                 </Typography>
               </li>
               <li
@@ -476,7 +476,7 @@ export const SponsorTracks = () => {
                     fontFamily: headFont
                   }}
                 >
-                  <strong>Master Glasseater:</strong> For the best advanced project that is almost ready for full-time development - <em>500 USD</em> 
+                  <strong>Master Glasseater:</strong> For the best advanced project that is almost ready for full-time development
                 </Typography>
               </li>
               <li
@@ -491,7 +491,7 @@ export const SponsorTracks = () => {
                     fontFamily: headFont
                   }}
                 >
-                  <strong>Rising Teknoking:</strong> For the best project that goes into depth, demonstrating higher-order code - <em>250 USD</em>
+                  <strong>Rising Teknoking:</strong> For the best project that goes into depth, demonstrating higher-order code
  
                 </Typography>
               </li>
