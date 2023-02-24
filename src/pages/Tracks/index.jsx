@@ -317,31 +317,31 @@ export const Tracks = () => {
       </TitleBox>
       {!showSingleTrack ? (  
         <>
-          <Slide1>
-            <TrackTitle
-              onClick={()=>{handleClick(Object.keys(data)[0])}}
-            >
+          <Slide1
+            onClick={()=>{handleClick(Object.keys(data)[0])}}
+          >
+            <TrackTitle>
               {Object.keys(data)[0]}
             </TrackTitle>
           </Slide1>
-          <Slide2>
-            <TrackTitle
-              onClick={() => {handleClick(Object.keys(data)[1])}}
-            >
+          <Slide2
+            onClick={() => {handleClick(Object.keys(data)[1])}}
+          >
+            <TrackTitle>
               {Object.keys(data)[1]}
             </TrackTitle>
           </Slide2>
-          <Slide3>
-            <TrackTitle
-              onClick={() => {handleClick(Object.keys(data)[2])}}
-            >
+          <Slide3
+            onClick={() => {handleClick(Object.keys(data)[2])}}
+          >
+            <TrackTitle>
               {Object.keys(data)[2]}
             </TrackTitle>
           </Slide3>
-          <Slide4>
-            <TrackTitle
-              onClick={() => {handleClick(Object.keys(data)[3])}}
-            >
+          <Slide4
+            onClick={() => {handleClick(Object.keys(data)[3])}}
+          >
+            <TrackTitle>
               {Object.keys(data)[3]}
             </TrackTitle>
           </Slide4>
