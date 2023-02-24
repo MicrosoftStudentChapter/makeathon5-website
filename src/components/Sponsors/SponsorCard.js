@@ -19,8 +19,8 @@ export default function SponsorCard({ src, alt = "", bacc= "rgba(255,255,255,0)"
                     sx={{
                         background: `${bacc}`,
                         scale: `${scl}`,
-                        "@media(max-width: 800px)": {
-                            scale: "1",
+                        "@media(max-width: 900px)": {
+                            scale: "0.9",
                           },
                     }}
                     >
