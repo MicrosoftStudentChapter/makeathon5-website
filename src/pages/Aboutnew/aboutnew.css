@@ -1,0 +1,157 @@
+/*FANCY BORDERS FROM:https://9elements.github.io/fancy-border-radius/*/
+/*FANCY GRADIENT FROM: https://coolors.co/1cdce8-bb77ed-f34a62*/
+@import url('https://fonts.googleapis.com/css2?family=Labrada&display=swap');
+
+@font-face {
+  font-family: scifi;
+  src: url("./audiowide/Audiowide-Regular.ttf");
+}
+.aboutheading{
+  padding-top:2%;
+  text-align: center;
+  color: aliceblue;
+  font-family: scifi;
+  font-size: 550%;
+}
+.aboutnew {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./Holograms.gif);
+  background-size: cover;
+}
+div.containerabout {
+  float: left;
+  margin: 10px;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  z-index: 1;
+}
+
+div.texto {
+  color: rgb(220, 220, 220);
+  width: 100%;
+  font-family: 'Labrada', serif;
+  z-index: 2;
+  text-align: center;
+  border: 0;
+  font-size:125%;
+  line-height: 120%;
+  word-spacing: 100%;
+  margin-left: 87px;
+  margin-right: 80px;
+  position: absolute;
+  top: 30%;
+  
+}
+
+div.bolita {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  width: 400px;
+  height: 330px;
+  border-radius: 100px;
+  filter: blur(20px);
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+div.bolitano {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  width: 300%;
+  height: 100%;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  filter: blur(18px);
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.verde {
+  background: #1c52e848;
+  animation-name: floating1;
+}
+
+.morada {
+  background: #c216b148;
+  animation-name: floating2;
+}
+.naranja {
+  background: #8320b150;
+  animation-name: floating3;
+}
+
+.degradada {
+  background: linear-gradient(
+    90deg,
+    hsla(161, 82%, 51%, 1) 0%,
+    hsla(268, 78%, 64%, 1) 50%,
+    hsla(8, 78%, 57%, 1) 100%
+  );
+  animation-name: blob;
+  transform: translate(50px, -50px);
+}
+
+@keyframes floating1 {
+  0% {
+    transform: translate(90px, -50px);
+  }
+  30% {
+    transform: translate(80px, -60px);
+  }
+  70% {
+    transform: translate(100px, -40px);
+  }
+  100% {
+    transform: translate(90px, -50px);
+  }
+}
+
+@keyframes floating2 {
+  0% {
+    transform: translate(160px, -50px);
+  }
+  30% {
+    transform: translate(150px, -50px);
+  }
+  70% {
+    transform: translate(170px, -50px);
+  }
+  100% {
+    transform: translate(160px, -50px);
+  }
+}
+
+@keyframes floating3 {
+  0% {
+    transform: translate(220px, -50px);
+  }
+  30% {
+    transform: translate(210px, -40px);
+  }
+  70% {
+    transform: translate(240px, -60px);
+  }
+  100% {
+    transform: translate(220px, -50px);
+  }
+}
+
+@keyframes blob {
+  0% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+  30% {
+    border-radius: 70% 30% 70% 30% / 70% 70% 30% 30%;
+  }
+  70% {
+    border-radius: 35% 65% 74% 26% / 17% 74% 26% 83%;
+  }
+  100% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+}

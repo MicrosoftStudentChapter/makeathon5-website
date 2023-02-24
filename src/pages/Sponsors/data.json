@@ -121,7 +121,7 @@
             {
                 "name": "White Eagle",
                 "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974181/Makeathon%205%20website/Sponsors%20Page/Associate/white_eagle_tz5pej.jpg",
-                "link": ""
+                "link": "https://whiteeaglelabs.com/"
             },
             {
                 "name": "The Chocolate Room",
@@ -137,7 +137,7 @@
             {
                 "name": "Dock",
                 "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974181/Makeathon%205%20website/Sponsors%20Page/Associate/Dock_g2auue.jpg",
-                "link": ""
+                "link": "https://www.instagram.com/dock_chillout/?hl=en"
             },
             {
                 "name": "Verbwire",
@@ -224,7 +224,7 @@
             {
                 "name": "The Food Dude",
                 "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974178/Makeathon%205%20website/Sponsors%20Page/Associate/fooddude_ljay65.jpg",
-                "link": ""
+                "link": "https://www.zomato.com/patiala/the-food-dude-model-town"
             },
             {
                 "name": "GrabOn",
@@ -245,7 +245,8 @@
             {
                 "name": "fueler",
                 "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974177/Makeathon%205%20website/Sponsors%20Page/Associate/fueler_iqwulb.png",
-                "bg": "white"
+                "bg": "white",
+                "link": "https://fueler.io/"
             },
             {
                 "name": "Flipr",
@@ -302,7 +303,7 @@
             {
                 "name": "10x",
                 "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974175/Makeathon%205%20website/Sponsors%20Page/Associate/10x_lmio51.jpg",
-                "link": ""
+                "link": "https://www.the10xacademy.com/"
             },
             {
                 "name": "1Password",
@@ -324,10 +325,10 @@
                 "link": "https://www.instagram.com/tdcpatiala/?hl=en"
             },
             {
-                "name": "TrueScholar",
+                "name": "TruScholar",
                 "backcolor": "#15FFE6",
                 "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974184/Makeathon%205%20website/Sponsors%20Page/Other/TruScholar_Logo_gmmlid.png",
-                "link": ""
+                "link": "https://www.truscholar.io/"
             },
             {
                 "name": "Rio Innobev",
@@ -354,37 +355,37 @@
                 "name": "Youth Incorporated",
                 "bg": "white",
                 "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974184/Makeathon%205%20website/Sponsors%20Page/Community-Outreach/youth_hhfbti.png",
-                "link": ""
+                "link": "https://youthincmag.com/"
             },
             {
                 "name": "The Product House",
                 
                 "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974183/Makeathon%205%20website/Sponsors%20Page/Community-Outreach/Product_House_de5udu.jpg",
-                "link": ""
+                "link": "https://www.theproduct.house/"
             },
             {
                 "name": "Web3 PB",
                 "backcolor": "#15FFE6",
                 "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974183/Makeathon%205%20website/Sponsors%20Page/Community-Outreach/OFhGnboY_400x400_iunoud.jpg",
-                "link": ""
+                "link": "https://twitter.com/Web3Panjab?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
             },
             {
                 "name": "Younity",
                 "bg": "black",
                 "src" : "https://res.cloudinary.com/damjdcgak/image/upload/v1676974183/Makeathon%205%20website/Sponsors%20Page/Community-Outreach/younity_uflhx8.png",
-                "link": ""
+                "link": "https://www.younity.in/"
             },
             {
                 "name": "Desi Crypto",
                 "bg": "white",
                 "src" : "https://res.cloudinary.com/damjdcgak/image/upload/v1676974182/Makeathon%205%20website/Sponsors%20Page/Community-Outreach/Logo-A-color_vz5dt7.png",
-                "link": ""
+                "link": "https://www.desicrypto.io/"
             },
             {
-                "name": "Notice Board",
+                "name": "Notice Bard",
                 "bg": "white",
                 "src" : "https://res.cloudinary.com/damjdcgak/image/upload/v1676974182/Makeathon%205%20website/Sponsors%20Page/Community-Outreach/noticebard_byfsde.png",
-                "link": ""
+                "link": "https://noticebard.com/"
             }
         ]
     }

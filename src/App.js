@@ -10,10 +10,10 @@ import { Timeline } from "./pages/Timeline";
 import { Footer } from "./pages/Footer";
 import Speakers from "./pages/Speakers/speakers.js";
 import { Tracks } from "./pages/Tracks";
-import { About } from "./pages/About";
 import Sponsors from "./pages/Sponsors";
 import {Prizes} from "./pages/Prizes"
 import { SponsorTracks } from "./pages/SponsorTracks";
+import Aboutnew  from "./pages/Aboutnew/index"
 // import {black} from '@mui/material/colors';
 
 function App() {
@@ -35,8 +35,8 @@ function App() {
           <section id="landing">
             <Landing />
           </section>
-          <section id="about">
-            <About />
+          <section id="aboutnew">
+            <Aboutnew />
           </section> 
           <section id="timeline">
             <Timeline />

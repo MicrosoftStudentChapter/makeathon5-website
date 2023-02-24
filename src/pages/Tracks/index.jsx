@@ -30,7 +30,7 @@ export const Tracks = () => {
       prbs: [
         "Create an interface to generate recipes of common meals and help people with food allergies find viable substitutes for mentioned allergens. You can have various filters, including the country of origin, history, culture, etc., of the dish.",
         "Studies have concluded that in 2006 well over $30 billion was spent on unnecessary hospital admissions. Is there a better way? Can we identify those most at risk earlier and ensure they get the treatment they need? To achieve its goal of developing a breakthrough algorithm that uses available patient data to predict and prevent unnecessary hospitalizations. ",
-        "Open Innovation"
+        "How might we leverage open innovation to develop innovative solutions for this track during this hackathon"
       ],
       links: ["https://drive.google.com/drive/folders/1_IdVIjBFWzugWerfVlEVnqJOkswdHGwf?usp=sharing"]
     },
@@ -40,11 +40,11 @@ export const Tracks = () => {
         "A smart city uses information and communication technology to improve operational efficiency, share information with the public, and provide better government service and citizen welfare. The main goal of a smart city is to optimize city functions and promote economic growth while also improving the quality of life for citizens by using intelligent technologies and data analysis. The value lies in how this technology is used rather than simply how much technology is available."
       ],
       prbs: [
-        "When the dustbin location is unknown, people throw garbage anywhere. Using maps or SMS functionality, citizens can use a Dustbin locator to find dustbins nearby.",
-        "World Hunger is one of the biggest problems in the 21st Century; find an Implementation for Businesses to connect with NGOs and low-income families for cheap and free food going to waste.",
+        "Find and implement a solution that is feasible, scalable, and sustainable, and should demonstrate a significant positive impact on the overall quality of life in the city in terms of cleanliness and reducing the spread of disease. ",
+        "Participants are encouraged to develop innovative solutions that address the issue of world hunger. This could include solutions for food production, distribution, waste reduction, and other related issues. The solution should be easily scalable to the masses.",
         "Assignment of a Digital Address Code (DAC) comprising geo-coordinates of the house (Latitude/Longitude) will ease locating addresses for the delivery of government services and other purposes. Digital Address is a unique, standard, and permanent identification of a physical address on a digital map having some sense of directionality and intuitiveness. The address needs to be differentiated from the addresses. DAC will also allow the authentication of addresses and the elimination of fake addresses, aiming to create a central database of addresses. The Hackathon team should design and implement the most efficient design, creation, and use of the DAC for the abovementioned purposes. Teams must take care of speed, accuracy, storage complexity, security, the DAC's flexibility, excluding sensitive locations, etc.",
         "Design solutions for improving emergency response systems, including technology for early warning and rapid response. / Develop solutions for improving emergency response in urban areas, including using technology for disaster management and emergency services.",
-        "Open Innovation"
+        "How might we leverage open innovation to develop innovative solutions for this track during this hackathon"
       ],
       links: []
     },
@@ -56,7 +56,7 @@ export const Tracks = () => {
       prbs: [
         "The water's color results from solar radiation's interaction with water constituents and their concentration. The changing watercolor directly indicates changing water parameters and its suitability for usage. Measurement of water leaving radiance in the visible region and its transformation to hue angle provide necessary water parameters. Development of an App for the measurement of Water Quality using a smartphone. ",
         "Create a game or app that makes learning about Indian history and culture more engaging and interactive.",
-        "Open Innovation"
+        "How might we leverage open innovation to develop innovative solutions for this track during this hackathon"
       ],
       links : []
     },
