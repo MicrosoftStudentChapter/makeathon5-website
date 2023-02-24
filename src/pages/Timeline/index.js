@@ -35,13 +35,13 @@ const data = {
         position: "up",
         content: "WEB3 Simplified: Offline Session By Pranshul Saxena and Utkarsh Shrivastava, Co-Founders of Threeway Studio"
       },
+    ],
+    "utopia" : [
       {
         date: "24 Feb",
         position: "down",
         content: "Free Software and your Freedom: Online Session by Richard Stallman the Father of OpenSource"
       }, 
-    ],
-    "utopia" : [
       {
         date: "25 Feb 10:30",
         position: "up",
@@ -95,9 +95,9 @@ export const Timeline = () => {
   return(
       <ScrollCarousel>
         <div
-          className={styles.box}
+          className={styles.box2}
         >
-          {data["content"]["dystopia"].map((item)=>{ 
+          {data["content"]["utopia"].map((item)=>{ 
             return(
               <TimelineEvent
                 position={item.position}
@@ -107,19 +107,6 @@ export const Timeline = () => {
             )
           })}
         </div>
-        {/* <div */}
-        {/*   className={styles.box2} */}
-        {/* > */}
-        {/*   {data["content"]["utopia"].map((item)=>{  */}
-        {/*     return( */}
-        {/*       <TimelineEvent */}
-        {/*         position={item.position} */}
-        {/*         content={item.content} */}
-        {/*         date={item.date} */}
-        {/*       /> */}
-        {/*     ) */}
-        {/*   })} */}
-        {/* </div> */}
       </ScrollCarousel>
   )
 }

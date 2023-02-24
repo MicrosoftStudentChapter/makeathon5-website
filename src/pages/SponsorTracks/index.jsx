@@ -8,6 +8,7 @@ import polygon from '../Sponsors/assets/Polygon.png';
 import Back from './ast/dp.png';
 import ik from '../Sponsors/assets/ikarus.png'
 import styles from './sptr.module.css'
+import {useState} from "react"
 export const SponsorTracks = () => {
   
   const headFont = "'Titillium Web', sans-serif";
@@ -63,6 +64,74 @@ export const SponsorTracks = () => {
     color: "white",
   })
 
+  const [op1, setOp1] = useState(false);
+  const [op2, setOp2] = useState(false);
+  const [op3, setOp3] = useState(false);
+  const [op4, setOp4] = useState(false);
+  const [op5, setOp5] = useState(false);
+  const [op6, setOp6] = useState(false);
+  const [op7, setOp7] = useState(false);
+  
+  const handleCck = (id) => {
+    if(id == 1){
+      setOp1(true);
+      setOp2(false);
+      setOp3(false);
+      setOp4(false);
+      setOp5(false);
+      setOp6(false);
+      setOp7(false);
+    } else if(id == 2){
+      setOp1(false);
+      setOp2(true);
+      setOp3(false);
+      setOp4(false);
+      setOp5(false);
+      setOp6(false);
+      setOp7(false);
+    } else if(id == 3){
+      setOp1(false);
+      setOp2(false);
+      setOp3(true);
+      setOp4(false);
+      setOp5(false);
+      setOp6(false);
+      setOp7(false);
+    } else if(id == 4){
+      setOp1(false);
+      setOp2(false);
+      setOp3(false);
+      setOp4(true);
+      setOp5(false);
+      setOp6(false);
+      setOp7(false);
+    } else if(id == 5){
+      setOp1(false);
+      setOp2(false);
+      setOp3(false);
+      setOp4(false);
+      setOp5(true);
+      setOp6(false);
+      setOp7(false);
+    } else if(id == 6){
+      setOp1(false);
+      setOp2(false);
+      setOp3(false);
+      setOp4(false);
+      setOp5(false);
+      setOp6(true);
+      setOp7(false);
+    } else if(id == 7){
+      setOp1(false);
+      setOp2(false);
+      setOp3(false);
+      setOp4(false);
+      setOp5(false);
+      setOp6(false);
+      setOp7(true);
+    }
+  }
+
   return(
     <ParentBox>
       <Title>
@@ -89,6 +158,8 @@ export const SponsorTracks = () => {
             marginBottom: "10px",
             border: "none"
           }}
+          // expanded={op1}
+          // onChange={()=>{if(op1 == false) handleCck(1)}}
           // defaultExpanded={true}
         >
           <AccordionSummary
@@ -194,6 +265,8 @@ export const SponsorTracks = () => {
             border: "none",
             fontFamily: headFont,
           }}
+          // expanded={op2}
+          // onChange={()=>{if(op2 == false) handleCck(2)}}
           // defaultExpanded={true}
         >
           <AccordionSummary
@@ -274,6 +347,8 @@ export const SponsorTracks = () => {
             border: "none",
             fontFamily: headFont,
           }}
+          // expanded={op3}
+          // onChange={()=>{if(op3 == false) handleCck(3)}}
           // defaultExpanded={true}
         >
           <AccordionSummary
@@ -366,6 +441,8 @@ export const SponsorTracks = () => {
             marginBottom: "10px",
             border: "none"
           }}
+          // expanded={op4}
+          // onChange={()=>{if(op4 == false) handleCck(4)}}
           // defaultExpanded={true}
         >
           <AccordionSummary
@@ -421,6 +498,8 @@ export const SponsorTracks = () => {
             marginBottom: "10px",
             border: "none"
           }}
+          // expanded={op5}
+          // onChange={()=>{if(op5 == false) handleCck(5)}}
           // defaultExpanded={true}
         >
           <AccordionSummary
@@ -510,6 +589,8 @@ export const SponsorTracks = () => {
             border: "none",
             fontFamily: headFont,
           }}
+          // expanded={op6}
+          // onChange={()=>{if(op6 == false) handleCck(6)}}
           // defaultExpanded={true}
         >
           <AccordionSummary
@@ -593,6 +674,8 @@ export const SponsorTracks = () => {
             border: "none",
             fontFamily: headFont,
           }}
+          // expanded={op7}
+          // onChange={()=>{if(op7 == false) handleCck(7)}}
           // defaultExpanded={true}
         >
           <AccordionSummary
