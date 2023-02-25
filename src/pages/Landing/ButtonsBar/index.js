@@ -9,16 +9,17 @@ export const ButtonsBar = () => {
     if(/android/i.test(usag)){
       return "android"
     }
-    if(/iPad|iPhone|iPod/.test(usag) && !window.MSStream){
-      return "ios"
-    }
+    // if(/iPad|iPhone|iPod/.test(usag) && !window.MSStream){
+      return "n"
+    // }
   }
 
   function handleClick(){
     const os = getOs()
     if(os == "android"){
+      alert("You will now be redirected. Kindly download and install the APK file provided in the drive folder.")
       window.open("https://drive.google.com/drive/folders/1Y2P3guYLQmLSFl7EsWaqkIuj46-NoTa7");
-    }else if(os == "ios"){
+    }else if(os == "n"){
       window.open("https://checkin.mlsctiet.com");
     }
   }
@@ -68,7 +69,6 @@ export const ButtonsBar = () => {
       </a>
       <Button
         variant="contained"
-        disabled
         sx={{
           marginLeft: "2rem",
           width: "312px",
@@ -81,7 +81,7 @@ export const ButtonsBar = () => {
         color="secondary"
         onClick={()=>{handleClick()}}
       >
-        Download Our App
+        Download Our App / Checkin
       </Button>
       
     </Box>
