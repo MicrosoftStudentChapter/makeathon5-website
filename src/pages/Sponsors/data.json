@@ -334,7 +334,9 @@
                 "name": "Rio Innobev",
                 "backcolor": "#15FFE6",
                 "src": "https://res.cloudinary.com/damjdcgak/image/upload/v1676974184/Makeathon%205%20website/Sponsors%20Page/Other/rio_inhqbb.png",
-                "link": "https://www.rioinnobev.co.in/"
+                "link": "https://www.rioinnobev.co.in/",
+                "scale": "1.1",
+                "spcname":"Beverage Sponsor"
             },
             {
                 "name": "Bucks Cafe & Bar",
@@ -348,6 +350,7 @@
                 "bg": "white",
                 "src" : "https://res.cloudinary.com/damjdcgak/image/upload/v1676974183/Makeathon%205%20website/Sponsors%20Page/Other/blogadda_pqicso.png",
                 "link": "https://www.blogadda.com/"
+
             }
         ],
         "CommunityOutreach": [

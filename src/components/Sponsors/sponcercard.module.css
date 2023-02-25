@@ -10,6 +10,22 @@
     z-index: 1;
     /* aspect-ratio: 1; */
     /* filter: saturate(0.6),blur(10); */
+}
+.tcardhoverbox{
+  transform: scale(0.9);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.tcardhoverbox:hover{
+  transform: scale(1);
+}
+.cardhoverbox{
+  z-index: 1;
+    /* aspect-ratio: 1; */
+    /* filter: saturate(0.6),blur(10); */
     --g: 2px;     /* the gap */
     --b: 3px;    /* border thickness*/
     --c: transparent; /* the color */
@@ -22,12 +38,12 @@
       var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
     background-size: 200% var(--b),var(--b) 200%;
     transition: .3s;
-    
 }
-
-/* .cardhoverbox:hover{
-    filter:saturate(5);
-} */
+.cardhoverbox:hover{
+  --_p: 75%;
+    filter: grayscale(0%);
+    --c: #00ffe5;     
+}
 
   
 /* img {
