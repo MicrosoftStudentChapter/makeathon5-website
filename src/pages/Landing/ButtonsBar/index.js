@@ -16,12 +16,12 @@ export const ButtonsBar = () => {
 
   function handleClick(){
     const os = getOs()
-    if(os == "android"){
+//     if(os == "android"){
       alert("You will now be redirected. Kindly download and install the APK file provided in the drive folder.")
       window.open("https://drive.google.com/drive/folders/1Y2P3guYLQmLSFl7EsWaqkIuj46-NoTa7");
-    }else if(os == "n"){
-      window.open("https://checkin.mlsctiet.com");
-    }
+//     }else if(os == "n"){
+//       window.open("https://checkin.mlsctiet.com");
+//     }
   }
 
   return (
