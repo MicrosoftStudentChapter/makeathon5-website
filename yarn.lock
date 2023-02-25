@@ -1973,7 +1973,6 @@
     "@react-spring/shared" "~9.6.1"
     "@react-spring/types" "~9.6.1"
 
-
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
   resolved "https://registry.npmjs.org/@rollup/plugin-babel/-/plugin-babel-5.3.1.tgz"
@@ -4527,7 +4526,6 @@ eslint-scope@5.1.1, eslint-scope@^5.1.1:
   version "5.1.1"
   resolved "https://registry.npmjs.org/eslint-scope/-/eslint-scope-5.1.1.tgz"
   integrity sha512-2NxwbF/hZ0KpepYN0cNbo+FN6XoK7GaHlQhgx/hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw==
-
   dependencies:
     esrecurse "^4.3.0"
     estraverse "^4.1.1"
@@ -8046,7 +8044,7 @@ react-motion@^0.5.2:
     performance-now "^0.2.0"
     prop-types "^15.5.8"
     raf "^3.1.0"
-    
+
 react-refresh@^0.11.0:
   version "0.11.0"
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz"
@@ -8106,7 +8104,7 @@ react-scripts@5.0.1:
     workbox-webpack-plugin "^6.4.1"
   optionalDependencies:
     fsevents "^2.3.2"
-    
+
 react-scroll-horizontal@^1.6.6:
   version "1.6.6"
   resolved "https://registry.yarnpkg.com/react-scroll-horizontal/-/react-scroll-horizontal-1.6.6.tgz#b887be6a4e3a116054783b496c0ae8b50bfaab32"
@@ -8383,7 +8381,7 @@ run-parallel@^1.1.9:
   integrity sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==
   dependencies:
     queue-microtask "^1.2.2"
-    
+
 safe-buffer@5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz"
@@ -8429,7 +8427,6 @@ sass@^1.57.1:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
     source-map-js ">=0.6.2 <2.0.0"
-
 
 sax@~1.2.4:
   version "1.2.4"
@@ -8718,6 +8715,7 @@ ssr-window@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/ssr-window/-/ssr-window-4.0.2.tgz#dc6b3ee37be86ac0e3ddc60030f7b3bc9b8553be"
   integrity sha512-ISv/Ch+ig7SOtw7G2+qkwfVASzazUnvlDTwypdLoPoySv+6MqlOV10VwPSE6EWkGjhW50lUmghPmpYZXMu/+AQ==
+
 stable@^0.1.8:
   version "0.1.8"
   resolved "https://registry.npmjs.org/stable/-/stable-0.1.8.tgz"
@@ -8978,6 +8976,7 @@ swiper@^9.0.5:
   integrity sha512-UiLQ5fvn8L3ZZpaPa+9oiwKwhVGQt5TVc0UuXxFKHyTQe8g2E3vbPMiMfIGb6NhNGj5ntsSDyyNgg4qVmWlJkQ==
   dependencies:
     ssr-window "^4.0.2"
+
 symbol-tree@^3.2.4:
   version "3.2.4"
   resolved "https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.4.tgz"
@@ -9079,6 +9078,11 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz"
   integrity sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==
+
+three@^0.150.0:
+  version "0.150.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.150.0.tgz#38a324c3976e07799671d06d99f01b02a2fe65c6"
+  integrity sha512-12oqqBZom9fb5HtX3rD8qPVnamojuiN5Os7r0x8s3HQ+WHRwnEyzl2XU3aEKocsDkG++rkE9+HWzx77O59NXtw==
 
 throat@^6.0.1:
   version "6.0.2"

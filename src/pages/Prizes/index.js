@@ -52,13 +52,13 @@ export const Prizes = () => {
               </div>
             </article>
             <div className={styles.actions}>
-              <button className={styles.btn}>
+              <a className={styles.btn} href="https://www.instagram.com/p/CpCXqQerTiW/" target="blank">
                 <span>Know More</span>
                 <img
                   className={styles.icon}
                   src="https://res.cloudinary.com/dcvqnyvvt/image/upload/v1677090548/right-arrow_ucify9.png"
                 />
-              </button>
+              </a>
             </div>
           </div>
           <div className={styles.card}>
@@ -82,13 +82,13 @@ export const Prizes = () => {
               </div>
             </article>
             <div className={styles.actions}>
-              <button className={styles.btn}>
+              <a className={styles.btn}href="https://www.instagram.com/p/CpCYP0ULv6K/" target="blank">
                 <span>Know More</span>
                 <img
                   className={styles.icon}
                   src="https://res.cloudinary.com/dcvqnyvvt/image/upload/v1677090548/right-arrow_ucify9.png"
                 />
-              </button>
+              </a>
             </div>
           </div>
           <div className={styles.card}>
@@ -113,13 +113,13 @@ export const Prizes = () => {
               </div>
             </article>
             <div className={styles.actions}>
-              <button className={styles.btn}>
+              <a className={styles.btn} href="https://www.instagram.com/p/CpCXF_gLLQ5/" target="blank">
                 <span>Know More</span>
                 <img
                   className={styles.icon}
                   src="https://res.cloudinary.com/dcvqnyvvt/image/upload/v1677090548/right-arrow_ucify9.png"
                 />
-              </button>
+              </a>
             </div>
           </div>  
         </div>
