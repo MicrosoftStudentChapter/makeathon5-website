@@ -3,6 +3,26 @@ import { Box, IconButton, Button } from "@mui/material";
 import Logo from "../assets/devfolio.svg";
 import btnstyles from "./btnbar.module.css" 
 export const ButtonsBar = () => {
+
+  function getOs(){
+    var usag = navigator.userAgent || navigator.vendor || window.opera;
+    if(/android/i.test(usag)){
+      return "android"
+    }
+    if(/iPad|iPhone|iPod/.test(usag) && !window.MSStream){
+      return "ios"
+    }
+  }
+
+  function handleClick(){
+    const os = getOs()
+    if(os == "android"){
+      window.open("https://drive.google.com/drive/folders/1Y2P3guYLQmLSFl7EsWaqkIuj46-NoTa7");
+    }else if(os == "ios"){
+      window.open("https://checkin.mlsctiet.com");
+    }
+  }
+
   return (
     <Box
       sx={{
@@ -31,7 +51,7 @@ export const ButtonsBar = () => {
         variant="contained"
         // disabled
         sx={{
-          marginLeft: "0rem",
+          arginLeft: "0rem",
           width: "312px",
           height: "44px",
           "@media (max-width: 800px)": {
@@ -59,8 +79,9 @@ export const ButtonsBar = () => {
           },
         }}
         color="secondary"
+        onClick={()=>{handleClick()}}
       >
-        Download The Checkin App
+        Download Our App
       </Button>
       
     </Box>

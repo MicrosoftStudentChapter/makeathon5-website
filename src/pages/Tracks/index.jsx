@@ -368,7 +368,7 @@ export const Tracks = () => {
                     width: "80vw",
                     height: "fit-content",
                     paddingBottom: "1rem",
-                    marginTop: "10rem"
+                    marginTop: "14rem"
                   }
                 }}
               >
