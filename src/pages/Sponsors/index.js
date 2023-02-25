@@ -57,6 +57,8 @@ export default function Sponsors() {
                                                 alt={item.name}
                                                 bacc={item.bg}
                                                 scl={item.scl}
+                                                title={true}
+                                                spcname={item.spcname}
                                             />
                                             </a>
                                         </Grid>
