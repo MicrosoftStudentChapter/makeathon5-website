@@ -10,9 +10,10 @@ import { Typography, Box, Grid } from "@mui/material";
 import { CountdownTimer } from "./CountdownTimer";
 import { ButtonsBar } from "./ButtonsBar";
 import { motion } from "framer-motion";
-
+import background from "./assets/background3.gif"
 const Landing = () => {
-  const title = "MAKE A THON";
+  const title = "MAKE A THON ";
+  const title2="VI"
   const font = "'Lexend Exa', sans-serif";
   useEffect(() => {
     const script = document.createElement("script");
@@ -37,10 +38,9 @@ const Landing = () => {
           width: "100vw",
           height: "100vh",
           backgroundImage:
-            "url(https://res.cloudinary.com/damjdcgak/image/upload/v1675771829/Makeathon%205%20website/Chu%20Logo/Group-117_ircdz4.webp)",
+            "url(https://i.pinimg.com/originals/4e/15/a9/4e15a9e296c03c97c417335a2fbe8f93.gif)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          backgroundPositionY: "-10rem",
           scrollSnapAlign: "start",
           scrollBehavior: "smooth",
           scrollSnapType: "y mandatory",
@@ -76,11 +76,30 @@ const Landing = () => {
                 marginTop: "-5rem",
                 marginRight: "0",
               },
-            }}
+            }}  
             className={styles.glitchyBabe}
             data-text={title}
           >
             {title}
+          </Typography>
+          <Typography
+            variant="h1"
+            align="center"
+            sx={{
+              color: "#fff",
+              fontFamily: font,
+              fontSize: "8rem",
+              marginRight: "1.5rem",
+              "@media(max-width: 800px)": {
+                fontSize: "2.9rem",
+                marginTop: "-5rem",
+                marginRight: "0",
+              },
+            }}  
+            className={styles.glitchyBabe}
+            data-text={title2}
+          >
+            {title2}
           </Typography>
         </Grid>
         <Box
