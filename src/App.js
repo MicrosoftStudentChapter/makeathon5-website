@@ -37,21 +37,6 @@ function App() {
           </section>
           <section id="aboutnew">
             <Aboutnew />
-          </section> 
-          <section id="timeline">
-            <Timeline />
-          </section>
-          <section id="speakers">
-            <Speakers />
-          </section>
-          <section id="tracks">
-            <Tracks />
-          </section>
-          <section id="sponsorTracks">
-            <SponsorTracks />
-          </section>
-          <section id="prizes">
-            <Prizes />
           </section>
           <section id="sponsors">
              <Sponsors />

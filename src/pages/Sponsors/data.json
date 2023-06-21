@@ -35,6 +35,13 @@
                 "src" : "https://res.cloudinary.com/damjdcgak/image/upload/v1677167664/Makeathon%205%20website/Sponsors%20Page/Title/SkillVertex_up43eo.jpg",
                 "link": "https://www.skillvertex.com/",
                 "scl": "1.2"
+            },
+            {
+                "name": "MLH",
+                "backcolor": "#15FFE6",
+                "src" : "https://res.cloudinary.com/dcvqnyvvt/image/upload/v1687348652/mlh_titol6.png",
+                "link": "https://mlh.io/",
+                "scl": "1.2"
             }
         ],
         "power": [
