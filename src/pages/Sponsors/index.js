@@ -21,7 +21,7 @@ export default function Sponsors() {
                             alignItems: "center",
                         }}
                         >
-                            <span className={styles.heading}>Our Partners</span>
+                            <span className={styles.heading}> Previous Sponsors</span>
 
                             <div className={styles.titleSponsors}>
                                 <span className={styles.subheading}>
