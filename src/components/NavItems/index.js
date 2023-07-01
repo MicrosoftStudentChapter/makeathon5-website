@@ -7,7 +7,7 @@ import{
 export const NavItems = ({close}) => {
   const items = {
     "HOME": "#landing",
-    "ABOUT US" : "#about",
+    "ABOUT US" : "#aboutnew",
     "TIMELINE" : "#timeline",
     "TRACKS" : "#tracks",
     "SPONSOR TRACKS" : "#sponsorTracks",

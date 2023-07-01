@@ -20,7 +20,8 @@
 
 .sponsors{
   min-height: 100vh;
-  background: url('https://res.cloudinary.com/damjdcgak/image/upload/v1676228463/Makeathon%205%20website/Backgrounds/Vishist_Bhagabati_dystopian_city_retrowave_9a0551e8-6f29-4d77-8cab-e5ed4d5a3ac9_tymxe4.png') ;
+  /* background: url('https://res.cloudinary.com/damjdcgak/image/upload/v1676228463/Makeathon%205%20website/Backgrounds/Vishist_Bhagabati_dystopian_city_retrowave_9a0551e8-6f29-4d77-8cab-e5ed4d5a3ac9_tymxe4.png') ; */
+  background: url('./assets/bg4.jpg');
   background-size: cover;
   align-items: center;	
   text-align: center;

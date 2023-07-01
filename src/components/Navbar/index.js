@@ -113,9 +113,10 @@ export const Navbar = () => {
                 justifyContent: "center"
               }}
             >
-              <img
+              {/* <img
                 src="https://res.cloudinary.com/damjdcgak/image/upload/v1675709886/Makeathon%205%20website/Chu%20Logo/makeathon5-Logo-white-noBG_kz20hk.png"
-              />
+              /> */}
+              <h1 style={{color:'white', fontSize:"7vw", fontFamily:"orbitron"}}>Makeathon VI</h1>
             </Box>
           </Box>
           <Box

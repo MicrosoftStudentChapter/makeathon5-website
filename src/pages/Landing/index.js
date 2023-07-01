@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-
+import bg from './assets/bg3.jpg'
 // import background from './assets/wallpaper4.svg';
 // import background2 from './assets/wallpaper2.png';
 // import logo from './assets/logo.svg';
@@ -37,8 +37,9 @@ const Landing = () => {
         sx={{
           width: "100vw",
           height: "100vh",
-          backgroundImage:
-            "url(https://i.pinimg.com/originals/4e/15/a9/4e15a9e296c03c97c417335a2fbe8f93.gif)",
+          // backgroundImage:
+            // "url(https://i.pinimg.com/originals/4e/15/a9/4e15a9e296c03c97c417335a2fbe8f93.gif)",
+          backgroundImage: `url(${bg})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           scrollSnapAlign: "start",

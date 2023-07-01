@@ -17,11 +17,11 @@ import Aboutnew  from "./pages/Aboutnew/index"
 // import {black} from '@mui/material/colors';
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
-  setTimeout(() => {
-    setLoading(false);
-  }, 5000);
+  // setTimeout(() => {
+  //   setLoading(false);
+  // }, 5000);
 
 
   return (
