@@ -75,14 +75,14 @@ export const Footer = () => {
             </div>
             
               <div className={styles.rightR}>
-              <a href='tel:+918872331055' target='_blank'>
+              <a href='tel:+917626954725' target='_blank'>
                 <div className={styles.bleh}>
-                  <img className={styles.image} src={Phone}/> <div className={styles.side}>+91 8872331055</div>
+                  <img className={styles.image} src={Phone}/> <div className={styles.side}>+91 7626954725</div>
                 </div>
               </a>
 
               <div className={styles.bleh}>
-                <img className={styles.image} src={King}/> <div className={styles.side}>Adamay Mann</div><br></br>
+                <img className={styles.image} src={King}/> <div className={styles.side}>Apoorva</div><br></br>
               </div>
               <span className={styles.gen}>(General Secretary)</span>
             </div>

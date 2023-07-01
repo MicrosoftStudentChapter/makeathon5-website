@@ -47,7 +47,8 @@ export const ButtonsBar = () => {
         data-button-theme="light"
         style={{ height: "44px", width: "312px" }}
       ></div>
-      <a className={btnstyles.anchor} href="https://tally.so/r/3xVk7E" target="_blank" rel="noopener noreferrer">
+      {/* <a className={btnstyles.anchor} href="https://tally.so/r/3xVk7E" target="_blank" rel="noopener noreferrer"> */}
+      <a className={btnstyles.anchor} href="#">
       <Button
         variant="contained"
         // disabled
@@ -79,7 +80,8 @@ export const ButtonsBar = () => {
           },
         }}
         color="secondary"
-        onClick={()=>{handleClick()}}
+        // onClick={()=>{handleClick()}}
+        
       >
         Download Our App / Checkin
       </Button>
