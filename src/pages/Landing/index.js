@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import bg from "./assets/bg3.jpg";
+import bg from "./assets/bg3.webp";
 // import background from './assets/wallpaper4.svg';
 // import background2 from './assets/wallpaper2.png';
 // import logo from './assets/logo.svg';
@@ -10,21 +10,21 @@ import { Typography, Box, Grid } from "@mui/material";
 import { CountdownTimer } from "./CountdownTimer";
 import { ButtonsBar } from "./ButtonsBar";
 import { motion } from "framer-motion";
-import background from "./assets/background3.gif";
+// import background from "./assets/background3.gif";
 const Landing = () => {
   const title = "MAKE A THON ";
   const title2 = "6";
   const font = "'Lexend Exa', sans-serif";
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://apply.devfolio.co/v2/sdk.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
+  // useEffect(() => {
+  //   const script = document.createElement("script");
+  //   script.src = "https://apply.devfolio.co/v2/sdk.js";
+  //   script.async = true;
+  //   script.defer = true;
+  //   document.body.appendChild(script);
+  //   return () => {
+  //     document.body.removeChild(script);
+  //   };
+  // }, []);
   // const ref=useRef();
   return (
     <motion.div
