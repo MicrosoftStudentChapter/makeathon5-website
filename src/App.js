@@ -11,9 +11,9 @@ import { Footer } from "./pages/Footer";
 import Speakers from "./pages/Speakers/speakers.js";
 import { Tracks } from "./pages/Tracks";
 import Sponsors from "./pages/Sponsors";
-import {Prizes} from "./pages/Prizes"
+import { Prizes } from "./pages/Prizes";
 import { SponsorTracks } from "./pages/SponsorTracks";
-import Aboutnew  from "./pages/Aboutnew/index"
+import Aboutnew from "./pages/Aboutnew/index";
 // import {black} from '@mui/material/colors';
 
 function App() {
@@ -23,9 +23,7 @@ function App() {
   //   setLoading(false);
   // }, 5000);
 
-
   return (
-
     <>
       {loading ? (
         <Loader />
@@ -35,25 +33,24 @@ function App() {
           <section id="landing">
             <Landing />
           </section>
-          <section id="aboutnew">
+          <section id="about">
             <Aboutnew />
           </section>
           <section id="sponsors">
-             <Sponsors />
+            <Sponsors />
           </section>
           <section id="faqs">
             <Faq />
           </section>
-          <section id="chulo">
+          <section id="members">
             <ChuLo />
-          </section>         
+          </section>
           <section id="footer">
             <Footer />
           </section>
         </>
       )}
     </>
-
   );
 }
 

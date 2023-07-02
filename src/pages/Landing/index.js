@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import bg from './assets/bg3.jpg'
+import bg from "./assets/bg3.jpg";
 // import background from './assets/wallpaper4.svg';
 // import background2 from './assets/wallpaper2.png';
 // import logo from './assets/logo.svg';
@@ -10,10 +10,10 @@ import { Typography, Box, Grid } from "@mui/material";
 import { CountdownTimer } from "./CountdownTimer";
 import { ButtonsBar } from "./ButtonsBar";
 import { motion } from "framer-motion";
-import background from "./assets/background3.gif"
+import background from "./assets/background3.gif";
 const Landing = () => {
   const title = "MAKE A THON ";
-  const title2="VI"
+  const title2 = "6";
   const font = "'Lexend Exa', sans-serif";
   useEffect(() => {
     const script = document.createElement("script");
@@ -38,7 +38,7 @@ const Landing = () => {
           width: "100vw",
           height: "100vh",
           // backgroundImage:
-            // "url(https://i.pinimg.com/originals/4e/15/a9/4e15a9e296c03c97c417335a2fbe8f93.gif)",
+          // "url(https://i.pinimg.com/originals/4e/15/a9/4e15a9e296c03c97c417335a2fbe8f93.gif)",
           backgroundImage: `url(${bg})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
@@ -74,10 +74,9 @@ const Landing = () => {
               marginRight: "1.5rem",
               "@media(max-width: 800px)": {
                 fontSize: "2.9rem",
-                marginTop: "-5rem",
                 marginRight: "0",
               },
-            }}  
+            }}
             className={styles.glitchyBabe}
             data-text={title}
           >
@@ -93,14 +92,29 @@ const Landing = () => {
               marginRight: "1.5rem",
               "@media(max-width: 800px)": {
                 fontSize: "2.9rem",
-                marginTop: "-5rem",
                 marginRight: "0",
               },
-            }}  
+            }}
             className={styles.glitchyBabe}
             data-text={title2}
           >
             {title2}
+          </Typography>
+          <Typography
+            variant="h4"
+            align="center"
+            sx={{
+              color: "#fff",
+              fontFamily: font,
+              fontSize: "2rem",
+              "@media(max-width: 800px)": {
+                fontSize: "1rem",
+                marginTop: "1rem",
+              },
+            }}
+            className={styles.glitchyBabe}
+          >
+            Coming Soon
           </Typography>
         </Grid>
         <Box
